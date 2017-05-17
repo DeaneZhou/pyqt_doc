@@ -1,0 +1,7 @@
+<map id="类继承关系图" name="类继承关系图">
+<area shape="rect" id="node1" href="$d3/d3d/classPyQt5_1_1QtNfc_1_1QNdefRecord.html" title="PyQt5.QtNfc.QNdefRecord" alt="" coords="5,111,188,138"/>
+<area shape="rect" id="node2" href="$d7/dcd/classPyQt5_1_1QtNfc_1_1QNdefNfcIconRecord.html" title="PyQt5.QtNfc.QNdefNfcIcon\lRecord" alt="" coords="253,5,439,47"/>
+<area shape="rect" id="node3" href="$d3/d4f/classPyQt5_1_1QtNfc_1_1QNdefNfcSmartPosterRecord.html" title="PyQt5.QtNfc.QNdefNfcSmart\lPosterRecord" alt="" coords="248,71,444,112"/>
+<area shape="rect" id="node4" href="$d4/d2b/classPyQt5_1_1QtNfc_1_1QNdefNfcTextRecord.html" title="PyQt5.QtNfc.QNdefNfcText\lRecord" alt="" coords="253,136,439,177"/>
+<area shape="rect" id="node5" href="$d2/d9d/classPyQt5_1_1QtNfc_1_1QNdefNfcUriRecord.html" title="PyQt5.QtNfc.QNdefNfcUriRecord" alt="" coords="236,202,456,229"/>
+</map>

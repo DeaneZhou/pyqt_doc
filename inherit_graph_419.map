@@ -1,0 +1,6 @@
+<map id="类继承关系图" name="类继承关系图">
+<area shape="rect" id="node2" href="$dd/d31/classPyQt5_1_1QtWidgets_1_1QGraphicsBlurEffect_1_1QGraphicsBlurEffect.html" title="PyQt5.QtWidgets.QGraphics\lBlurEffect.QGraphicsBlurEffect" alt="" coords="183,5,387,47"/>
+<area shape="rect" id="node3" href="$d4/d1c/classPyQt5_1_1QtWidgets_1_1QGraphicsColorizeEffect_1_1QGraphicsColorizeEffect.html" title="PyQt5.QtWidgets.QGraphics\lColorizeEffect.QGraphicsColorize\lEffect" alt="" coords="176,70,395,126"/>
+<area shape="rect" id="node4" href="$dd/dc2/classPyQt5_1_1QtWidgets_1_1QGraphicsDropShadowEffect_1_1QGraphicsDropShadowEffect.html" title="PyQt5.QtWidgets.QGraphics\lDropShadowEffect.QGraphicsDrop\lShadowEffect" alt="" coords="172,150,399,206"/>
+<area shape="rect" id="node5" href="$d1/d68/classPyQt5_1_1QtWidgets_1_1QGraphicsOpacityEffect_1_1QGraphicsOpacityEffect.html" title="PyQt5.QtWidgets.QGraphics\lOpacityEffect.QGraphicsOpacity\lEffect" alt="" coords="179,230,392,286"/>
+</map>

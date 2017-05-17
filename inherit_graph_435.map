@@ -1,0 +1,7 @@
+<map id="类继承关系图" name="类继承关系图">
+<area shape="rect" id="node2" href="$db/d9a/classPyQt5_1_1QtWidgets_1_1QPanGesture_1_1QPanGesture.html" title="PyQt5.QtWidgets.QPanGesture.\lQPanGesture" alt="" coords="139,5,351,47"/>
+<area shape="rect" id="node3" href="$d8/d84/classPyQt5_1_1QtWidgets_1_1QPinchGesture_1_1QPinchGesture.html" title="PyQt5.QtWidgets.QPinchGesture.\lQPinchGesture" alt="" coords="133,71,356,112"/>
+<area shape="rect" id="node4" href="$db/d3d/classPyQt5_1_1QtWidgets_1_1QSwipeGesture_1_1QSwipeGesture.html" title="PyQt5.QtWidgets.QSwipeGesture.\lQSwipeGesture" alt="" coords="132,136,357,177"/>
+<area shape="rect" id="node5" href="$d6/d90/classPyQt5_1_1QtWidgets_1_1QTapAndHoldGesture_1_1QTapAndHoldGesture.html" title="PyQt5.QtWidgets.QTapAndHold\lGesture.QTapAndHoldGesture" alt="" coords="139,201,350,243"/>
+<area shape="rect" id="node6" href="$d4/d3d/classPyQt5_1_1QtWidgets_1_1QTapGesture_1_1QTapGesture.html" title="PyQt5.QtWidgets.QTapGesture.\lQTapGesture" alt="" coords="139,267,350,308"/>
+</map>

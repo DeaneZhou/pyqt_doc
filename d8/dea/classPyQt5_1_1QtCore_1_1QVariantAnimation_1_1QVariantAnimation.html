@@ -1,0 +1,703 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.11"/>
+<title>PyQt: PyQt5.QtCore.QVariantAnimation.QVariantAnimation类 参考</title>
+<link href="../../tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../jquery.js"></script>
+<script type="text/javascript" src="../../dynsections.js"></script>
+<link href="../../navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../resize.js"></script>
+<script type="text/javascript" src="../../navtreedata.js"></script>
+<script type="text/javascript" src="../../navtree.js"></script>
+<script type="text/javascript">
+  $(document).ready(initResizable);
+  $(window).load(resizeHeight);
+</script>
+<link href="../../search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../search/searchdata.js"></script>
+<script type="text/javascript" src="../../search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { init_search(); });
+</script>
+<link href="../../doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="../../48X48.png"/></td>
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">PyQt
+   &#160;<span id="projectnumber">1.0</span>
+   </div>
+   <div id="projectbrief">学习PyQt</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 制作者 Doxygen 1.8.11 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "../../search",false,'搜索');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="../../index.html"><span>首页</span></a></li>
+      <li class="current"><a href="../../annotated.html"><span>类</span></a></li>
+      <li><a href="../../files.html"><span>文件</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="../../search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="搜索" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="../../search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="../../annotated.html"><span>类列表</span></a></li>
+      <li><a href="../../classes.html"><span>类索引</span></a></li>
+      <li><a href="../../inherits.html"><span>类继承关系</span></a></li>
+      <li><a href="../../functions.html"><span>类成员</span></a></li>
+    </ul>
+  </div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){initNavTree('d8/dea/classPyQt5_1_1QtCore_1_1QVariantAnimation_1_1QVariantAnimation.html','../../');});
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Public 成员函数</a> &#124;
+<a href="../../d5/dfc/classPyQt5_1_1QtCore_1_1QVariantAnimation_1_1QVariantAnimation-members.html">所有成员列表</a>  </div>
+  <div class="headertitle">
+<div class="title">PyQt5.QtCore.QVariantAnimation.QVariantAnimation类 参考</div>  </div>
+</div><!--header-->
+<div class="contents">
+<div class="dynheader">
+类 PyQt5.QtCore.QVariantAnimation.QVariantAnimation 继承关系图:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../d6/de5/classPyQt5_1_1QtCore_1_1QVariantAnimation_1_1QVariantAnimation__inherit__graph.png" border="0" usemap="#PyQt5_8QtCore_8QVariantAnimation_8QVariantAnimation_inherit__map" alt="Inheritance graph"/></div>
+<map name="PyQt5_8QtCore_8QVariantAnimation_8QVariantAnimation_inherit__map" id="PyQt5_8QtCore_8QVariantAnimation_8QVariantAnimation_inherit__map">
+</map>
+<center><span class="legend">[<a target="top" href="../../graph_legend.html">图例</a>]</span></center></div>
+<div class="dynheader">
+PyQt5.QtCore.QVariantAnimation.QVariantAnimation 的协作图:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../d0/dfe/classPyQt5_1_1QtCore_1_1QVariantAnimation_1_1QVariantAnimation__coll__graph.png" border="0" usemap="#PyQt5_8QtCore_8QVariantAnimation_8QVariantAnimation_coll__map" alt="Collaboration graph"/></div>
+<map name="PyQt5_8QtCore_8QVariantAnimation_8QVariantAnimation_coll__map" id="PyQt5_8QtCore_8QVariantAnimation_8QVariantAnimation_coll__map">
+</map>
+<center><span class="legend">[<a target="top" href="../../graph_legend.html">图例</a>]</span></center></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Public 成员函数</h2></td></tr>
+<tr class="memitem:aaae07cd21e73d911f6b158c831fc61cb"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dea/classPyQt5_1_1QtCore_1_1QVariantAnimation_1_1QVariantAnimation.html#aaae07cd21e73d911f6b158c831fc61cb">currentValue</a> (self)</td></tr>
+<tr class="separator:aaae07cd21e73d911f6b158c831fc61cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aec022eadcd026d1eab8e73a2678d83d0"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dea/classPyQt5_1_1QtCore_1_1QVariantAnimation_1_1QVariantAnimation.html#aec022eadcd026d1eab8e73a2678d83d0">duration</a> (self)</td></tr>
+<tr class="separator:aec022eadcd026d1eab8e73a2678d83d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab57d9d0c2d39a82a109abbf0a2e11f40"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dea/classPyQt5_1_1QtCore_1_1QVariantAnimation_1_1QVariantAnimation.html#ab57d9d0c2d39a82a109abbf0a2e11f40">easingCurve</a> (self)</td></tr>
+<tr class="separator:ab57d9d0c2d39a82a109abbf0a2e11f40"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afe2d384257b0311f756cf9aaf489815c"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dea/classPyQt5_1_1QtCore_1_1QVariantAnimation_1_1QVariantAnimation.html#afe2d384257b0311f756cf9aaf489815c">endValue</a> (self)</td></tr>
+<tr class="separator:afe2d384257b0311f756cf9aaf489815c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab404a01b3930e76154508ae482cbd739"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dea/classPyQt5_1_1QtCore_1_1QVariantAnimation_1_1QVariantAnimation.html#ab404a01b3930e76154508ae482cbd739">event</a> (self, QEvent)</td></tr>
+<tr class="separator:ab404a01b3930e76154508ae482cbd739"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af7ef739c6b19718880aff5cbd0743df1"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dea/classPyQt5_1_1QtCore_1_1QVariantAnimation_1_1QVariantAnimation.html#af7ef739c6b19718880aff5cbd0743df1">interpolated</a> (self, Any, Any_1, p_float)</td></tr>
+<tr class="separator:af7ef739c6b19718880aff5cbd0743df1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a09cf58ebd96accb1d8ed61f2fce3eb14"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dea/classPyQt5_1_1QtCore_1_1QVariantAnimation_1_1QVariantAnimation.html#a09cf58ebd96accb1d8ed61f2fce3eb14">keyValueAt</a> (self, p_float)</td></tr>
+<tr class="separator:a09cf58ebd96accb1d8ed61f2fce3eb14"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7a90c56cecdf505b92b6782703d84081"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dea/classPyQt5_1_1QtCore_1_1QVariantAnimation_1_1QVariantAnimation.html#a7a90c56cecdf505b92b6782703d84081">keyValues</a> (self)</td></tr>
+<tr class="separator:a7a90c56cecdf505b92b6782703d84081"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8969543acd55a996c8bfa45518984b33"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dea/classPyQt5_1_1QtCore_1_1QVariantAnimation_1_1QVariantAnimation.html#a8969543acd55a996c8bfa45518984b33">setDuration</a> (self, p_int)</td></tr>
+<tr class="separator:a8969543acd55a996c8bfa45518984b33"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a217e983afba1fc36ef856514e4934143"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dea/classPyQt5_1_1QtCore_1_1QVariantAnimation_1_1QVariantAnimation.html#a217e983afba1fc36ef856514e4934143">setEasingCurve</a> (self, Union, QEasingCurve=None, QEasingCurve_Type=None)</td></tr>
+<tr class="separator:a217e983afba1fc36ef856514e4934143"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a05b9d60708f3728b388a8140f9ffb3f8"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dea/classPyQt5_1_1QtCore_1_1QVariantAnimation_1_1QVariantAnimation.html#a05b9d60708f3728b388a8140f9ffb3f8">setEndValue</a> (self, Any)</td></tr>
+<tr class="separator:a05b9d60708f3728b388a8140f9ffb3f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac0e32c348fd25bd9fdecf3fcc8ffe438"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dea/classPyQt5_1_1QtCore_1_1QVariantAnimation_1_1QVariantAnimation.html#ac0e32c348fd25bd9fdecf3fcc8ffe438">setKeyValueAt</a> (self, p_float, Any)</td></tr>
+<tr class="separator:ac0e32c348fd25bd9fdecf3fcc8ffe438"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a39520e0c0709ffc997b115639a3d4279"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dea/classPyQt5_1_1QtCore_1_1QVariantAnimation_1_1QVariantAnimation.html#a39520e0c0709ffc997b115639a3d4279">setKeyValues</a> (self, p_object)</td></tr>
+<tr class="separator:a39520e0c0709ffc997b115639a3d4279"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae332dea27add0b6a79ff2323cf496ff0"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dea/classPyQt5_1_1QtCore_1_1QVariantAnimation_1_1QVariantAnimation.html#ae332dea27add0b6a79ff2323cf496ff0">setStartValue</a> (self, Any)</td></tr>
+<tr class="separator:ae332dea27add0b6a79ff2323cf496ff0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2cd35d0602baccb3d832e1cd5eabba33"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dea/classPyQt5_1_1QtCore_1_1QVariantAnimation_1_1QVariantAnimation.html#a2cd35d0602baccb3d832e1cd5eabba33">startValue</a> (self)</td></tr>
+<tr class="separator:a2cd35d0602baccb3d832e1cd5eabba33"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a286a27a8d41eba1f1d88ff682e7a23c9"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dea/classPyQt5_1_1QtCore_1_1QVariantAnimation_1_1QVariantAnimation.html#a286a27a8d41eba1f1d88ff682e7a23c9">updateCurrentTime</a> (self, p_int)</td></tr>
+<tr class="separator:a286a27a8d41eba1f1d88ff682e7a23c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6bf30eccc28aacdcd9fdac2d04baa5ff"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dea/classPyQt5_1_1QtCore_1_1QVariantAnimation_1_1QVariantAnimation.html#a6bf30eccc28aacdcd9fdac2d04baa5ff">updateCurrentValue</a> (self, Any)</td></tr>
+<tr class="separator:a6bf30eccc28aacdcd9fdac2d04baa5ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a48b124aeadb79c268bc8ab7ce08b0025"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dea/classPyQt5_1_1QtCore_1_1QVariantAnimation_1_1QVariantAnimation.html#a48b124aeadb79c268bc8ab7ce08b0025">updateState</a> (self, QAbstractAnimation_State, QAbstractAnimation_State_1)</td></tr>
+<tr class="separator:a48b124aeadb79c268bc8ab7ce08b0025"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a48a15af3601cf82b56fea4e1b7b8d307"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dea/classPyQt5_1_1QtCore_1_1QVariantAnimation_1_1QVariantAnimation.html#a48a15af3601cf82b56fea4e1b7b8d307">valueChanged</a> (self, Any)</td></tr>
+<tr class="separator:a48a15af3601cf82b56fea4e1b7b8d307"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1a88e637d76c1d60361c9e5ea6e8803a"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a1a88e637d76c1d60361c9e5ea6e8803a"></a>
+def&#160;</td><td class="memItemRight" valign="bottom"><b>__init__</b> (self, parent=None)</td></tr>
+<tr class="separator:a1a88e637d76c1d60361c9e5ea6e8803a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">详细描述</h2>
+<div class="textblock"><pre class="fragment">QVariantAnimation(parent: QObject = None) </pre> 
+<p>在文件 <a class="el" href="../../de/d3d/QVariantAnimation_8py_source.html">QVariantAnimation.py</a> 第 <a class="el" href="../../de/d3d/QVariantAnimation_8py_source.html#l00010">10</a> 行定义.</p>
+</div><h2 class="groupheader">成员函数说明</h2>
+<a class="anchor" id="aaae07cd21e73d911f6b158c831fc61cb"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def PyQt5.QtCore.QVariantAnimation.QVariantAnimation.currentValue </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">currentValue(self) -&gt; Any </pre> 
+<p>在文件 <a class="el" href="../../de/d3d/QVariantAnimation_8py_source.html">QVariantAnimation.py</a> 第 <a class="el" href="../../de/d3d/QVariantAnimation_8py_source.html#l00012">12</a> 行定义.</p>
+
+</div>
+</div>
+<a class="anchor" id="aec022eadcd026d1eab8e73a2678d83d0"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def PyQt5.QtCore.QVariantAnimation.QVariantAnimation.duration </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">duration(self) -&gt; int </pre> 
+<p>在文件 <a class="el" href="../../de/d3d/QVariantAnimation_8py_source.html">QVariantAnimation.py</a> 第 <a class="el" href="../../de/d3d/QVariantAnimation_8py_source.html#l00016">16</a> 行定义.</p>
+
+</div>
+</div>
+<a class="anchor" id="ab57d9d0c2d39a82a109abbf0a2e11f40"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def PyQt5.QtCore.QVariantAnimation.QVariantAnimation.easingCurve </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">easingCurve(self) -&gt; QEasingCurve </pre> 
+<p>在文件 <a class="el" href="../../de/d3d/QVariantAnimation_8py_source.html">QVariantAnimation.py</a> 第 <a class="el" href="../../de/d3d/QVariantAnimation_8py_source.html#l00020">20</a> 行定义.</p>
+
+</div>
+</div>
+<a class="anchor" id="afe2d384257b0311f756cf9aaf489815c"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def PyQt5.QtCore.QVariantAnimation.QVariantAnimation.endValue </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">endValue(self) -&gt; Any </pre> 
+<p>在文件 <a class="el" href="../../de/d3d/QVariantAnimation_8py_source.html">QVariantAnimation.py</a> 第 <a class="el" href="../../de/d3d/QVariantAnimation_8py_source.html#l00024">24</a> 行定义.</p>
+
+</div>
+</div>
+<a class="anchor" id="ab404a01b3930e76154508ae482cbd739"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def PyQt5.QtCore.QVariantAnimation.QVariantAnimation.event </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>QEvent</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">event(self, QEvent) -&gt; bool </pre> 
+<p>在文件 <a class="el" href="../../de/d3d/QVariantAnimation_8py_source.html">QVariantAnimation.py</a> 第 <a class="el" href="../../de/d3d/QVariantAnimation_8py_source.html#l00028">28</a> 行定义.</p>
+
+</div>
+</div>
+<a class="anchor" id="af7ef739c6b19718880aff5cbd0743df1"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def PyQt5.QtCore.QVariantAnimation.QVariantAnimation.interpolated </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>Any</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>Any_1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>p_float</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">interpolated(self, Any, Any, float) -&gt; Any </pre> 
+<p>在文件 <a class="el" href="../../de/d3d/QVariantAnimation_8py_source.html">QVariantAnimation.py</a> 第 <a class="el" href="../../de/d3d/QVariantAnimation_8py_source.html#l00032">32</a> 行定义.</p>
+
+</div>
+</div>
+<a class="anchor" id="a09cf58ebd96accb1d8ed61f2fce3eb14"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def PyQt5.QtCore.QVariantAnimation.QVariantAnimation.keyValueAt </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>p_float</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">keyValueAt(self, float) -&gt; Any </pre> 
+<p>在文件 <a class="el" href="../../de/d3d/QVariantAnimation_8py_source.html">QVariantAnimation.py</a> 第 <a class="el" href="../../de/d3d/QVariantAnimation_8py_source.html#l00036">36</a> 行定义.</p>
+
+</div>
+</div>
+<a class="anchor" id="a7a90c56cecdf505b92b6782703d84081"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def PyQt5.QtCore.QVariantAnimation.QVariantAnimation.keyValues </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">keyValues(self) -&gt; object </pre> 
+<p>在文件 <a class="el" href="../../de/d3d/QVariantAnimation_8py_source.html">QVariantAnimation.py</a> 第 <a class="el" href="../../de/d3d/QVariantAnimation_8py_source.html#l00040">40</a> 行定义.</p>
+
+</div>
+</div>
+<a class="anchor" id="a8969543acd55a996c8bfa45518984b33"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def PyQt5.QtCore.QVariantAnimation.QVariantAnimation.setDuration </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>p_int</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">setDuration(self, int) </pre> 
+<p>在文件 <a class="el" href="../../de/d3d/QVariantAnimation_8py_source.html">QVariantAnimation.py</a> 第 <a class="el" href="../../de/d3d/QVariantAnimation_8py_source.html#l00044">44</a> 行定义.</p>
+
+</div>
+</div>
+<a class="anchor" id="a217e983afba1fc36ef856514e4934143"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def PyQt5.QtCore.QVariantAnimation.QVariantAnimation.setEasingCurve </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>Union</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>QEasingCurve</em> = <code>None</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>QEasingCurve_Type</em> = <code>None</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">setEasingCurve(self, Union[QEasingCurve, QEasingCurve.Type]) </pre> 
+<p>在文件 <a class="el" href="../../de/d3d/QVariantAnimation_8py_source.html">QVariantAnimation.py</a> 第 <a class="el" href="../../de/d3d/QVariantAnimation_8py_source.html#l00048">48</a> 行定义.</p>
+
+</div>
+</div>
+<a class="anchor" id="a05b9d60708f3728b388a8140f9ffb3f8"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def PyQt5.QtCore.QVariantAnimation.QVariantAnimation.setEndValue </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>Any</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">setEndValue(self, Any) </pre> 
+<p>在文件 <a class="el" href="../../de/d3d/QVariantAnimation_8py_source.html">QVariantAnimation.py</a> 第 <a class="el" href="../../de/d3d/QVariantAnimation_8py_source.html#l00052">52</a> 行定义.</p>
+
+</div>
+</div>
+<a class="anchor" id="ac0e32c348fd25bd9fdecf3fcc8ffe438"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def PyQt5.QtCore.QVariantAnimation.QVariantAnimation.setKeyValueAt </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>p_float</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>Any</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">setKeyValueAt(self, float, Any) </pre> 
+<p>在文件 <a class="el" href="../../de/d3d/QVariantAnimation_8py_source.html">QVariantAnimation.py</a> 第 <a class="el" href="../../de/d3d/QVariantAnimation_8py_source.html#l00056">56</a> 行定义.</p>
+
+</div>
+</div>
+<a class="anchor" id="a39520e0c0709ffc997b115639a3d4279"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def PyQt5.QtCore.QVariantAnimation.QVariantAnimation.setKeyValues </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>p_object</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">setKeyValues(self, object) </pre> 
+<p>在文件 <a class="el" href="../../de/d3d/QVariantAnimation_8py_source.html">QVariantAnimation.py</a> 第 <a class="el" href="../../de/d3d/QVariantAnimation_8py_source.html#l00060">60</a> 行定义.</p>
+
+</div>
+</div>
+<a class="anchor" id="ae332dea27add0b6a79ff2323cf496ff0"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def PyQt5.QtCore.QVariantAnimation.QVariantAnimation.setStartValue </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>Any</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">setStartValue(self, Any) </pre> 
+<p>在文件 <a class="el" href="../../de/d3d/QVariantAnimation_8py_source.html">QVariantAnimation.py</a> 第 <a class="el" href="../../de/d3d/QVariantAnimation_8py_source.html#l00064">64</a> 行定义.</p>
+
+</div>
+</div>
+<a class="anchor" id="a2cd35d0602baccb3d832e1cd5eabba33"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def PyQt5.QtCore.QVariantAnimation.QVariantAnimation.startValue </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">startValue(self) -&gt; Any </pre> 
+<p>在文件 <a class="el" href="../../de/d3d/QVariantAnimation_8py_source.html">QVariantAnimation.py</a> 第 <a class="el" href="../../de/d3d/QVariantAnimation_8py_source.html#l00068">68</a> 行定义.</p>
+
+</div>
+</div>
+<a class="anchor" id="a286a27a8d41eba1f1d88ff682e7a23c9"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def PyQt5.QtCore.QVariantAnimation.QVariantAnimation.updateCurrentTime </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>p_int</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">updateCurrentTime(self, int) </pre> 
+<p>在文件 <a class="el" href="../../de/d3d/QVariantAnimation_8py_source.html">QVariantAnimation.py</a> 第 <a class="el" href="../../de/d3d/QVariantAnimation_8py_source.html#l00072">72</a> 行定义.</p>
+
+</div>
+</div>
+<a class="anchor" id="a6bf30eccc28aacdcd9fdac2d04baa5ff"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def PyQt5.QtCore.QVariantAnimation.QVariantAnimation.updateCurrentValue </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>Any</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">updateCurrentValue(self, Any) </pre> 
+<p>在文件 <a class="el" href="../../de/d3d/QVariantAnimation_8py_source.html">QVariantAnimation.py</a> 第 <a class="el" href="../../de/d3d/QVariantAnimation_8py_source.html#l00076">76</a> 行定义.</p>
+
+</div>
+</div>
+<a class="anchor" id="a48b124aeadb79c268bc8ab7ce08b0025"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def PyQt5.QtCore.QVariantAnimation.QVariantAnimation.updateState </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>QAbstractAnimation_State</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>QAbstractAnimation_State_1</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">updateState(self, QAbstractAnimation.State, QAbstractAnimation.State) </pre> 
+<p>在文件 <a class="el" href="../../de/d3d/QVariantAnimation_8py_source.html">QVariantAnimation.py</a> 第 <a class="el" href="../../de/d3d/QVariantAnimation_8py_source.html#l00080">80</a> 行定义.</p>
+
+</div>
+</div>
+<a class="anchor" id="a48a15af3601cf82b56fea4e1b7b8d307"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def PyQt5.QtCore.QVariantAnimation.QVariantAnimation.valueChanged </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>Any</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">valueChanged(self, Any) [signal] </pre> 
+<p>在文件 <a class="el" href="../../de/d3d/QVariantAnimation_8py_source.html">QVariantAnimation.py</a> 第 <a class="el" href="../../de/d3d/QVariantAnimation_8py_source.html#l00084">84</a> 行定义.</p>
+
+</div>
+</div>
+<hr/>该类的文档由以下文件生成:<ul>
+<li>QtCore/<a class="el" href="../../de/d3d/QVariantAnimation_8py_source.html">QVariantAnimation.py</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><b>PyQt5</b></li><li class="navelem"><b>QtCore</b></li><li class="navelem"><b>QVariantAnimation</b></li><li class="navelem"><a class="el" href="../../d8/dea/classPyQt5_1_1QtCore_1_1QVariantAnimation_1_1QVariantAnimation.html">QVariantAnimation</a></li>
+    <li class="footer">制作者
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
+  </ul>
+</div>
+</body>
+</html>

@@ -1,0 +1,8 @@
+<map id="类继承关系图" name="类继承关系图">
+<area shape="rect" id="node2" href="$df/d30/classPyQt5_1_1QtLocation_1_1QPlaceContentReply_1_1QPlaceContentReply.html" title="PyQt5.QtLocation.QPlaceContent\lReply.QPlaceContentReply" alt="" coords="197,5,415,47"/>
+<area shape="rect" id="node3" href="$db/d02/classPyQt5_1_1QtLocation_1_1QPlaceDetailsReply_1_1QPlaceDetailsReply.html" title="PyQt5.QtLocation.QPlaceDetails\lReply.QPlaceDetailsReply" alt="" coords="199,71,413,112"/>
+<area shape="rect" id="node4" href="$d7/d88/classPyQt5_1_1QtLocation_1_1QPlaceIdReply_1_1QPlaceIdReply.html" title="PyQt5.QtLocation.QPlaceId\lReply.QPlaceIdReply" alt="" coords="214,136,398,177"/>
+<area shape="rect" id="node5" href="$d2/d86/classPyQt5_1_1QtLocation_1_1QPlaceMatchReply_1_1QPlaceMatchReply.html" title="PyQt5.QtLocation.QPlaceMatch\lReply.QPlaceMatchReply" alt="" coords="201,201,411,243"/>
+<area shape="rect" id="node6" href="$d2/dfc/classPyQt5_1_1QtLocation_1_1QPlaceSearchReply_1_1QPlaceSearchReply.html" title="PyQt5.QtLocation.QPlaceSearch\lReply.QPlaceSearchReply" alt="" coords="199,267,413,308"/>
+<area shape="rect" id="node7" href="$dc/dbe/classPyQt5_1_1QtLocation_1_1QPlaceSearchSuggestionReply_1_1QPlaceSearchSuggestionReply.html" title="PyQt5.QtLocation.QPlaceSearch\lSuggestionReply.QPlaceSearchSuggestionReply" alt="" coords="152,332,460,373"/>
+</map>

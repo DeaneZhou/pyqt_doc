@@ -1,0 +1,130 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.11"/>
+<title>PyQt: QtXml/QDomAttr.py 源文件</title>
+<link href="../../tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../jquery.js"></script>
+<script type="text/javascript" src="../../dynsections.js"></script>
+<link href="../../navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../resize.js"></script>
+<script type="text/javascript" src="../../navtreedata.js"></script>
+<script type="text/javascript" src="../../navtree.js"></script>
+<script type="text/javascript">
+  $(document).ready(initResizable);
+  $(window).load(resizeHeight);
+</script>
+<link href="../../search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../search/searchdata.js"></script>
+<script type="text/javascript" src="../../search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { init_search(); });
+</script>
+<link href="../../doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="../../48X48.png"/></td>
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">PyQt
+   &#160;<span id="projectnumber">1.0</span>
+   </div>
+   <div id="projectbrief">学习PyQt</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 制作者 Doxygen 1.8.11 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "../../search",false,'搜索');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="../../index.html"><span>首页</span></a></li>
+      <li><a href="../../annotated.html"><span>类</span></a></li>
+      <li class="current"><a href="../../files.html"><span>文件</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="../../search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="搜索" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="../../search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="../../files.html"><span>文件列表</span></a></li>
+    </ul>
+  </div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){initNavTree('dd/d5b/QDomAttr_8py_source.html','../../');});
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="headertitle">
+<div class="title">QDomAttr.py</div>  </div>
+</div><!--header-->
+<div class="contents">
+<div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="comment"># encoding: utf-8</span></div><div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="comment"># module PyQt5.QtXml</span></div><div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="comment"># from /usr/local/lib/python3.5/dist-packages/PyQt5/QtXml.so</span></div><div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="comment"># by generator 1.144</span></div><div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="comment"># no doc</span></div><div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="comment"># no imports</span></div><div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;</div><div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="keyword">from</span> .QDomNode <span class="keyword">import</span> QDomNode</div><div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;</div><div class="line"><a name="l00010"></a><span class="lineno"><a class="line" href="../../db/d49/classPyQt5_1_1QtXml_1_1QDomAttr_1_1QDomAttr.html">   10</a></span>&#160;<span class="keyword">class </span><a class="code" href="../../db/d49/classPyQt5_1_1QtXml_1_1QDomAttr_1_1QDomAttr.html">QDomAttr</a>(QDomNode):</div><div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;    <span class="stringliteral">&quot;&quot;&quot;</span></div><div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="stringliteral">    QDomAttr()</span></div><div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<span class="stringliteral">    QDomAttr(QDomAttr)</span></div><div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="stringliteral">    &quot;&quot;&quot;</span></div><div class="line"><a name="l00015"></a><span class="lineno"><a class="line" href="../../db/d49/classPyQt5_1_1QtXml_1_1QDomAttr_1_1QDomAttr.html#a7635327cc21279c457669432a60b0852">   15</a></span>&#160;    <span class="keyword">def </span><a class="code" href="../../db/d49/classPyQt5_1_1QtXml_1_1QDomAttr_1_1QDomAttr.html#a7635327cc21279c457669432a60b0852">name</a>(self): <span class="comment"># real signature unknown; restored from __doc__</span></div><div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;        <span class="stringliteral">&quot;&quot;&quot; name(self) -&gt; str &quot;&quot;&quot;</span></div><div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;        <span class="keywordflow">return</span> <span class="stringliteral">&quot;&quot;</span></div><div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;</div><div class="line"><a name="l00019"></a><span class="lineno"><a class="line" href="../../db/d49/classPyQt5_1_1QtXml_1_1QDomAttr_1_1QDomAttr.html#a5b61eac28b160cf562f3da6b0b96ab6e">   19</a></span>&#160;    <span class="keyword">def </span><a class="code" href="../../db/d49/classPyQt5_1_1QtXml_1_1QDomAttr_1_1QDomAttr.html#a5b61eac28b160cf562f3da6b0b96ab6e">nodeType</a>(self): <span class="comment"># real signature unknown; restored from __doc__</span></div><div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;        <span class="stringliteral">&quot;&quot;&quot; nodeType(self) -&gt; QDomNode.NodeType &quot;&quot;&quot;</span></div><div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;        <span class="keywordflow">pass</span></div><div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;</div><div class="line"><a name="l00023"></a><span class="lineno"><a class="line" href="../../db/d49/classPyQt5_1_1QtXml_1_1QDomAttr_1_1QDomAttr.html#a7ee908bb0e78705a5c2e643543172603">   23</a></span>&#160;    <span class="keyword">def </span><a class="code" href="../../db/d49/classPyQt5_1_1QtXml_1_1QDomAttr_1_1QDomAttr.html#a7ee908bb0e78705a5c2e643543172603">ownerElement</a>(self): <span class="comment"># real signature unknown; restored from __doc__</span></div><div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;        <span class="stringliteral">&quot;&quot;&quot; ownerElement(self) -&gt; QDomElement &quot;&quot;&quot;</span></div><div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;        <span class="keywordflow">return</span> QDomElement</div><div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;</div><div class="line"><a name="l00027"></a><span class="lineno"><a class="line" href="../../db/d49/classPyQt5_1_1QtXml_1_1QDomAttr_1_1QDomAttr.html#a2ed5cad7c9fbcdce8e38cf4f93222477">   27</a></span>&#160;    <span class="keyword">def </span><a class="code" href="../../db/d49/classPyQt5_1_1QtXml_1_1QDomAttr_1_1QDomAttr.html#a2ed5cad7c9fbcdce8e38cf4f93222477">setValue</a>(self, p_str): <span class="comment"># real signature unknown; restored from __doc__</span></div><div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;        <span class="stringliteral">&quot;&quot;&quot; setValue(self, str) &quot;&quot;&quot;</span></div><div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;        <span class="keywordflow">pass</span></div><div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;</div><div class="line"><a name="l00031"></a><span class="lineno"><a class="line" href="../../db/d49/classPyQt5_1_1QtXml_1_1QDomAttr_1_1QDomAttr.html#a845e3ddcbaa268897d029a906f53bdeb">   31</a></span>&#160;    <span class="keyword">def </span><a class="code" href="../../db/d49/classPyQt5_1_1QtXml_1_1QDomAttr_1_1QDomAttr.html#a845e3ddcbaa268897d029a906f53bdeb">specified</a>(self): <span class="comment"># real signature unknown; restored from __doc__</span></div><div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;        <span class="stringliteral">&quot;&quot;&quot; specified(self) -&gt; bool &quot;&quot;&quot;</span></div><div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;        <span class="keywordflow">return</span> <span class="keyword">False</span></div><div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;</div><div class="line"><a name="l00035"></a><span class="lineno"><a class="line" href="../../db/d49/classPyQt5_1_1QtXml_1_1QDomAttr_1_1QDomAttr.html#ae385e5add2e21d35e0b191f836f82e53">   35</a></span>&#160;    <span class="keyword">def </span><a class="code" href="../../db/d49/classPyQt5_1_1QtXml_1_1QDomAttr_1_1QDomAttr.html#ae385e5add2e21d35e0b191f836f82e53">value</a>(self): <span class="comment"># real signature unknown; restored from __doc__</span></div><div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;        <span class="stringliteral">&quot;&quot;&quot; value(self) -&gt; str &quot;&quot;&quot;</span></div><div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;        <span class="keywordflow">return</span> <span class="stringliteral">&quot;&quot;</span></div><div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;</div><div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;    <span class="keyword">def </span>__init__(self, QDomAttr=None): <span class="comment"># real signature unknown; restored from __doc__ with multiple overloads</span></div><div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;        <span class="keywordflow">pass</span></div><div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;</div><div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;</div><div class="ttc" id="classPyQt5_1_1QtXml_1_1QDomAttr_1_1QDomAttr_html_a7635327cc21279c457669432a60b0852"><div class="ttname"><a href="../../db/d49/classPyQt5_1_1QtXml_1_1QDomAttr_1_1QDomAttr.html#a7635327cc21279c457669432a60b0852">PyQt5.QtXml.QDomAttr.QDomAttr.name</a></div><div class="ttdeci">def name(self)</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d5b/QDomAttr_8py_source.html#l00015">QDomAttr.py:15</a></div></div>
+<div class="ttc" id="classPyQt5_1_1QtXml_1_1QDomAttr_1_1QDomAttr_html"><div class="ttname"><a href="../../db/d49/classPyQt5_1_1QtXml_1_1QDomAttr_1_1QDomAttr.html">PyQt5.QtXml.QDomAttr.QDomAttr</a></div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d5b/QDomAttr_8py_source.html#l00010">QDomAttr.py:10</a></div></div>
+<div class="ttc" id="classPyQt5_1_1QtXml_1_1QDomAttr_1_1QDomAttr_html_a2ed5cad7c9fbcdce8e38cf4f93222477"><div class="ttname"><a href="../../db/d49/classPyQt5_1_1QtXml_1_1QDomAttr_1_1QDomAttr.html#a2ed5cad7c9fbcdce8e38cf4f93222477">PyQt5.QtXml.QDomAttr.QDomAttr.setValue</a></div><div class="ttdeci">def setValue(self, p_str)</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d5b/QDomAttr_8py_source.html#l00027">QDomAttr.py:27</a></div></div>
+<div class="ttc" id="classPyQt5_1_1QtXml_1_1QDomAttr_1_1QDomAttr_html_a7ee908bb0e78705a5c2e643543172603"><div class="ttname"><a href="../../db/d49/classPyQt5_1_1QtXml_1_1QDomAttr_1_1QDomAttr.html#a7ee908bb0e78705a5c2e643543172603">PyQt5.QtXml.QDomAttr.QDomAttr.ownerElement</a></div><div class="ttdeci">def ownerElement(self)</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d5b/QDomAttr_8py_source.html#l00023">QDomAttr.py:23</a></div></div>
+<div class="ttc" id="classPyQt5_1_1QtXml_1_1QDomAttr_1_1QDomAttr_html_a5b61eac28b160cf562f3da6b0b96ab6e"><div class="ttname"><a href="../../db/d49/classPyQt5_1_1QtXml_1_1QDomAttr_1_1QDomAttr.html#a5b61eac28b160cf562f3da6b0b96ab6e">PyQt5.QtXml.QDomAttr.QDomAttr.nodeType</a></div><div class="ttdeci">def nodeType(self)</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d5b/QDomAttr_8py_source.html#l00019">QDomAttr.py:19</a></div></div>
+<div class="ttc" id="classPyQt5_1_1QtXml_1_1QDomAttr_1_1QDomAttr_html_a845e3ddcbaa268897d029a906f53bdeb"><div class="ttname"><a href="../../db/d49/classPyQt5_1_1QtXml_1_1QDomAttr_1_1QDomAttr.html#a845e3ddcbaa268897d029a906f53bdeb">PyQt5.QtXml.QDomAttr.QDomAttr.specified</a></div><div class="ttdeci">def specified(self)</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d5b/QDomAttr_8py_source.html#l00031">QDomAttr.py:31</a></div></div>
+<div class="ttc" id="classPyQt5_1_1QtXml_1_1QDomAttr_1_1QDomAttr_html_ae385e5add2e21d35e0b191f836f82e53"><div class="ttname"><a href="../../db/d49/classPyQt5_1_1QtXml_1_1QDomAttr_1_1QDomAttr.html#ae385e5add2e21d35e0b191f836f82e53">PyQt5.QtXml.QDomAttr.QDomAttr.value</a></div><div class="ttdeci">def value(self)</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d5b/QDomAttr_8py_source.html#l00035">QDomAttr.py:35</a></div></div>
+</div><!-- fragment --></div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="../../dir_3154ade89bce524339dfaeed0430d5db.html">QtXml</a></li><li class="navelem"><b>QDomAttr.py</b></li>
+    <li class="footer">制作者
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
+  </ul>
+</div>
+</body>
+</html>

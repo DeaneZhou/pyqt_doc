@@ -1,0 +1,6 @@
+<map id="类继承关系图" name="类继承关系图">
+<area shape="rect" id="node2" href="$dd/dea/classPyQt5_1_1QtMultimedia_1_1QAudioDecoder_1_1QAudioDecoder.html" title="PyQt5.QtMultimedia.QAudio\lDecoder.QAudioDecoder" alt="" coords="167,5,354,47"/>
+<area shape="rect" id="node3" href="$d4/db5/classPyQt5_1_1QtMultimedia_1_1QCamera_1_1QCamera.html" title="PyQt5.QtMultimedia.QCamera.\lQCamera" alt="" coords="159,71,363,112"/>
+<area shape="rect" id="node4" href="$d3/d10/classPyQt5_1_1QtMultimedia_1_1QMediaPlayer_1_1QMediaPlayer.html" title="PyQt5.QtMultimedia.QMedia\lPlayer.QMediaPlayer" alt="" coords="166,136,355,177"/>
+<area shape="rect" id="node5" href="$d4/d2f/classPyQt5_1_1QtMultimedia_1_1QRadioTuner_1_1QRadioTuner.html" title="PyQt5.QtMultimedia.QRadio\lTuner.QRadioTuner" alt="" coords="167,201,355,243"/>
+</map>

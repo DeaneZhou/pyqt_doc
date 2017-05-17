@@ -1,0 +1,31 @@
+<map id="类继承关系图" name="类继承关系图">
+<area shape="rect" id="node2" href="$de/d85/classPyQt5_1_1QtWidgets_1_1QAbstractButton_1_1QAbstractButton.html" title="PyQt5.QtWidgets.QAbstract\lButton.QAbstractButton" alt="" coords="150,5,338,47"/>
+<area shape="rect" id="node3" href="$d2/d1b/classPyQt5_1_1QtWidgets_1_1QAbstractSlider_1_1QAbstractSlider.html" title="PyQt5.QtWidgets.QAbstract\lSlider.QAbstractSlider" alt="" coords="150,71,338,112"/>
+<area shape="rect" id="node4" href="$de/dae/classPyQt5_1_1QtWidgets_1_1QAbstractSpinBox_1_1QAbstractSpinBox.html" title="PyQt5.QtWidgets.QAbstract\lSpinBox.QAbstractSpinBox" alt="" coords="150,136,338,177"/>
+<area shape="rect" id="node5" href="$dd/d70/classPyQt5_1_1QtWidgets_1_1QCalendarWidget_1_1QCalendarWidget.html" title="PyQt5.QtWidgets.QCalendar\lWidget.QCalendarWidget" alt="" coords="149,201,339,243"/>
+<area shape="rect" id="node6" href="$d6/d17/classPyQt5_1_1QtWidgets_1_1QComboBox_1_1QComboBox.html" title="PyQt5.QtWidgets.QComboBox.\lQComboBox" alt="" coords="140,267,348,308"/>
+<area shape="rect" id="node7" href="$d9/d9a/classPyQt5_1_1QtWidgets_1_1QDesktopWidget_1_1QDesktopWidget.html" title="PyQt5.QtWidgets.QDesktop\lWidget.QDesktopWidget" alt="" coords="150,332,338,373"/>
+<area shape="rect" id="node8" href="$d4/d2a/classPyQt5_1_1QtWidgets_1_1QDialog_1_1QDialog.html" title="PyQt5.QtWidgets.QDialog.\lQDialog" alt="" coords="154,397,334,439"/>
+<area shape="rect" id="node9" href="$da/d7e/classPyQt5_1_1QtWidgets_1_1QDialogButtonBox_1_1QDialogButtonBox.html" title="PyQt5.QtWidgets.QDialogButton\lBox.QDialogButtonBox" alt="" coords="137,463,351,504"/>
+<area shape="rect" id="node10" href="$d4/d88/classPyQt5_1_1QtWidgets_1_1QDockWidget_1_1QDockWidget.html" title="PyQt5.QtWidgets.QDockWidget.\lQDockWidget" alt="" coords="137,528,351,569"/>
+<area shape="rect" id="node11" href="$d1/d75/classPyQt5_1_1QtWidgets_1_1QFocusFrame_1_1QFocusFrame.html" title="PyQt5.QtWidgets.QFocusFrame.\lQFocusFrame" alt="" coords="136,593,352,635"/>
+<area shape="rect" id="node12" href="$de/d63/classPyQt5_1_1QtWidgets_1_1QFrame_1_1QFrame.html" title="PyQt5.QtWidgets.QFrame.QFrame" alt="" coords="131,659,357,686"/>
+<area shape="rect" id="node13" href="$d9/d9e/classPyQt5_1_1QtWidgets_1_1QGroupBox_1_1QGroupBox.html" title="PyQt5.QtWidgets.QGroupBox.\lQGroupBox" alt="" coords="143,711,345,752"/>
+<area shape="rect" id="node14" href="$d3/da7/classPyQt5_1_1QtWidgets_1_1QKeySequenceEdit_1_1QKeySequenceEdit.html" title="PyQt5.QtWidgets.QKeySequence\lEdit.QKeySequenceEdit" alt="" coords="134,776,354,817"/>
+<area shape="rect" id="node15" href="$d6/dbc/classPyQt5_1_1QtWidgets_1_1QLineEdit_1_1QLineEdit.html" title="PyQt5.QtWidgets.QLineEdit.\lQLineEdit" alt="" coords="149,841,339,883"/>
+<area shape="rect" id="node16" href="$d3/d13/classPyQt5_1_1QtWidgets_1_1QMainWindow_1_1QMainWindow.html" title="PyQt5.QtWidgets.QMainWindow.\lQMainWindow" alt="" coords="135,907,353,948"/>
+<area shape="rect" id="node17" href="$de/d78/classPyQt5_1_1QtWidgets_1_1QMdiSubWindow_1_1QMdiSubWindow.html" title="PyQt5.QtWidgets.QMdiSubWindow.\lQMdiSubWindow" alt="" coords="127,972,361,1013"/>
+<area shape="rect" id="node18" href="$d8/d97/classPyQt5_1_1QtWidgets_1_1QMenu_1_1QMenu.html" title="PyQt5.QtWidgets.QMenu.QMenu" alt="" coords="135,1038,353,1065"/>
+<area shape="rect" id="node19" href="$d0/d1c/classPyQt5_1_1QtWidgets_1_1QMenuBar_1_1QMenuBar.html" title="PyQt5.QtWidgets.QMenuBar.\lQMenuBar" alt="" coords="147,1089,341,1131"/>
+<area shape="rect" id="node20" href="$d4/d0b/classPyQt5_1_1QtWidgets_1_1QOpenGLWidget_1_1QOpenGLWidget.html" title="PyQt5.QtWidgets.QOpenGLWidget.\lQOpenGLWidget" alt="" coords="128,1155,360,1196"/>
+<area shape="rect" id="node21" href="$d8/d94/classPyQt5_1_1QtWidgets_1_1QProgressBar_1_1QProgressBar.html" title="PyQt5.QtWidgets.QProgress\lBar.QProgressBar" alt="" coords="149,1220,339,1261"/>
+<area shape="rect" id="node22" href="$d4/dcd/classPyQt5_1_1QtWidgets_1_1QRubberBand_1_1QRubberBand.html" title="PyQt5.QtWidgets.QRubberBand.\lQRubberBand" alt="" coords="137,1285,351,1327"/>
+<area shape="rect" id="node23" href="$dc/dc6/classPyQt5_1_1QtWidgets_1_1QSizeGrip_1_1QSizeGrip.html" title="PyQt5.QtWidgets.QSizeGrip.\lQSizeGrip" alt="" coords="147,1351,341,1392"/>
+<area shape="rect" id="node24" href="$d1/d89/classPyQt5_1_1QtWidgets_1_1QSplashScreen_1_1QSplashScreen.html" title="PyQt5.QtWidgets.QSplashScreen.\lQSplashScreen" alt="" coords="132,1416,356,1457"/>
+<area shape="rect" id="node25" href="$da/d4d/classPyQt5_1_1QtWidgets_1_1QSplitterHandle_1_1QSplitterHandle.html" title="PyQt5.QtWidgets.QSplitter\lHandle.QSplitterHandle" alt="" coords="154,1481,334,1523"/>
+<area shape="rect" id="node26" href="$d0/dff/classPyQt5_1_1QtWidgets_1_1QStatusBar_1_1QStatusBar.html" title="PyQt5.QtWidgets.QStatusBar.\lQStatusBar" alt="" coords="143,1547,345,1588"/>
+<area shape="rect" id="node27" href="$d9/d57/classPyQt5_1_1QtWidgets_1_1QTabBar_1_1QTabBar.html" title="PyQt5.QtWidgets.QTabBar.\lQTabBar" alt="" coords="151,1612,337,1653"/>
+<area shape="rect" id="node28" href="$d2/d09/classPyQt5_1_1QtWidgets_1_1QTabWidget_1_1QTabWidget.html" title="PyQt5.QtWidgets.QTabWidget.\lQTabWidget" alt="" coords="141,1677,347,1719"/>
+<area shape="rect" id="node29" href="$d5/d36/classPyQt5_1_1QtWidgets_1_1QToolBar_1_1QToolBar.html" title="PyQt5.QtWidgets.QToolBar.\lQToolBar" alt="" coords="150,1743,338,1784"/>
+<area shape="rect" id="node30" href="$dc/d94/classPyQt5_1_1QtWidgets_1_1QWizardPage_1_1QWizardPage.html" title="PyQt5.QtWidgets.QWizardPage.\lQWizardPage" alt="" coords="137,1808,351,1849"/>
+</map>

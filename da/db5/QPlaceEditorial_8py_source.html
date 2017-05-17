@@ -1,0 +1,131 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.11"/>
+<title>PyQt: QtLocation/QPlaceEditorial.py 源文件</title>
+<link href="../../tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../jquery.js"></script>
+<script type="text/javascript" src="../../dynsections.js"></script>
+<link href="../../navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../resize.js"></script>
+<script type="text/javascript" src="../../navtreedata.js"></script>
+<script type="text/javascript" src="../../navtree.js"></script>
+<script type="text/javascript">
+  $(document).ready(initResizable);
+  $(window).load(resizeHeight);
+</script>
+<link href="../../search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../search/searchdata.js"></script>
+<script type="text/javascript" src="../../search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { init_search(); });
+</script>
+<link href="../../doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="../../48X48.png"/></td>
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">PyQt
+   &#160;<span id="projectnumber">1.0</span>
+   </div>
+   <div id="projectbrief">学习PyQt</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 制作者 Doxygen 1.8.11 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "../../search",false,'搜索');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="../../index.html"><span>首页</span></a></li>
+      <li><a href="../../annotated.html"><span>类</span></a></li>
+      <li class="current"><a href="../../files.html"><span>文件</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="../../search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="搜索" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="../../search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="../../files.html"><span>文件列表</span></a></li>
+    </ul>
+  </div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){initNavTree('da/db5/QPlaceEditorial_8py_source.html','../../');});
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="headertitle">
+<div class="title">QPlaceEditorial.py</div>  </div>
+</div><!--header-->
+<div class="contents">
+<div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="comment"># encoding: utf-8</span></div><div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="comment"># module PyQt5.QtLocation</span></div><div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="comment"># from /usr/local/lib/python3.5/dist-packages/PyQt5/QtLocation.so</span></div><div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="comment"># by generator 1.144</span></div><div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="comment"># no doc</span></div><div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;</div><div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="comment"># imports</span></div><div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="keyword">import</span> <a class="code" href="../../db/da3/namespacePyQt5_1_1QtCore.html">PyQt5.QtCore</a> <span class="keyword">as</span> __PyQt5_QtCore</div><div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;</div><div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;</div><div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="keyword">from</span> .QPlaceContent <span class="keyword">import</span> QPlaceContent</div><div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;</div><div class="line"><a name="l00013"></a><span class="lineno"><a class="line" href="../../d6/d17/classPyQt5_1_1QtLocation_1_1QPlaceEditorial_1_1QPlaceEditorial.html">   13</a></span>&#160;<span class="keyword">class </span><a class="code" href="../../d6/d17/classPyQt5_1_1QtLocation_1_1QPlaceEditorial_1_1QPlaceEditorial.html">QPlaceEditorial</a>(QPlaceContent):</div><div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;    <span class="stringliteral">&quot;&quot;&quot;</span></div><div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="stringliteral">    QPlaceEditorial()</span></div><div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;<span class="stringliteral">    QPlaceEditorial(QPlaceContent)</span></div><div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="stringliteral">    QPlaceEditorial(QPlaceEditorial)</span></div><div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<span class="stringliteral">    &quot;&quot;&quot;</span></div><div class="line"><a name="l00019"></a><span class="lineno"><a class="line" href="../../d6/d17/classPyQt5_1_1QtLocation_1_1QPlaceEditorial_1_1QPlaceEditorial.html#ac521d316ed40b252d4cb1e022dcdd601">   19</a></span>&#160;    <span class="keyword">def </span><a class="code" href="../../d6/d17/classPyQt5_1_1QtLocation_1_1QPlaceEditorial_1_1QPlaceEditorial.html#ac521d316ed40b252d4cb1e022dcdd601">language</a>(self): <span class="comment"># real signature unknown; restored from __doc__</span></div><div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;        <span class="stringliteral">&quot;&quot;&quot; language(self) -&gt; str &quot;&quot;&quot;</span></div><div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;        <span class="keywordflow">return</span> <span class="stringliteral">&quot;&quot;</span></div><div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;</div><div class="line"><a name="l00023"></a><span class="lineno"><a class="line" href="../../d6/d17/classPyQt5_1_1QtLocation_1_1QPlaceEditorial_1_1QPlaceEditorial.html#aa3b5457502bf329a33b0aa244805fb1c">   23</a></span>&#160;    <span class="keyword">def </span><a class="code" href="../../d6/d17/classPyQt5_1_1QtLocation_1_1QPlaceEditorial_1_1QPlaceEditorial.html#aa3b5457502bf329a33b0aa244805fb1c">setLanguage</a>(self, p_str): <span class="comment"># real signature unknown; restored from __doc__</span></div><div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;        <span class="stringliteral">&quot;&quot;&quot; setLanguage(self, str) &quot;&quot;&quot;</span></div><div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;        <span class="keywordflow">pass</span></div><div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;</div><div class="line"><a name="l00027"></a><span class="lineno"><a class="line" href="../../d6/d17/classPyQt5_1_1QtLocation_1_1QPlaceEditorial_1_1QPlaceEditorial.html#a30c957678441cb1cdddc13aede0f4676">   27</a></span>&#160;    <span class="keyword">def </span><a class="code" href="../../d6/d17/classPyQt5_1_1QtLocation_1_1QPlaceEditorial_1_1QPlaceEditorial.html#a30c957678441cb1cdddc13aede0f4676">setText</a>(self, p_str): <span class="comment"># real signature unknown; restored from __doc__</span></div><div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;        <span class="stringliteral">&quot;&quot;&quot; setText(self, str) &quot;&quot;&quot;</span></div><div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;        <span class="keywordflow">pass</span></div><div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;</div><div class="line"><a name="l00031"></a><span class="lineno"><a class="line" href="../../d6/d17/classPyQt5_1_1QtLocation_1_1QPlaceEditorial_1_1QPlaceEditorial.html#a9dc554241e569856fb481291d6a069c4">   31</a></span>&#160;    <span class="keyword">def </span><a class="code" href="../../d6/d17/classPyQt5_1_1QtLocation_1_1QPlaceEditorial_1_1QPlaceEditorial.html#a9dc554241e569856fb481291d6a069c4">setTitle</a>(self, p_str): <span class="comment"># real signature unknown; restored from __doc__</span></div><div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;        <span class="stringliteral">&quot;&quot;&quot; setTitle(self, str) &quot;&quot;&quot;</span></div><div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;        <span class="keywordflow">pass</span></div><div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;</div><div class="line"><a name="l00035"></a><span class="lineno"><a class="line" href="../../d6/d17/classPyQt5_1_1QtLocation_1_1QPlaceEditorial_1_1QPlaceEditorial.html#a73955983ac516989a0deaa8e559d2067">   35</a></span>&#160;    <span class="keyword">def </span><a class="code" href="../../d6/d17/classPyQt5_1_1QtLocation_1_1QPlaceEditorial_1_1QPlaceEditorial.html#a73955983ac516989a0deaa8e559d2067">text</a>(self): <span class="comment"># real signature unknown; restored from __doc__</span></div><div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;        <span class="stringliteral">&quot;&quot;&quot; text(self) -&gt; str &quot;&quot;&quot;</span></div><div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;        <span class="keywordflow">return</span> <span class="stringliteral">&quot;&quot;</span></div><div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;</div><div class="line"><a name="l00039"></a><span class="lineno"><a class="line" href="../../d6/d17/classPyQt5_1_1QtLocation_1_1QPlaceEditorial_1_1QPlaceEditorial.html#ac8e87e0f3aa6d42be23aeba527353330">   39</a></span>&#160;    <span class="keyword">def </span><a class="code" href="../../d6/d17/classPyQt5_1_1QtLocation_1_1QPlaceEditorial_1_1QPlaceEditorial.html#ac8e87e0f3aa6d42be23aeba527353330">title</a>(self): <span class="comment"># real signature unknown; restored from __doc__</span></div><div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;        <span class="stringliteral">&quot;&quot;&quot; title(self) -&gt; str &quot;&quot;&quot;</span></div><div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;        <span class="keywordflow">return</span> <span class="stringliteral">&quot;&quot;</span></div><div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;</div><div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;    <span class="keyword">def </span>__init__(self, *__args): <span class="comment"># real signature unknown; restored from __doc__ with multiple overloads</span></div><div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;        <span class="keywordflow">pass</span></div><div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;</div><div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;</div><div class="ttc" id="namespacePyQt5_1_1QtCore_html"><div class="ttname"><a href="../../db/da3/namespacePyQt5_1_1QtCore.html">PyQt5.QtCore</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d82/QtCore_2____init_____8py_source.html#l00001">__init__.py:1</a></div></div>
+<div class="ttc" id="classPyQt5_1_1QtLocation_1_1QPlaceEditorial_1_1QPlaceEditorial_html_ac521d316ed40b252d4cb1e022dcdd601"><div class="ttname"><a href="../../d6/d17/classPyQt5_1_1QtLocation_1_1QPlaceEditorial_1_1QPlaceEditorial.html#ac521d316ed40b252d4cb1e022dcdd601">PyQt5.QtLocation.QPlaceEditorial.QPlaceEditorial.language</a></div><div class="ttdeci">def language(self)</div><div class="ttdef"><b>Definition:</b> <a href="../../da/db5/QPlaceEditorial_8py_source.html#l00019">QPlaceEditorial.py:19</a></div></div>
+<div class="ttc" id="classPyQt5_1_1QtLocation_1_1QPlaceEditorial_1_1QPlaceEditorial_html_aa3b5457502bf329a33b0aa244805fb1c"><div class="ttname"><a href="../../d6/d17/classPyQt5_1_1QtLocation_1_1QPlaceEditorial_1_1QPlaceEditorial.html#aa3b5457502bf329a33b0aa244805fb1c">PyQt5.QtLocation.QPlaceEditorial.QPlaceEditorial.setLanguage</a></div><div class="ttdeci">def setLanguage(self, p_str)</div><div class="ttdef"><b>Definition:</b> <a href="../../da/db5/QPlaceEditorial_8py_source.html#l00023">QPlaceEditorial.py:23</a></div></div>
+<div class="ttc" id="classPyQt5_1_1QtLocation_1_1QPlaceEditorial_1_1QPlaceEditorial_html_a30c957678441cb1cdddc13aede0f4676"><div class="ttname"><a href="../../d6/d17/classPyQt5_1_1QtLocation_1_1QPlaceEditorial_1_1QPlaceEditorial.html#a30c957678441cb1cdddc13aede0f4676">PyQt5.QtLocation.QPlaceEditorial.QPlaceEditorial.setText</a></div><div class="ttdeci">def setText(self, p_str)</div><div class="ttdef"><b>Definition:</b> <a href="../../da/db5/QPlaceEditorial_8py_source.html#l00027">QPlaceEditorial.py:27</a></div></div>
+<div class="ttc" id="classPyQt5_1_1QtLocation_1_1QPlaceEditorial_1_1QPlaceEditorial_html_ac8e87e0f3aa6d42be23aeba527353330"><div class="ttname"><a href="../../d6/d17/classPyQt5_1_1QtLocation_1_1QPlaceEditorial_1_1QPlaceEditorial.html#ac8e87e0f3aa6d42be23aeba527353330">PyQt5.QtLocation.QPlaceEditorial.QPlaceEditorial.title</a></div><div class="ttdeci">def title(self)</div><div class="ttdef"><b>Definition:</b> <a href="../../da/db5/QPlaceEditorial_8py_source.html#l00039">QPlaceEditorial.py:39</a></div></div>
+<div class="ttc" id="classPyQt5_1_1QtLocation_1_1QPlaceEditorial_1_1QPlaceEditorial_html_a73955983ac516989a0deaa8e559d2067"><div class="ttname"><a href="../../d6/d17/classPyQt5_1_1QtLocation_1_1QPlaceEditorial_1_1QPlaceEditorial.html#a73955983ac516989a0deaa8e559d2067">PyQt5.QtLocation.QPlaceEditorial.QPlaceEditorial.text</a></div><div class="ttdeci">def text(self)</div><div class="ttdef"><b>Definition:</b> <a href="../../da/db5/QPlaceEditorial_8py_source.html#l00035">QPlaceEditorial.py:35</a></div></div>
+<div class="ttc" id="classPyQt5_1_1QtLocation_1_1QPlaceEditorial_1_1QPlaceEditorial_html"><div class="ttname"><a href="../../d6/d17/classPyQt5_1_1QtLocation_1_1QPlaceEditorial_1_1QPlaceEditorial.html">PyQt5.QtLocation.QPlaceEditorial.QPlaceEditorial</a></div><div class="ttdef"><b>Definition:</b> <a href="../../da/db5/QPlaceEditorial_8py_source.html#l00013">QPlaceEditorial.py:13</a></div></div>
+<div class="ttc" id="classPyQt5_1_1QtLocation_1_1QPlaceEditorial_1_1QPlaceEditorial_html_a9dc554241e569856fb481291d6a069c4"><div class="ttname"><a href="../../d6/d17/classPyQt5_1_1QtLocation_1_1QPlaceEditorial_1_1QPlaceEditorial.html#a9dc554241e569856fb481291d6a069c4">PyQt5.QtLocation.QPlaceEditorial.QPlaceEditorial.setTitle</a></div><div class="ttdeci">def setTitle(self, p_str)</div><div class="ttdef"><b>Definition:</b> <a href="../../da/db5/QPlaceEditorial_8py_source.html#l00031">QPlaceEditorial.py:31</a></div></div>
+</div><!-- fragment --></div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="../../dir_7cce4b55de2a54073e2009935d132d12.html">QtLocation</a></li><li class="navelem"><b>QPlaceEditorial.py</b></li>
+    <li class="footer">制作者
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
+  </ul>
+</div>
+</body>
+</html>

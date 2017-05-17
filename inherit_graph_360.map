@@ -1,0 +1,6 @@
+<map id="类继承关系图" name="类继承关系图">
+<area shape="rect" id="node2" href="$d8/d9b/classPyQt5_1_1QtQuick_1_1QSGBasicGeometryNode_1_1QSGBasicGeometryNode.html" title="PyQt5.QtQuick.QSGBasicGeometry\lNode.QSGBasicGeometryNode" alt="" coords="136,5,371,47"/>
+<area shape="rect" id="node3" href="$d2/dda/classPyQt5_1_1QtQuick_1_1QSGOpacityNode_1_1QSGOpacityNode.html" title="PyQt5.QtQuick.QSGOpacity\lNode.QSGOpacityNode" alt="" coords="159,71,348,112"/>
+<area shape="rect" id="node4" href="$d6/d75/classPyQt5_1_1QtQuick_1_1QSGRenderNode_1_1QSGRenderNode.html" title="PyQt5.QtQuick.QSGRenderNode.\lQSGRenderNode" alt="" coords="143,136,364,177"/>
+<area shape="rect" id="node5" href="$d4/d5b/classPyQt5_1_1QtQuick_1_1QSGTransformNode_1_1QSGTransformNode.html" title="PyQt5.QtQuick.QSGTransform\lNode.QSGTransformNode" alt="" coords="152,201,355,243"/>
+</map>

@@ -1,0 +1,10 @@
+<map id="类继承关系图" name="类继承关系图">
+<area shape="rect" id="node2" href="$db/df7/classPyQt5_1_1QtWidgets_1_1QColorDialog_1_1QColorDialog.html" title="PyQt5.QtWidgets.QColorDialog.\lQColorDialog" alt="" coords="129,5,340,47"/>
+<area shape="rect" id="node3" href="$d5/dad/classPyQt5_1_1QtWidgets_1_1QErrorMessage_1_1QErrorMessage.html" title="PyQt5.QtWidgets.QErrorMessage.\lQErrorMessage" alt="" coords="123,71,347,112"/>
+<area shape="rect" id="node4" href="$d2/dbe/classPyQt5_1_1QtWidgets_1_1QFileDialog_1_1QFileDialog.html" title="PyQt5.QtWidgets.QFileDialog.\lQFileDialog" alt="" coords="134,136,335,177"/>
+<area shape="rect" id="node5" href="$d4/d4e/classPyQt5_1_1QtWidgets_1_1QFontDialog_1_1QFontDialog.html" title="PyQt5.QtWidgets.QFontDialog.\lQFontDialog" alt="" coords="131,201,338,243"/>
+<area shape="rect" id="node6" href="$df/d36/classPyQt5_1_1QtWidgets_1_1QInputDialog_1_1QInputDialog.html" title="PyQt5.QtWidgets.QInputDialog.\lQInputDialog" alt="" coords="130,267,339,308"/>
+<area shape="rect" id="node7" href="$d8/d91/classPyQt5_1_1QtWidgets_1_1QMessageBox_1_1QMessageBox.html" title="PyQt5.QtWidgets.QMessage\lBox.QMessageBox" alt="" coords="139,332,331,373"/>
+<area shape="rect" id="node8" href="$d4/dad/classPyQt5_1_1QtWidgets_1_1QProgressDialog_1_1QProgressDialog.html" title="PyQt5.QtWidgets.QProgress\lDialog.QProgressDialog" alt="" coords="139,397,330,439"/>
+<area shape="rect" id="node9" href="$d0/d6e/classPyQt5_1_1QtWidgets_1_1QWizard_1_1QWizard.html" title="PyQt5.QtWidgets.QWizard.\lQWizard" alt="" coords="143,463,327,504"/>
+</map>

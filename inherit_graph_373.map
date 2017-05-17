@@ -1,0 +1,19 @@
+<map id="类继承关系图" name="类继承关系图">
+<area shape="rect" id="node2" href="$dd/d14/classPyQt5_1_1QtSensors_1_1QAccelerometerFilter_1_1QAccelerometerFilter.html" title="PyQt5.QtSensors.QAccelerometer\lFilter.QAccelerometerFilter" alt="" coords="174,5,397,47"/>
+<area shape="rect" id="node3" href="$d2/d4c/classPyQt5_1_1QtSensors_1_1QAltimeterFilter_1_1QAltimeterFilter.html" title="PyQt5.QtSensors.QAltimeter\lFilter.QAltimeterFilter" alt="" coords="190,71,381,112"/>
+<area shape="rect" id="node4" href="$db/d9a/classPyQt5_1_1QtSensors_1_1QAmbientLightFilter_1_1QAmbientLightFilter.html" title="PyQt5.QtSensors.QAmbient\lLightFilter.QAmbientLightFilter" alt="" coords="186,136,385,177"/>
+<area shape="rect" id="node5" href="$d5/d54/classPyQt5_1_1QtSensors_1_1QAmbientTemperatureFilter_1_1QAmbientTemperatureFilter.html" title="PyQt5.QtSensors.QAmbient\lTemperatureFilter.QAmbientTemperature\lFilter" alt="" coords="156,201,415,257"/>
+<area shape="rect" id="node6" href="$dd/d2a/classPyQt5_1_1QtSensors_1_1QCompassFilter_1_1QCompassFilter.html" title="PyQt5.QtSensors.QCompass\lFilter.QCompassFilter" alt="" coords="188,280,383,321"/>
+<area shape="rect" id="node7" href="$d0/d69/classPyQt5_1_1QtSensors_1_1QDistanceFilter_1_1QDistanceFilter.html" title="PyQt5.QtSensors.QDistance\lFilter.QDistanceFilter" alt="" coords="190,345,381,387"/>
+<area shape="rect" id="node8" href="$d5/dca/classPyQt5_1_1QtSensors_1_1QGyroscopeFilter_1_1QGyroscopeFilter.html" title="PyQt5.QtSensors.QGyroscope\lFilter.QGyroscopeFilter" alt="" coords="184,411,387,452"/>
+<area shape="rect" id="node9" href="$d4/d4b/classPyQt5_1_1QtSensors_1_1QHolsterFilter_1_1QHolsterFilter.html" title="PyQt5.QtSensors.QHolster\lFilter.QHolsterFilter" alt="" coords="195,476,376,517"/>
+<area shape="rect" id="node10" href="$d7/d3a/classPyQt5_1_1QtSensors_1_1QIRProximityFilter_1_1QIRProximityFilter.html" title="PyQt5.QtSensors.QIRProximity\lFilter.QIRProximityFilter" alt="" coords="181,541,389,583"/>
+<area shape="rect" id="node11" href="$d7/d07/classPyQt5_1_1QtSensors_1_1QLightFilter_1_1QLightFilter.html" title="PyQt5.QtSensors.QLightFilter.\lQLightFilter" alt="" coords="185,607,385,648"/>
+<area shape="rect" id="node12" href="$dc/de2/classPyQt5_1_1QtSensors_1_1QMagnetometerFilter_1_1QMagnetometerFilter.html" title="PyQt5.QtSensors.QMagnetometer\lFilter.QMagnetometerFilter" alt="" coords="174,672,397,713"/>
+<area shape="rect" id="node13" href="$da/dd9/classPyQt5_1_1QtSensors_1_1QOrientationFilter_1_1QOrientationFilter.html" title="PyQt5.QtSensors.QOrientation\lFilter.QOrientationFilter" alt="" coords="184,737,387,779"/>
+<area shape="rect" id="node14" href="$d3/d7d/classPyQt5_1_1QtSensors_1_1QPressureFilter_1_1QPressureFilter.html" title="PyQt5.QtSensors.QPressure\lFilter.QPressureFilter" alt="" coords="190,803,381,844"/>
+<area shape="rect" id="node15" href="$d1/d95/classPyQt5_1_1QtSensors_1_1QProximityFilter_1_1QProximityFilter.html" title="PyQt5.QtSensors.QProximity\lFilter.QProximityFilter" alt="" coords="188,868,383,909"/>
+<area shape="rect" id="node16" href="$db/d39/classPyQt5_1_1QtSensors_1_1QRotationFilter_1_1QRotationFilter.html" title="PyQt5.QtSensors.QRotation\lFilter.QRotationFilter" alt="" coords="191,933,379,975"/>
+<area shape="rect" id="node17" href="$df/dec/classPyQt5_1_1QtSensors_1_1QTapFilter_1_1QTapFilter.html" title="PyQt5.QtSensors.QTapFilter.\lQTapFilter" alt="" coords="188,999,383,1040"/>
+<area shape="rect" id="node18" href="$dd/d4a/classPyQt5_1_1QtSensors_1_1QTiltFilter_1_1QTiltFilter.html" title="PyQt5.QtSensors.QTiltFilter.\lQTiltFilter" alt="" coords="190,1064,381,1105"/>
+</map>

@@ -1,0 +1,26 @@
+var classPyQt5_1_1QtNetwork_1_1QDnsLookup_1_1QDnsLookup =
+[
+    [ "__init__", "d5/d52/classPyQt5_1_1QtNetwork_1_1QDnsLookup_1_1QDnsLookup.html#a4176d6f55e35f2901acb7ab76dec8294", null ],
+    [ "abort", "d5/d52/classPyQt5_1_1QtNetwork_1_1QDnsLookup_1_1QDnsLookup.html#a79d4c330c7bfbedf8a05a6e1c4fcb392", null ],
+    [ "canonicalNameRecords", "d5/d52/classPyQt5_1_1QtNetwork_1_1QDnsLookup_1_1QDnsLookup.html#aa0cbb1720c1a0f4cc1736c3afc222bf9", null ],
+    [ "error", "d5/d52/classPyQt5_1_1QtNetwork_1_1QDnsLookup_1_1QDnsLookup.html#a1dd841e6b75cf8839978f6322a538c29", null ],
+    [ "errorString", "d5/d52/classPyQt5_1_1QtNetwork_1_1QDnsLookup_1_1QDnsLookup.html#ada225bdef88233bca950c22905458fa6", null ],
+    [ "finished", "d5/d52/classPyQt5_1_1QtNetwork_1_1QDnsLookup_1_1QDnsLookup.html#ab008833553ef511ad7cf9665ac9c19ee", null ],
+    [ "hostAddressRecords", "d5/d52/classPyQt5_1_1QtNetwork_1_1QDnsLookup_1_1QDnsLookup.html#aa87e6130836cb4355c73c8b38a77193c", null ],
+    [ "isFinished", "d5/d52/classPyQt5_1_1QtNetwork_1_1QDnsLookup_1_1QDnsLookup.html#a9ba713456d0d4b7d332e37f86e8995fa", null ],
+    [ "lookup", "d5/d52/classPyQt5_1_1QtNetwork_1_1QDnsLookup_1_1QDnsLookup.html#a36d8ab2c4fd3a8777b99f5344ac87dab", null ],
+    [ "mailExchangeRecords", "d5/d52/classPyQt5_1_1QtNetwork_1_1QDnsLookup_1_1QDnsLookup.html#a8cd889ba303799650034400ed75cd002", null ],
+    [ "name", "d5/d52/classPyQt5_1_1QtNetwork_1_1QDnsLookup_1_1QDnsLookup.html#ab7a2400327f8738fa7c91452b5ac536e", null ],
+    [ "nameChanged", "d5/d52/classPyQt5_1_1QtNetwork_1_1QDnsLookup_1_1QDnsLookup.html#a0c1338ca214348d660fa509f3e2f03af", null ],
+    [ "nameserver", "d5/d52/classPyQt5_1_1QtNetwork_1_1QDnsLookup_1_1QDnsLookup.html#ab9a1d2cccd85f8393fc18202551a8764", null ],
+    [ "nameserverChanged", "d5/d52/classPyQt5_1_1QtNetwork_1_1QDnsLookup_1_1QDnsLookup.html#af384e0f335051ce01885bfefc468e290", null ],
+    [ "nameServerRecords", "d5/d52/classPyQt5_1_1QtNetwork_1_1QDnsLookup_1_1QDnsLookup.html#afe096d76f9b9a8c6941db26e7ce178a2", null ],
+    [ "pointerRecords", "d5/d52/classPyQt5_1_1QtNetwork_1_1QDnsLookup_1_1QDnsLookup.html#a4cc5e19b13087689f2863974a6e6b47a", null ],
+    [ "serviceRecords", "d5/d52/classPyQt5_1_1QtNetwork_1_1QDnsLookup_1_1QDnsLookup.html#a021e62a650517bab44c6b8e7f2777ffe", null ],
+    [ "setName", "d5/d52/classPyQt5_1_1QtNetwork_1_1QDnsLookup_1_1QDnsLookup.html#a9d8694e60b07a7c15126aa54746974ec", null ],
+    [ "setNameserver", "d5/d52/classPyQt5_1_1QtNetwork_1_1QDnsLookup_1_1QDnsLookup.html#a9fd247dbb8b0df1dd2f951ec6dfcc6a7", null ],
+    [ "setType", "d5/d52/classPyQt5_1_1QtNetwork_1_1QDnsLookup_1_1QDnsLookup.html#aa3986194eead6322ef6faa5e0c9d1c5c", null ],
+    [ "textRecords", "d5/d52/classPyQt5_1_1QtNetwork_1_1QDnsLookup_1_1QDnsLookup.html#ab0b277df56e1d596796d83dda2932f4f", null ],
+    [ "type", "d5/d52/classPyQt5_1_1QtNetwork_1_1QDnsLookup_1_1QDnsLookup.html#a3c65643f37db551f999c994c15b25eb5", null ],
+    [ "typeChanged", "d5/d52/classPyQt5_1_1QtNetwork_1_1QDnsLookup_1_1QDnsLookup.html#a2f3b63344103182872570bc2cca06bda", null ]
+];

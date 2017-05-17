@@ -1,0 +1,895 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.11"/>
+<title>PyQt: PyQt5.QtCore.QThread.QThread类 参考</title>
+<link href="../../tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../jquery.js"></script>
+<script type="text/javascript" src="../../dynsections.js"></script>
+<link href="../../navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../resize.js"></script>
+<script type="text/javascript" src="../../navtreedata.js"></script>
+<script type="text/javascript" src="../../navtree.js"></script>
+<script type="text/javascript">
+  $(document).ready(initResizable);
+  $(window).load(resizeHeight);
+</script>
+<link href="../../search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../search/searchdata.js"></script>
+<script type="text/javascript" src="../../search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { init_search(); });
+</script>
+<link href="../../doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="../../48X48.png"/></td>
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">PyQt
+   &#160;<span id="projectnumber">1.0</span>
+   </div>
+   <div id="projectbrief">学习PyQt</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 制作者 Doxygen 1.8.11 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "../../search",false,'搜索');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="../../index.html"><span>首页</span></a></li>
+      <li class="current"><a href="../../annotated.html"><span>类</span></a></li>
+      <li><a href="../../files.html"><span>文件</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="../../search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="搜索" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="../../search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="../../annotated.html"><span>类列表</span></a></li>
+      <li><a href="../../classes.html"><span>类索引</span></a></li>
+      <li><a href="../../inherits.html"><span>类继承关系</span></a></li>
+      <li><a href="../../functions.html"><span>类成员</span></a></li>
+    </ul>
+  </div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){initNavTree('d9/dc5/classPyQt5_1_1QtCore_1_1QThread_1_1QThread.html','../../');});
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Public 成员函数</a> &#124;
+<a href="#pub-static-attribs">静态 Public 属性</a> &#124;
+<a href="../../d8/d0a/classPyQt5_1_1QtCore_1_1QThread_1_1QThread-members.html">所有成员列表</a>  </div>
+  <div class="headertitle">
+<div class="title">PyQt5.QtCore.QThread.QThread类 参考</div>  </div>
+</div><!--header-->
+<div class="contents">
+<div class="dynheader">
+类 PyQt5.QtCore.QThread.QThread 继承关系图:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../d5/d03/classPyQt5_1_1QtCore_1_1QThread_1_1QThread__inherit__graph.png" border="0" usemap="#PyQt5_8QtCore_8QThread_8QThread_inherit__map" alt="Inheritance graph"/></div>
+<map name="PyQt5_8QtCore_8QThread_8QThread_inherit__map" id="PyQt5_8QtCore_8QThread_8QThread_inherit__map">
+</map>
+<center><span class="legend">[<a target="top" href="../../graph_legend.html">图例</a>]</span></center></div>
+<div class="dynheader">
+PyQt5.QtCore.QThread.QThread 的协作图:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../d9/dee/classPyQt5_1_1QtCore_1_1QThread_1_1QThread__coll__graph.png" border="0" usemap="#PyQt5_8QtCore_8QThread_8QThread_coll__map" alt="Collaboration graph"/></div>
+<map name="PyQt5_8QtCore_8QThread_8QThread_coll__map" id="PyQt5_8QtCore_8QThread_8QThread_coll__map">
+</map>
+<center><span class="legend">[<a target="top" href="../../graph_legend.html">图例</a>]</span></center></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Public 成员函数</h2></td></tr>
+<tr class="memitem:a3aec254ed8b77b37fc39273a885c3e4e"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dc5/classPyQt5_1_1QtCore_1_1QThread_1_1QThread.html#a3aec254ed8b77b37fc39273a885c3e4e">currentThread</a> (self)</td></tr>
+<tr class="separator:a3aec254ed8b77b37fc39273a885c3e4e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac0a2de6f0a04ee34b106f92392d2551b"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dc5/classPyQt5_1_1QtCore_1_1QThread_1_1QThread.html#ac0a2de6f0a04ee34b106f92392d2551b">currentThreadId</a> (self)</td></tr>
+<tr class="separator:ac0a2de6f0a04ee34b106f92392d2551b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad599b3c8e34ef5a8039d6ac5a2f30630"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dc5/classPyQt5_1_1QtCore_1_1QThread_1_1QThread.html#ad599b3c8e34ef5a8039d6ac5a2f30630">event</a> (self, QEvent)</td></tr>
+<tr class="separator:ad599b3c8e34ef5a8039d6ac5a2f30630"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa01c48dee34a775be3b11b7f64edb4e0"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dc5/classPyQt5_1_1QtCore_1_1QThread_1_1QThread.html#aa01c48dee34a775be3b11b7f64edb4e0">eventDispatcher</a> (self)</td></tr>
+<tr class="separator:aa01c48dee34a775be3b11b7f64edb4e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a400ebd313d22d9fd9e1ff5841bf9a1f6"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dc5/classPyQt5_1_1QtCore_1_1QThread_1_1QThread.html#a400ebd313d22d9fd9e1ff5841bf9a1f6">exec</a> (self)</td></tr>
+<tr class="separator:a400ebd313d22d9fd9e1ff5841bf9a1f6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae611ec9c80764768caf2636a7994779c"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dc5/classPyQt5_1_1QtCore_1_1QThread_1_1QThread.html#ae611ec9c80764768caf2636a7994779c">exec_</a> (self)</td></tr>
+<tr class="separator:ae611ec9c80764768caf2636a7994779c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a363dcd02e2db3b5d3e20ef4a1c3fa4b6"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dc5/classPyQt5_1_1QtCore_1_1QThread_1_1QThread.html#a363dcd02e2db3b5d3e20ef4a1c3fa4b6">exit</a> (self, returnCode=0)</td></tr>
+<tr class="separator:a363dcd02e2db3b5d3e20ef4a1c3fa4b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a99f7e5e361e77dd8e0e49b079f49f5a5"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dc5/classPyQt5_1_1QtCore_1_1QThread_1_1QThread.html#a99f7e5e361e77dd8e0e49b079f49f5a5">finished</a> (self)</td></tr>
+<tr class="separator:a99f7e5e361e77dd8e0e49b079f49f5a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a81bd3e3c5185b7e127f822a5493026a8"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dc5/classPyQt5_1_1QtCore_1_1QThread_1_1QThread.html#a81bd3e3c5185b7e127f822a5493026a8">idealThreadCount</a> (self)</td></tr>
+<tr class="separator:a81bd3e3c5185b7e127f822a5493026a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac07ae05013d3019830d9de94136a0f0a"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dc5/classPyQt5_1_1QtCore_1_1QThread_1_1QThread.html#ac07ae05013d3019830d9de94136a0f0a">isFinished</a> (self)</td></tr>
+<tr class="separator:ac07ae05013d3019830d9de94136a0f0a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1e11cbc3bf12ee3542f314b28abf1e2c"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dc5/classPyQt5_1_1QtCore_1_1QThread_1_1QThread.html#a1e11cbc3bf12ee3542f314b28abf1e2c">isInterruptionRequested</a> (self)</td></tr>
+<tr class="separator:a1e11cbc3bf12ee3542f314b28abf1e2c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6bff538a9d2e5fc19388e6154d295988"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dc5/classPyQt5_1_1QtCore_1_1QThread_1_1QThread.html#a6bff538a9d2e5fc19388e6154d295988">isRunning</a> (self)</td></tr>
+<tr class="separator:a6bff538a9d2e5fc19388e6154d295988"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adf644171f97a4c79735b4ac9c8e5c288"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dc5/classPyQt5_1_1QtCore_1_1QThread_1_1QThread.html#adf644171f97a4c79735b4ac9c8e5c288">loopLevel</a> (self)</td></tr>
+<tr class="separator:adf644171f97a4c79735b4ac9c8e5c288"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a66f26852b0cd4d4e331d410bb41861b5"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dc5/classPyQt5_1_1QtCore_1_1QThread_1_1QThread.html#a66f26852b0cd4d4e331d410bb41861b5">msleep</a> (self, p_int)</td></tr>
+<tr class="separator:a66f26852b0cd4d4e331d410bb41861b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aac1e6f1a9efbe3100fb97bba3e2f23f0"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dc5/classPyQt5_1_1QtCore_1_1QThread_1_1QThread.html#aac1e6f1a9efbe3100fb97bba3e2f23f0">priority</a> (self)</td></tr>
+<tr class="separator:aac1e6f1a9efbe3100fb97bba3e2f23f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a00e15b88e26686363aba15b5d1e3ade4"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dc5/classPyQt5_1_1QtCore_1_1QThread_1_1QThread.html#a00e15b88e26686363aba15b5d1e3ade4">quit</a> (self)</td></tr>
+<tr class="separator:a00e15b88e26686363aba15b5d1e3ade4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abae8a9f2ec65b4aca42cb1597d363fd0"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dc5/classPyQt5_1_1QtCore_1_1QThread_1_1QThread.html#abae8a9f2ec65b4aca42cb1597d363fd0">requestInterruption</a> (self)</td></tr>
+<tr class="separator:abae8a9f2ec65b4aca42cb1597d363fd0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adce2b472085981652018af62a10d7bde"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dc5/classPyQt5_1_1QtCore_1_1QThread_1_1QThread.html#adce2b472085981652018af62a10d7bde">run</a> (self)</td></tr>
+<tr class="separator:adce2b472085981652018af62a10d7bde"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a91fe8407899cd004f58b0a427fa20e23"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dc5/classPyQt5_1_1QtCore_1_1QThread_1_1QThread.html#a91fe8407899cd004f58b0a427fa20e23">setEventDispatcher</a> (self, QAbstractEventDispatcher)</td></tr>
+<tr class="separator:a91fe8407899cd004f58b0a427fa20e23"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6de1607f7c3055ac5ca72e01909dcd87"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dc5/classPyQt5_1_1QtCore_1_1QThread_1_1QThread.html#a6de1607f7c3055ac5ca72e01909dcd87">setPriority</a> (self, QThread_Priority)</td></tr>
+<tr class="separator:a6de1607f7c3055ac5ca72e01909dcd87"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa6d848c1ec93805964a5bbcbf05e7c1d"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dc5/classPyQt5_1_1QtCore_1_1QThread_1_1QThread.html#aa6d848c1ec93805964a5bbcbf05e7c1d">setStackSize</a> (self, p_int)</td></tr>
+<tr class="separator:aa6d848c1ec93805964a5bbcbf05e7c1d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac349ed4d8e45f630f9167f2383fed51e"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dc5/classPyQt5_1_1QtCore_1_1QThread_1_1QThread.html#ac349ed4d8e45f630f9167f2383fed51e">setTerminationEnabled</a> (self, enabled=True)</td></tr>
+<tr class="separator:ac349ed4d8e45f630f9167f2383fed51e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a13ec050b915528cb5dcf2de85788ea60"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dc5/classPyQt5_1_1QtCore_1_1QThread_1_1QThread.html#a13ec050b915528cb5dcf2de85788ea60">sleep</a> (self, p_int)</td></tr>
+<tr class="separator:a13ec050b915528cb5dcf2de85788ea60"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a73d1bc7e8b67d621aa644bd33aeb1dcb"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dc5/classPyQt5_1_1QtCore_1_1QThread_1_1QThread.html#a73d1bc7e8b67d621aa644bd33aeb1dcb">stackSize</a> (self)</td></tr>
+<tr class="separator:a73d1bc7e8b67d621aa644bd33aeb1dcb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a99513bc36200829b3a53da917fbb4733"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dc5/classPyQt5_1_1QtCore_1_1QThread_1_1QThread.html#a99513bc36200829b3a53da917fbb4733">start</a> (self, <a class="el" href="../../d9/dc5/classPyQt5_1_1QtCore_1_1QThread_1_1QThread.html#aac1e6f1a9efbe3100fb97bba3e2f23f0">priority</a>=None)</td></tr>
+<tr class="separator:a99513bc36200829b3a53da917fbb4733"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a67d567dbf256dac3254b830fac4fc4ef"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dc5/classPyQt5_1_1QtCore_1_1QThread_1_1QThread.html#a67d567dbf256dac3254b830fac4fc4ef">started</a> (self)</td></tr>
+<tr class="separator:a67d567dbf256dac3254b830fac4fc4ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adc35f19e1f6367ff748d77917989cab8"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dc5/classPyQt5_1_1QtCore_1_1QThread_1_1QThread.html#adc35f19e1f6367ff748d77917989cab8">terminate</a> (self)</td></tr>
+<tr class="separator:adc35f19e1f6367ff748d77917989cab8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1db2092a8d4754e6149498fa62b00c39"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dc5/classPyQt5_1_1QtCore_1_1QThread_1_1QThread.html#a1db2092a8d4754e6149498fa62b00c39">usleep</a> (self, p_int)</td></tr>
+<tr class="separator:a1db2092a8d4754e6149498fa62b00c39"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a14bf880f50697496716154ced5182f9b"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dc5/classPyQt5_1_1QtCore_1_1QThread_1_1QThread.html#a14bf880f50697496716154ced5182f9b">wait</a> (self, msecs=None)</td></tr>
+<tr class="separator:a14bf880f50697496716154ced5182f9b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a96f238a62988212421c7112840fe89ba"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dc5/classPyQt5_1_1QtCore_1_1QThread_1_1QThread.html#a96f238a62988212421c7112840fe89ba">yieldCurrentThread</a> (self)</td></tr>
+<tr class="separator:a96f238a62988212421c7112840fe89ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8ba43f00dbffe9f71e1c57bc13258a5c"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a8ba43f00dbffe9f71e1c57bc13258a5c"></a>
+def&#160;</td><td class="memItemRight" valign="bottom"><b>__init__</b> (self, parent=None)</td></tr>
+<tr class="separator:a8ba43f00dbffe9f71e1c57bc13258a5c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-attribs"></a>
+静态 Public 属性</h2></td></tr>
+<tr class="memitem:a331df45e523450a54cb120ff5f199eb1"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a331df45e523450a54cb120ff5f199eb1"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>HighestPriority</b> = 5</td></tr>
+<tr class="separator:a331df45e523450a54cb120ff5f199eb1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a12419e532dfed8f84d06c68c8697eeb9"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a12419e532dfed8f84d06c68c8697eeb9"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>HighPriority</b> = 4</td></tr>
+<tr class="separator:a12419e532dfed8f84d06c68c8697eeb9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a69d2167bb60cb9aaa43169d709bdd813"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a69d2167bb60cb9aaa43169d709bdd813"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>IdlePriority</b> = 0</td></tr>
+<tr class="separator:a69d2167bb60cb9aaa43169d709bdd813"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1617239b40840d40d63143f5b625dfe4"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a1617239b40840d40d63143f5b625dfe4"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>InheritPriority</b> = 7</td></tr>
+<tr class="separator:a1617239b40840d40d63143f5b625dfe4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a655864def3b9d5c75480af0c635c06e0"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a655864def3b9d5c75480af0c635c06e0"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>LowestPriority</b> = 1</td></tr>
+<tr class="separator:a655864def3b9d5c75480af0c635c06e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7da6736218844bd5d2affe9088f2bb7e"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a7da6736218844bd5d2affe9088f2bb7e"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>LowPriority</b> = 2</td></tr>
+<tr class="separator:a7da6736218844bd5d2affe9088f2bb7e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ace22c4be2eaacc4b83ba8dc84d3e8e3f"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ace22c4be2eaacc4b83ba8dc84d3e8e3f"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>NormalPriority</b> = 3</td></tr>
+<tr class="separator:ace22c4be2eaacc4b83ba8dc84d3e8e3f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac71a74fe07f691ca27c74de33443274a"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ac71a74fe07f691ca27c74de33443274a"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>TimeCriticalPriority</b> = 6</td></tr>
+<tr class="separator:ac71a74fe07f691ca27c74de33443274a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">详细描述</h2>
+<div class="textblock"><pre class="fragment">QThread(parent: QObject = None) </pre> 
+<p>在文件 <a class="el" href="../../d9/d1d/QThread_8py_source.html">QThread.py</a> 第 <a class="el" href="../../d9/d1d/QThread_8py_source.html#l00010">10</a> 行定义.</p>
+</div><h2 class="groupheader">成员函数说明</h2>
+<a class="anchor" id="a3aec254ed8b77b37fc39273a885c3e4e"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def PyQt5.QtCore.QThread.QThread.currentThread </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">currentThread() -&gt; QThread </pre> 
+<p>在文件 <a class="el" href="../../d9/d1d/QThread_8py_source.html">QThread.py</a> 第 <a class="el" href="../../d9/d1d/QThread_8py_source.html#l00012">12</a> 行定义.</p>
+
+</div>
+</div>
+<a class="anchor" id="ac0a2de6f0a04ee34b106f92392d2551b"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def PyQt5.QtCore.QThread.QThread.currentThreadId </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">currentThreadId() -&gt; sip.voidptr </pre> 
+<p>在文件 <a class="el" href="../../d9/d1d/QThread_8py_source.html">QThread.py</a> 第 <a class="el" href="../../d9/d1d/QThread_8py_source.html#l00016">16</a> 行定义.</p>
+
+</div>
+</div>
+<a class="anchor" id="ad599b3c8e34ef5a8039d6ac5a2f30630"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def PyQt5.QtCore.QThread.QThread.event </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>QEvent</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">event(self, QEvent) -&gt; bool </pre> 
+<p>在文件 <a class="el" href="../../d9/d1d/QThread_8py_source.html">QThread.py</a> 第 <a class="el" href="../../d9/d1d/QThread_8py_source.html#l00020">20</a> 行定义.</p>
+
+</div>
+</div>
+<a class="anchor" id="aa01c48dee34a775be3b11b7f64edb4e0"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def PyQt5.QtCore.QThread.QThread.eventDispatcher </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">eventDispatcher(self) -&gt; QAbstractEventDispatcher </pre> 
+<p>在文件 <a class="el" href="../../d9/d1d/QThread_8py_source.html">QThread.py</a> 第 <a class="el" href="../../d9/d1d/QThread_8py_source.html#l00024">24</a> 行定义.</p>
+
+</div>
+</div>
+<a class="anchor" id="a400ebd313d22d9fd9e1ff5841bf9a1f6"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def PyQt5.QtCore.QThread.QThread.exec </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">exec(self) -&gt; int </pre> 
+<p>在文件 <a class="el" href="../../d9/d1d/QThread_8py_source.html">QThread.py</a> 第 <a class="el" href="../../d9/d1d/QThread_8py_source.html#l00028">28</a> 行定义.</p>
+
+</div>
+</div>
+<a class="anchor" id="ae611ec9c80764768caf2636a7994779c"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def PyQt5.QtCore.QThread.QThread.exec_ </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">exec_(self) -&gt; int </pre> 
+<p>在文件 <a class="el" href="../../d9/d1d/QThread_8py_source.html">QThread.py</a> 第 <a class="el" href="../../d9/d1d/QThread_8py_source.html#l00032">32</a> 行定义.</p>
+
+</div>
+</div>
+<a class="anchor" id="a363dcd02e2db3b5d3e20ef4a1c3fa4b6"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def PyQt5.QtCore.QThread.QThread.exit </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>returnCode</em> = <code>0</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">exit(self, returnCode: int = 0) </pre> 
+<p>在文件 <a class="el" href="../../d9/d1d/QThread_8py_source.html">QThread.py</a> 第 <a class="el" href="../../d9/d1d/QThread_8py_source.html#l00036">36</a> 行定义.</p>
+
+</div>
+</div>
+<a class="anchor" id="a99f7e5e361e77dd8e0e49b079f49f5a5"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def PyQt5.QtCore.QThread.QThread.finished </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">finished(self) [signal] </pre> 
+<p>在文件 <a class="el" href="../../d9/d1d/QThread_8py_source.html">QThread.py</a> 第 <a class="el" href="../../d9/d1d/QThread_8py_source.html#l00040">40</a> 行定义.</p>
+
+</div>
+</div>
+<a class="anchor" id="a81bd3e3c5185b7e127f822a5493026a8"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def PyQt5.QtCore.QThread.QThread.idealThreadCount </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">idealThreadCount() -&gt; int </pre> 
+<p>在文件 <a class="el" href="../../d9/d1d/QThread_8py_source.html">QThread.py</a> 第 <a class="el" href="../../d9/d1d/QThread_8py_source.html#l00044">44</a> 行定义.</p>
+
+</div>
+</div>
+<a class="anchor" id="ac07ae05013d3019830d9de94136a0f0a"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def PyQt5.QtCore.QThread.QThread.isFinished </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">isFinished(self) -&gt; bool </pre> 
+<p>在文件 <a class="el" href="../../d9/d1d/QThread_8py_source.html">QThread.py</a> 第 <a class="el" href="../../d9/d1d/QThread_8py_source.html#l00048">48</a> 行定义.</p>
+
+</div>
+</div>
+<a class="anchor" id="a1e11cbc3bf12ee3542f314b28abf1e2c"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def PyQt5.QtCore.QThread.QThread.isInterruptionRequested </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">isInterruptionRequested(self) -&gt; bool </pre> 
+<p>在文件 <a class="el" href="../../d9/d1d/QThread_8py_source.html">QThread.py</a> 第 <a class="el" href="../../d9/d1d/QThread_8py_source.html#l00052">52</a> 行定义.</p>
+
+</div>
+</div>
+<a class="anchor" id="a6bff538a9d2e5fc19388e6154d295988"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def PyQt5.QtCore.QThread.QThread.isRunning </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">isRunning(self) -&gt; bool </pre> 
+<p>在文件 <a class="el" href="../../d9/d1d/QThread_8py_source.html">QThread.py</a> 第 <a class="el" href="../../d9/d1d/QThread_8py_source.html#l00056">56</a> 行定义.</p>
+
+</div>
+</div>
+<a class="anchor" id="adf644171f97a4c79735b4ac9c8e5c288"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def PyQt5.QtCore.QThread.QThread.loopLevel </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">loopLevel(self) -&gt; int </pre> 
+<p>在文件 <a class="el" href="../../d9/d1d/QThread_8py_source.html">QThread.py</a> 第 <a class="el" href="../../d9/d1d/QThread_8py_source.html#l00060">60</a> 行定义.</p>
+
+</div>
+</div>
+<a class="anchor" id="a66f26852b0cd4d4e331d410bb41861b5"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def PyQt5.QtCore.QThread.QThread.msleep </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>p_int</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">msleep(int) </pre> 
+<p>在文件 <a class="el" href="../../d9/d1d/QThread_8py_source.html">QThread.py</a> 第 <a class="el" href="../../d9/d1d/QThread_8py_source.html#l00064">64</a> 行定义.</p>
+
+</div>
+</div>
+<a class="anchor" id="aac1e6f1a9efbe3100fb97bba3e2f23f0"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def PyQt5.QtCore.QThread.QThread.priority </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">priority(self) -&gt; QThread.Priority </pre> 
+<p>在文件 <a class="el" href="../../d9/d1d/QThread_8py_source.html">QThread.py</a> 第 <a class="el" href="../../d9/d1d/QThread_8py_source.html#l00068">68</a> 行定义.</p>
+
+</div>
+</div>
+<a class="anchor" id="a00e15b88e26686363aba15b5d1e3ade4"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def PyQt5.QtCore.QThread.QThread.quit </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">quit(self) </pre> 
+<p>在文件 <a class="el" href="../../d9/d1d/QThread_8py_source.html">QThread.py</a> 第 <a class="el" href="../../d9/d1d/QThread_8py_source.html#l00072">72</a> 行定义.</p>
+
+</div>
+</div>
+<a class="anchor" id="abae8a9f2ec65b4aca42cb1597d363fd0"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def PyQt5.QtCore.QThread.QThread.requestInterruption </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">requestInterruption(self) </pre> 
+<p>在文件 <a class="el" href="../../d9/d1d/QThread_8py_source.html">QThread.py</a> 第 <a class="el" href="../../d9/d1d/QThread_8py_source.html#l00076">76</a> 行定义.</p>
+
+</div>
+</div>
+<a class="anchor" id="adce2b472085981652018af62a10d7bde"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def PyQt5.QtCore.QThread.QThread.run </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">run(self) </pre> 
+<p>在文件 <a class="el" href="../../d9/d1d/QThread_8py_source.html">QThread.py</a> 第 <a class="el" href="../../d9/d1d/QThread_8py_source.html#l00080">80</a> 行定义.</p>
+
+</div>
+</div>
+<a class="anchor" id="a91fe8407899cd004f58b0a427fa20e23"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def PyQt5.QtCore.QThread.QThread.setEventDispatcher </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>QAbstractEventDispatcher</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">setEventDispatcher(self, QAbstractEventDispatcher) </pre> 
+<p>在文件 <a class="el" href="../../d9/d1d/QThread_8py_source.html">QThread.py</a> 第 <a class="el" href="../../d9/d1d/QThread_8py_source.html#l00084">84</a> 行定义.</p>
+
+</div>
+</div>
+<a class="anchor" id="a6de1607f7c3055ac5ca72e01909dcd87"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def PyQt5.QtCore.QThread.QThread.setPriority </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>QThread_Priority</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">setPriority(self, QThread.Priority) </pre> 
+<p>在文件 <a class="el" href="../../d9/d1d/QThread_8py_source.html">QThread.py</a> 第 <a class="el" href="../../d9/d1d/QThread_8py_source.html#l00088">88</a> 行定义.</p>
+
+</div>
+</div>
+<a class="anchor" id="aa6d848c1ec93805964a5bbcbf05e7c1d"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def PyQt5.QtCore.QThread.QThread.setStackSize </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>p_int</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">setStackSize(self, int) </pre> 
+<p>在文件 <a class="el" href="../../d9/d1d/QThread_8py_source.html">QThread.py</a> 第 <a class="el" href="../../d9/d1d/QThread_8py_source.html#l00092">92</a> 行定义.</p>
+
+</div>
+</div>
+<a class="anchor" id="ac349ed4d8e45f630f9167f2383fed51e"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def PyQt5.QtCore.QThread.QThread.setTerminationEnabled </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>enabled</em> = <code>True</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">setTerminationEnabled(enabled: bool = True) </pre> 
+<p>在文件 <a class="el" href="../../d9/d1d/QThread_8py_source.html">QThread.py</a> 第 <a class="el" href="../../d9/d1d/QThread_8py_source.html#l00096">96</a> 行定义.</p>
+
+</div>
+</div>
+<a class="anchor" id="a13ec050b915528cb5dcf2de85788ea60"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def PyQt5.QtCore.QThread.QThread.sleep </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>p_int</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">sleep(int) </pre> 
+<p>在文件 <a class="el" href="../../d9/d1d/QThread_8py_source.html">QThread.py</a> 第 <a class="el" href="../../d9/d1d/QThread_8py_source.html#l00100">100</a> 行定义.</p>
+
+</div>
+</div>
+<a class="anchor" id="a73d1bc7e8b67d621aa644bd33aeb1dcb"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def PyQt5.QtCore.QThread.QThread.stackSize </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">stackSize(self) -&gt; int </pre> 
+<p>在文件 <a class="el" href="../../d9/d1d/QThread_8py_source.html">QThread.py</a> 第 <a class="el" href="../../d9/d1d/QThread_8py_source.html#l00104">104</a> 行定义.</p>
+
+</div>
+</div>
+<a class="anchor" id="a99513bc36200829b3a53da917fbb4733"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def PyQt5.QtCore.QThread.QThread.start </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>priority</em> = <code>None</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">start(self, priority: QThread.Priority = QThread.InheritPriority) </pre> 
+<p>在文件 <a class="el" href="../../d9/d1d/QThread_8py_source.html">QThread.py</a> 第 <a class="el" href="../../d9/d1d/QThread_8py_source.html#l00108">108</a> 行定义.</p>
+
+</div>
+</div>
+<a class="anchor" id="a67d567dbf256dac3254b830fac4fc4ef"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def PyQt5.QtCore.QThread.QThread.started </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">started(self) [signal] </pre> 
+<p>在文件 <a class="el" href="../../d9/d1d/QThread_8py_source.html">QThread.py</a> 第 <a class="el" href="../../d9/d1d/QThread_8py_source.html#l00112">112</a> 行定义.</p>
+
+</div>
+</div>
+<a class="anchor" id="adc35f19e1f6367ff748d77917989cab8"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def PyQt5.QtCore.QThread.QThread.terminate </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">terminate(self) </pre> 
+<p>在文件 <a class="el" href="../../d9/d1d/QThread_8py_source.html">QThread.py</a> 第 <a class="el" href="../../d9/d1d/QThread_8py_source.html#l00116">116</a> 行定义.</p>
+
+</div>
+</div>
+<a class="anchor" id="a1db2092a8d4754e6149498fa62b00c39"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def PyQt5.QtCore.QThread.QThread.usleep </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>p_int</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">usleep(int) </pre> 
+<p>在文件 <a class="el" href="../../d9/d1d/QThread_8py_source.html">QThread.py</a> 第 <a class="el" href="../../d9/d1d/QThread_8py_source.html#l00120">120</a> 行定义.</p>
+
+</div>
+</div>
+<a class="anchor" id="a14bf880f50697496716154ced5182f9b"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def PyQt5.QtCore.QThread.QThread.wait </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>msecs</em> = <code>None</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">wait(self, msecs: int = ULONG_MAX) -&gt; bool </pre> 
+<p>在文件 <a class="el" href="../../d9/d1d/QThread_8py_source.html">QThread.py</a> 第 <a class="el" href="../../d9/d1d/QThread_8py_source.html#l00124">124</a> 行定义.</p>
+
+</div>
+</div>
+<a class="anchor" id="a96f238a62988212421c7112840fe89ba"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def PyQt5.QtCore.QThread.QThread.yieldCurrentThread </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">yieldCurrentThread() </pre> 
+<p>在文件 <a class="el" href="../../d9/d1d/QThread_8py_source.html">QThread.py</a> 第 <a class="el" href="../../d9/d1d/QThread_8py_source.html#l00128">128</a> 行定义.</p>
+
+</div>
+</div>
+<hr/>该类的文档由以下文件生成:<ul>
+<li>QtCore/<a class="el" href="../../d9/d1d/QThread_8py_source.html">QThread.py</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><b>PyQt5</b></li><li class="navelem"><b>QtCore</b></li><li class="navelem"><b>QThread</b></li><li class="navelem"><a class="el" href="../../d9/dc5/classPyQt5_1_1QtCore_1_1QThread_1_1QThread.html">QThread</a></li>
+    <li class="footer">制作者
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
+  </ul>
+</div>
+</body>
+</html>

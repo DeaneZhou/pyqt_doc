@@ -1,0 +1,12 @@
+<map id="类继承关系图" name="类继承关系图">
+<area shape="rect" id="node2" href="$db/d49/classPyQt5_1_1QtXml_1_1QDomAttr_1_1QDomAttr.html" title="PyQt5.QtXml.QDomAttr.QDomAttr" alt="" coords="156,5,383,32"/>
+<area shape="rect" id="node3" href="$dd/d37/classPyQt5_1_1QtXml_1_1QDomCharacterData_1_1QDomCharacterData.html" title="PyQt5.QtXml.QDomCharacter\lData.QDomCharacterData" alt="" coords="170,57,369,98"/>
+<area shape="rect" id="node4" href="$db/df4/classPyQt5_1_1QtXml_1_1QDomDocument_1_1QDomDocument.html" title="PyQt5.QtXml.QDomDocument.\lQDomDocument" alt="" coords="166,122,373,163"/>
+<area shape="rect" id="node5" href="$d0/d1a/classPyQt5_1_1QtXml_1_1QDomDocumentFragment_1_1QDomDocumentFragment.html" title="PyQt5.QtXml.QDomDocument\lFragment.QDomDocumentFragment" alt="" coords="152,187,387,229"/>
+<area shape="rect" id="node6" href="$d3/d86/classPyQt5_1_1QtXml_1_1QDomDocumentType_1_1QDomDocumentType.html" title="PyQt5.QtXml.QDomDocument\lType.QDomDocumentType" alt="" coords="168,253,371,294"/>
+<area shape="rect" id="node7" href="$d6/d58/classPyQt5_1_1QtXml_1_1QDomElement_1_1QDomElement.html" title="PyQt5.QtXml.QDomElement.\lQDomElement" alt="" coords="172,318,367,359"/>
+<area shape="rect" id="node8" href="$de/d5d/classPyQt5_1_1QtXml_1_1QDomEntity_1_1QDomEntity.html" title="PyQt5.QtXml.QDomEntity.QDom\lEntity" alt="" coords="160,383,379,425"/>
+<area shape="rect" id="node9" href="$d8/de5/classPyQt5_1_1QtXml_1_1QDomEntityReference_1_1QDomEntityReference.html" title="PyQt5.QtXml.QDomEntityReference.\lQDomEntityReference" alt="" coords="149,449,389,490"/>
+<area shape="rect" id="node10" href="$d8/d01/classPyQt5_1_1QtXml_1_1QDomNotation_1_1QDomNotation.html" title="PyQt5.QtXml.QDomNotation.\lQDomNotation" alt="" coords="172,514,367,555"/>
+<area shape="rect" id="node11" href="$d9/d8f/classPyQt5_1_1QtXml_1_1QDomProcessingInstruction_1_1QDomProcessingInstruction.html" title="PyQt5.QtXml.QDomProcessing\lInstruction.QDomProcessingInstruction" alt="" coords="144,579,395,621"/>
+</map>

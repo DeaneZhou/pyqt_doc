@@ -1,0 +1,1451 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.11"/>
+<title>PyQt: PyQt5.QtNetwork.QNetworkReply.QNetworkReply类 参考</title>
+<link href="../../tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../jquery.js"></script>
+<script type="text/javascript" src="../../dynsections.js"></script>
+<link href="../../navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../resize.js"></script>
+<script type="text/javascript" src="../../navtreedata.js"></script>
+<script type="text/javascript" src="../../navtree.js"></script>
+<script type="text/javascript">
+  $(document).ready(initResizable);
+  $(window).load(resizeHeight);
+</script>
+<link href="../../search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../search/searchdata.js"></script>
+<script type="text/javascript" src="../../search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { init_search(); });
+</script>
+<link href="../../doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="../../48X48.png"/></td>
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">PyQt
+   &#160;<span id="projectnumber">1.0</span>
+   </div>
+   <div id="projectbrief">学习PyQt</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 制作者 Doxygen 1.8.11 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "../../search",false,'搜索');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="../../index.html"><span>首页</span></a></li>
+      <li class="current"><a href="../../annotated.html"><span>类</span></a></li>
+      <li><a href="../../files.html"><span>文件</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="../../search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="搜索" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="../../search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="../../annotated.html"><span>类列表</span></a></li>
+      <li><a href="../../classes.html"><span>类索引</span></a></li>
+      <li><a href="../../inherits.html"><span>类继承关系</span></a></li>
+      <li><a href="../../functions.html"><span>类成员</span></a></li>
+    </ul>
+  </div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){initNavTree('dc/d00/classPyQt5_1_1QtNetwork_1_1QNetworkReply_1_1QNetworkReply.html','../../');});
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Public 成员函数</a> &#124;
+<a href="#pub-static-attribs">静态 Public 属性</a> &#124;
+<a href="../../d7/d73/classPyQt5_1_1QtNetwork_1_1QNetworkReply_1_1QNetworkReply-members.html">所有成员列表</a>  </div>
+  <div class="headertitle">
+<div class="title">PyQt5.QtNetwork.QNetworkReply.QNetworkReply类 参考</div>  </div>
+</div><!--header-->
+<div class="contents">
+<div class="dynheader">
+类 PyQt5.QtNetwork.QNetworkReply.QNetworkReply 继承关系图:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../d8/d6d/classPyQt5_1_1QtNetwork_1_1QNetworkReply_1_1QNetworkReply__inherit__graph.png" border="0" usemap="#PyQt5_8QtNetwork_8QNetworkReply_8QNetworkReply_inherit__map" alt="Inheritance graph"/></div>
+<map name="PyQt5_8QtNetwork_8QNetworkReply_8QNetworkReply_inherit__map" id="PyQt5_8QtNetwork_8QNetworkReply_8QNetworkReply_inherit__map">
+</map>
+<center><span class="legend">[<a target="top" href="../../graph_legend.html">图例</a>]</span></center></div>
+<div class="dynheader">
+PyQt5.QtNetwork.QNetworkReply.QNetworkReply 的协作图:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../d4/d05/classPyQt5_1_1QtNetwork_1_1QNetworkReply_1_1QNetworkReply__coll__graph.png" border="0" usemap="#PyQt5_8QtNetwork_8QNetworkReply_8QNetworkReply_coll__map" alt="Collaboration graph"/></div>
+<map name="PyQt5_8QtNetwork_8QNetworkReply_8QNetworkReply_coll__map" id="PyQt5_8QtNetwork_8QNetworkReply_8QNetworkReply_coll__map">
+</map>
+<center><span class="legend">[<a target="top" href="../../graph_legend.html">图例</a>]</span></center></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Public 成员函数</h2></td></tr>
+<tr class="memitem:adbc06da1310e02aa32700367313aafdf"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d00/classPyQt5_1_1QtNetwork_1_1QNetworkReply_1_1QNetworkReply.html#adbc06da1310e02aa32700367313aafdf">abort</a> (self)</td></tr>
+<tr class="separator:adbc06da1310e02aa32700367313aafdf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9a31bd0af44f9a8642c2eae346a81e5d"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d00/classPyQt5_1_1QtNetwork_1_1QNetworkReply_1_1QNetworkReply.html#a9a31bd0af44f9a8642c2eae346a81e5d">attribute</a> (self, QNetworkRequest_Attribute)</td></tr>
+<tr class="separator:a9a31bd0af44f9a8642c2eae346a81e5d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a99579980feacab1050269b3fed12bdd1"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d00/classPyQt5_1_1QtNetwork_1_1QNetworkReply_1_1QNetworkReply.html#a99579980feacab1050269b3fed12bdd1">close</a> (self)</td></tr>
+<tr class="separator:a99579980feacab1050269b3fed12bdd1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa378929c31db945995abf741b790a5eb"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d00/classPyQt5_1_1QtNetwork_1_1QNetworkReply_1_1QNetworkReply.html#aa378929c31db945995abf741b790a5eb">downloadProgress</a> (self, p_int, p_int_1)</td></tr>
+<tr class="separator:aa378929c31db945995abf741b790a5eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a76be543079252d27f4f98d1c1b8ec2a8"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d00/classPyQt5_1_1QtNetwork_1_1QNetworkReply_1_1QNetworkReply.html#a76be543079252d27f4f98d1c1b8ec2a8">encrypted</a> (self)</td></tr>
+<tr class="separator:a76be543079252d27f4f98d1c1b8ec2a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a788fa3396604ec2dab46cdfa99055e79"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d00/classPyQt5_1_1QtNetwork_1_1QNetworkReply_1_1QNetworkReply.html#a788fa3396604ec2dab46cdfa99055e79">error</a> (self, QNetworkReply_NetworkError=None)</td></tr>
+<tr class="separator:a788fa3396604ec2dab46cdfa99055e79"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6eef7bbb4f8ac9051b512af266f8979e"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d00/classPyQt5_1_1QtNetwork_1_1QNetworkReply_1_1QNetworkReply.html#a6eef7bbb4f8ac9051b512af266f8979e">finished</a> (self)</td></tr>
+<tr class="separator:a6eef7bbb4f8ac9051b512af266f8979e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6377b1a1d6135052bb1804380ad148cf"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d00/classPyQt5_1_1QtNetwork_1_1QNetworkReply_1_1QNetworkReply.html#a6377b1a1d6135052bb1804380ad148cf">hasRawHeader</a> (self, Union, QByteArray=None, bytes=None, bytearray=None)</td></tr>
+<tr class="separator:a6377b1a1d6135052bb1804380ad148cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a27d82653c8481006050de9cf77f9d35f"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d00/classPyQt5_1_1QtNetwork_1_1QNetworkReply_1_1QNetworkReply.html#a27d82653c8481006050de9cf77f9d35f">header</a> (self, QNetworkRequest_KnownHeaders)</td></tr>
+<tr class="separator:a27d82653c8481006050de9cf77f9d35f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abd367d08a8d1a9c476b3d775406bc6e0"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d00/classPyQt5_1_1QtNetwork_1_1QNetworkReply_1_1QNetworkReply.html#abd367d08a8d1a9c476b3d775406bc6e0">ignoreSslErrors</a> (self, Iterable=None, QSslError=None)</td></tr>
+<tr class="separator:abd367d08a8d1a9c476b3d775406bc6e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab56a79a31796abc44604ad33eaf16c60"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d00/classPyQt5_1_1QtNetwork_1_1QNetworkReply_1_1QNetworkReply.html#ab56a79a31796abc44604ad33eaf16c60">ignoreSslErrorsImplementation</a> (self, Iterable, QSslError=None)</td></tr>
+<tr class="separator:ab56a79a31796abc44604ad33eaf16c60"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a078a13d355d3e5511c9cd4b0dee9cf32"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d00/classPyQt5_1_1QtNetwork_1_1QNetworkReply_1_1QNetworkReply.html#a078a13d355d3e5511c9cd4b0dee9cf32">isFinished</a> (self)</td></tr>
+<tr class="separator:a078a13d355d3e5511c9cd4b0dee9cf32"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1d547234dc289195d405a035902a9642"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d00/classPyQt5_1_1QtNetwork_1_1QNetworkReply_1_1QNetworkReply.html#a1d547234dc289195d405a035902a9642">isRunning</a> (self)</td></tr>
+<tr class="separator:a1d547234dc289195d405a035902a9642"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a26840a0a618b8deb112d83d6fc6cc2f4"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d00/classPyQt5_1_1QtNetwork_1_1QNetworkReply_1_1QNetworkReply.html#a26840a0a618b8deb112d83d6fc6cc2f4">isSequential</a> (self)</td></tr>
+<tr class="separator:a26840a0a618b8deb112d83d6fc6cc2f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a309c6760b29c7c245a8d6db837ab3587"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d00/classPyQt5_1_1QtNetwork_1_1QNetworkReply_1_1QNetworkReply.html#a309c6760b29c7c245a8d6db837ab3587">manager</a> (self)</td></tr>
+<tr class="separator:a309c6760b29c7c245a8d6db837ab3587"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab1b532755b686fdea2eb0f9c6536cd6e"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d00/classPyQt5_1_1QtNetwork_1_1QNetworkReply_1_1QNetworkReply.html#ab1b532755b686fdea2eb0f9c6536cd6e">metaDataChanged</a> (self)</td></tr>
+<tr class="separator:ab1b532755b686fdea2eb0f9c6536cd6e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a18458c992db6f1d3d851e8272586d424"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d00/classPyQt5_1_1QtNetwork_1_1QNetworkReply_1_1QNetworkReply.html#a18458c992db6f1d3d851e8272586d424">operation</a> (self)</td></tr>
+<tr class="separator:a18458c992db6f1d3d851e8272586d424"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a728acbed7c553c4388b5440dc1912550"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d00/classPyQt5_1_1QtNetwork_1_1QNetworkReply_1_1QNetworkReply.html#a728acbed7c553c4388b5440dc1912550">preSharedKeyAuthenticationRequired</a> (self, QSslPreSharedKeyAuthenticator)</td></tr>
+<tr class="separator:a728acbed7c553c4388b5440dc1912550"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a32a661ffbe9b1f9dd599db98bde3421b"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d00/classPyQt5_1_1QtNetwork_1_1QNetworkReply_1_1QNetworkReply.html#a32a661ffbe9b1f9dd599db98bde3421b">rawHeader</a> (self, Union, QByteArray=None, bytes=None, bytearray=None)</td></tr>
+<tr class="separator:a32a661ffbe9b1f9dd599db98bde3421b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acc066b4b44d2c82c4c7a603f4f7f7b62"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d00/classPyQt5_1_1QtNetwork_1_1QNetworkReply_1_1QNetworkReply.html#acc066b4b44d2c82c4c7a603f4f7f7b62">rawHeaderList</a> (self)</td></tr>
+<tr class="separator:acc066b4b44d2c82c4c7a603f4f7f7b62"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6e01e1b9148daf8c84ab07207f1a7b10"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d00/classPyQt5_1_1QtNetwork_1_1QNetworkReply_1_1QNetworkReply.html#a6e01e1b9148daf8c84ab07207f1a7b10">rawHeaderPairs</a> (self)</td></tr>
+<tr class="separator:a6e01e1b9148daf8c84ab07207f1a7b10"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3e04478aabf08823b309113413185d78"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d00/classPyQt5_1_1QtNetwork_1_1QNetworkReply_1_1QNetworkReply.html#a3e04478aabf08823b309113413185d78">readBufferSize</a> (self)</td></tr>
+<tr class="separator:a3e04478aabf08823b309113413185d78"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a87c6318e709b68606ec77c0c456ac5d9"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d00/classPyQt5_1_1QtNetwork_1_1QNetworkReply_1_1QNetworkReply.html#a87c6318e709b68606ec77c0c456ac5d9">redirected</a> (self, QUrl)</td></tr>
+<tr class="separator:a87c6318e709b68606ec77c0c456ac5d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2de7bc6cdc4b69f89950870c2f45b6e9"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d00/classPyQt5_1_1QtNetwork_1_1QNetworkReply_1_1QNetworkReply.html#a2de7bc6cdc4b69f89950870c2f45b6e9">request</a> (self)</td></tr>
+<tr class="separator:a2de7bc6cdc4b69f89950870c2f45b6e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa6cf1060a0bc5b9e3507b105201ece89"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d00/classPyQt5_1_1QtNetwork_1_1QNetworkReply_1_1QNetworkReply.html#aa6cf1060a0bc5b9e3507b105201ece89">setAttribute</a> (self, QNetworkRequest_Attribute, Any)</td></tr>
+<tr class="separator:aa6cf1060a0bc5b9e3507b105201ece89"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8dfd169f25161cf0ac625401f8387e44"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d00/classPyQt5_1_1QtNetwork_1_1QNetworkReply_1_1QNetworkReply.html#a8dfd169f25161cf0ac625401f8387e44">setError</a> (self, QNetworkReply_NetworkError, p_str)</td></tr>
+<tr class="separator:a8dfd169f25161cf0ac625401f8387e44"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac6edbf527e86a59c0bf93e4430562a86"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d00/classPyQt5_1_1QtNetwork_1_1QNetworkReply_1_1QNetworkReply.html#ac6edbf527e86a59c0bf93e4430562a86">setFinished</a> (self, bool)</td></tr>
+<tr class="separator:ac6edbf527e86a59c0bf93e4430562a86"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac37948523b393a45518bc7cdbd4847ae"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d00/classPyQt5_1_1QtNetwork_1_1QNetworkReply_1_1QNetworkReply.html#ac37948523b393a45518bc7cdbd4847ae">setHeader</a> (self, QNetworkRequest_KnownHeaders, Any)</td></tr>
+<tr class="separator:ac37948523b393a45518bc7cdbd4847ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a84ce560bd051a880482ed403db5ef079"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d00/classPyQt5_1_1QtNetwork_1_1QNetworkReply_1_1QNetworkReply.html#a84ce560bd051a880482ed403db5ef079">setOperation</a> (self, QNetworkAccessManager_Operation)</td></tr>
+<tr class="separator:a84ce560bd051a880482ed403db5ef079"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aea7e04af563d0fcd3e57c9c88f1492ce"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d00/classPyQt5_1_1QtNetwork_1_1QNetworkReply_1_1QNetworkReply.html#aea7e04af563d0fcd3e57c9c88f1492ce">setRawHeader</a> (self, Union, QByteArray=None, bytes=None, bytearray=None, args, kwargs)</td></tr>
+<tr class="separator:aea7e04af563d0fcd3e57c9c88f1492ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8b9d614701a932fbc4364df504f7b427"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d00/classPyQt5_1_1QtNetwork_1_1QNetworkReply_1_1QNetworkReply.html#a8b9d614701a932fbc4364df504f7b427">setReadBufferSize</a> (self, p_int)</td></tr>
+<tr class="separator:a8b9d614701a932fbc4364df504f7b427"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a262c791a561165a2a8348d8ba1bbfda3"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d00/classPyQt5_1_1QtNetwork_1_1QNetworkReply_1_1QNetworkReply.html#a262c791a561165a2a8348d8ba1bbfda3">setRequest</a> (self, QNetworkRequest)</td></tr>
+<tr class="separator:a262c791a561165a2a8348d8ba1bbfda3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a258f38e7bcda23911d6fe25c2c206b46"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d00/classPyQt5_1_1QtNetwork_1_1QNetworkReply_1_1QNetworkReply.html#a258f38e7bcda23911d6fe25c2c206b46">setSslConfiguration</a> (self, QSslConfiguration)</td></tr>
+<tr class="separator:a258f38e7bcda23911d6fe25c2c206b46"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3821016e1c130a3bbd24792c0664727a"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d00/classPyQt5_1_1QtNetwork_1_1QNetworkReply_1_1QNetworkReply.html#a3821016e1c130a3bbd24792c0664727a">setSslConfigurationImplementation</a> (self, QSslConfiguration)</td></tr>
+<tr class="separator:a3821016e1c130a3bbd24792c0664727a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa4fa9f009beb00b7bd07c7cac546984a"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d00/classPyQt5_1_1QtNetwork_1_1QNetworkReply_1_1QNetworkReply.html#aa4fa9f009beb00b7bd07c7cac546984a">setUrl</a> (self, QUrl)</td></tr>
+<tr class="separator:aa4fa9f009beb00b7bd07c7cac546984a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5cfcfc7bfa285aeedad3fc09a2fcd88b"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d00/classPyQt5_1_1QtNetwork_1_1QNetworkReply_1_1QNetworkReply.html#a5cfcfc7bfa285aeedad3fc09a2fcd88b">sslConfiguration</a> (self)</td></tr>
+<tr class="separator:a5cfcfc7bfa285aeedad3fc09a2fcd88b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac2a1057dbfb69f29eb264ebc01db8364"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d00/classPyQt5_1_1QtNetwork_1_1QNetworkReply_1_1QNetworkReply.html#ac2a1057dbfb69f29eb264ebc01db8364">sslConfigurationImplementation</a> (self, QSslConfiguration)</td></tr>
+<tr class="separator:ac2a1057dbfb69f29eb264ebc01db8364"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a90b04e4b4eb649d7724024224e891dee"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d00/classPyQt5_1_1QtNetwork_1_1QNetworkReply_1_1QNetworkReply.html#a90b04e4b4eb649d7724024224e891dee">sslErrors</a> (self, Iterable, QSslError=None)</td></tr>
+<tr class="separator:a90b04e4b4eb649d7724024224e891dee"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9ef57a5f8e2d338623ec147486814aac"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d00/classPyQt5_1_1QtNetwork_1_1QNetworkReply_1_1QNetworkReply.html#a9ef57a5f8e2d338623ec147486814aac">uploadProgress</a> (self, p_int, p_int_1)</td></tr>
+<tr class="separator:a9ef57a5f8e2d338623ec147486814aac"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7f7ddb83c6087199f2a6dfe9e3c8e57a"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d00/classPyQt5_1_1QtNetwork_1_1QNetworkReply_1_1QNetworkReply.html#a7f7ddb83c6087199f2a6dfe9e3c8e57a">url</a> (self)</td></tr>
+<tr class="separator:a7f7ddb83c6087199f2a6dfe9e3c8e57a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6fc1235901dcb079fa034b99e506efae"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d00/classPyQt5_1_1QtNetwork_1_1QNetworkReply_1_1QNetworkReply.html#a6fc1235901dcb079fa034b99e506efae">writeData</a> (self, bytes)</td></tr>
+<tr class="separator:a6fc1235901dcb079fa034b99e506efae"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab366d22fd6a1f645c5ad3459b7c9aec8"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ab366d22fd6a1f645c5ad3459b7c9aec8"></a>
+def&#160;</td><td class="memItemRight" valign="bottom"><b>__init__</b> (self, parent=None)</td></tr>
+<tr class="separator:ab366d22fd6a1f645c5ad3459b7c9aec8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-attribs"></a>
+静态 Public 属性</h2></td></tr>
+<tr class="memitem:a681fa7bbf603da8b059e7c163c0093fb"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a681fa7bbf603da8b059e7c163c0093fb"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>AuthenticationRequiredError</b> = 204</td></tr>
+<tr class="separator:a681fa7bbf603da8b059e7c163c0093fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a190c7284fe938ea8906db2649db0d860"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a190c7284fe938ea8906db2649db0d860"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>BackgroundRequestNotAllowedError</b> = 9</td></tr>
+<tr class="separator:a190c7284fe938ea8906db2649db0d860"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a64f75d8a9986eeba7aa4eeb95d23089d"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a64f75d8a9986eeba7aa4eeb95d23089d"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>ConnectionRefusedError</b> = 1</td></tr>
+<tr class="separator:a64f75d8a9986eeba7aa4eeb95d23089d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a974f11e6a680fd2d28ae0d6c451225f8"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a974f11e6a680fd2d28ae0d6c451225f8"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>ContentAccessDenied</b> = 201</td></tr>
+<tr class="separator:a974f11e6a680fd2d28ae0d6c451225f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afd563d59b18168753c61f0d3dbe35002"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="afd563d59b18168753c61f0d3dbe35002"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>ContentConflictError</b> = 206</td></tr>
+<tr class="separator:afd563d59b18168753c61f0d3dbe35002"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae769e0ab5dc49fb836b7911f26327507"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ae769e0ab5dc49fb836b7911f26327507"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>ContentGoneError</b> = 207</td></tr>
+<tr class="separator:ae769e0ab5dc49fb836b7911f26327507"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a874ff492a46e0c74e7e2cbb23ce5bdca"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a874ff492a46e0c74e7e2cbb23ce5bdca"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>ContentNotFoundError</b> = 203</td></tr>
+<tr class="separator:a874ff492a46e0c74e7e2cbb23ce5bdca"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a25c6188ee826e6652e8d28e244f81f6b"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a25c6188ee826e6652e8d28e244f81f6b"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>ContentOperationNotPermittedError</b> = 202</td></tr>
+<tr class="separator:a25c6188ee826e6652e8d28e244f81f6b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3b1461280a27e672f666fa217397ffd8"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a3b1461280a27e672f666fa217397ffd8"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>ContentReSendError</b> = 205</td></tr>
+<tr class="separator:a3b1461280a27e672f666fa217397ffd8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab9d01ea02294a40e8392325e0c8c4773"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ab9d01ea02294a40e8392325e0c8c4773"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>HostNotFoundError</b> = 3</td></tr>
+<tr class="separator:ab9d01ea02294a40e8392325e0c8c4773"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adc02426aeae992dfe7387184d6bf458b"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="adc02426aeae992dfe7387184d6bf458b"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>InsecureRedirectError</b> = 11</td></tr>
+<tr class="separator:adc02426aeae992dfe7387184d6bf458b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4728dd6add89a7f39fb84293c9f241ff"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a4728dd6add89a7f39fb84293c9f241ff"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>InternalServerError</b> = 401</td></tr>
+<tr class="separator:a4728dd6add89a7f39fb84293c9f241ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab337ff8599e12873604992105eb6789e"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ab337ff8599e12873604992105eb6789e"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>NetworkSessionFailedError</b> = 8</td></tr>
+<tr class="separator:ab337ff8599e12873604992105eb6789e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af3c69a681dbb43225a8d6939e4e9abf9"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="af3c69a681dbb43225a8d6939e4e9abf9"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>NoError</b> = 0</td></tr>
+<tr class="separator:af3c69a681dbb43225a8d6939e4e9abf9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad982a37eb5daab4aef32ba4901f70980"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ad982a37eb5daab4aef32ba4901f70980"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>OperationCanceledError</b> = 5</td></tr>
+<tr class="separator:ad982a37eb5daab4aef32ba4901f70980"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a821f55ae6339f930abd1e1c2a70a250a"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a821f55ae6339f930abd1e1c2a70a250a"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>OperationNotImplementedError</b> = 402</td></tr>
+<tr class="separator:a821f55ae6339f930abd1e1c2a70a250a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac292bb22e50920b1bfeb1cf0cf418657"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ac292bb22e50920b1bfeb1cf0cf418657"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>ProtocolFailure</b> = 399</td></tr>
+<tr class="separator:ac292bb22e50920b1bfeb1cf0cf418657"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a81d4761c447f3b6fbb360fb1b6e4e13d"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a81d4761c447f3b6fbb360fb1b6e4e13d"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>ProtocolInvalidOperationError</b> = 302</td></tr>
+<tr class="separator:a81d4761c447f3b6fbb360fb1b6e4e13d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a21438e3861f611329cb7dffea67a2b80"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a21438e3861f611329cb7dffea67a2b80"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>ProtocolUnknownError</b> = 301</td></tr>
+<tr class="separator:a21438e3861f611329cb7dffea67a2b80"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a913da2a175e8a540837c1f009c0a5a78"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a913da2a175e8a540837c1f009c0a5a78"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>ProxyAuthenticationRequiredError</b> = 105</td></tr>
+<tr class="separator:a913da2a175e8a540837c1f009c0a5a78"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abb2c78ac518bb98a9459e94cbd5ec444"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="abb2c78ac518bb98a9459e94cbd5ec444"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>ProxyConnectionClosedError</b> = 102</td></tr>
+<tr class="separator:abb2c78ac518bb98a9459e94cbd5ec444"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab276e05d5374ea295d2719eee538a5eb"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ab276e05d5374ea295d2719eee538a5eb"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>ProxyConnectionRefusedError</b> = 101</td></tr>
+<tr class="separator:ab276e05d5374ea295d2719eee538a5eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0aae2da100663356eafbd8c812e7e45e"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a0aae2da100663356eafbd8c812e7e45e"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>ProxyNotFoundError</b> = 103</td></tr>
+<tr class="separator:a0aae2da100663356eafbd8c812e7e45e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac42d7fafb77273b899159703b0a750d1"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ac42d7fafb77273b899159703b0a750d1"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>ProxyTimeoutError</b> = 104</td></tr>
+<tr class="separator:ac42d7fafb77273b899159703b0a750d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acbb1dd35d36e9e39837387931137b5b6"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="acbb1dd35d36e9e39837387931137b5b6"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>RemoteHostClosedError</b> = 2</td></tr>
+<tr class="separator:acbb1dd35d36e9e39837387931137b5b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af9d8d21b13b34b4b6d77c63f02695883"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="af9d8d21b13b34b4b6d77c63f02695883"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>ServiceUnavailableError</b> = 403</td></tr>
+<tr class="separator:af9d8d21b13b34b4b6d77c63f02695883"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aade681b91365d7586deae0526a4f9a47"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aade681b91365d7586deae0526a4f9a47"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>SslHandshakeFailedError</b> = 6</td></tr>
+<tr class="separator:aade681b91365d7586deae0526a4f9a47"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a15391a93b0211e3f2a4882d49a02cfea"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a15391a93b0211e3f2a4882d49a02cfea"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>TemporaryNetworkFailureError</b> = 7</td></tr>
+<tr class="separator:a15391a93b0211e3f2a4882d49a02cfea"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7dadc540508a3dab7f0ce172b210795c"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a7dadc540508a3dab7f0ce172b210795c"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>TimeoutError</b> = 4</td></tr>
+<tr class="separator:a7dadc540508a3dab7f0ce172b210795c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3f6f931c248abb451edea109f35cf072"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a3f6f931c248abb451edea109f35cf072"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>TooManyRedirectsError</b> = 10</td></tr>
+<tr class="separator:a3f6f931c248abb451edea109f35cf072"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3ee19c3d608b5f3a7bd0b747aaa5ebf7"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a3ee19c3d608b5f3a7bd0b747aaa5ebf7"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>UnknownContentError</b> = 299</td></tr>
+<tr class="separator:a3ee19c3d608b5f3a7bd0b747aaa5ebf7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae9f06bf7e79eb521ad2b3d25d8c03080"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ae9f06bf7e79eb521ad2b3d25d8c03080"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>UnknownNetworkError</b> = 99</td></tr>
+<tr class="separator:ae9f06bf7e79eb521ad2b3d25d8c03080"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a09226088a98fd19a5cc95fe411069d47"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a09226088a98fd19a5cc95fe411069d47"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>UnknownProxyError</b> = 199</td></tr>
+<tr class="separator:a09226088a98fd19a5cc95fe411069d47"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7dede14a2afd601e3513465cf2443903"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a7dede14a2afd601e3513465cf2443903"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>UnknownServerError</b> = 499</td></tr>
+<tr class="separator:a7dede14a2afd601e3513465cf2443903"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">详细描述</h2>
+<div class="textblock"><pre class="fragment">QNetworkReply(parent: QObject = None) </pre> 
+<p>在文件 <a class="el" href="../../d0/d95/QNetworkReply_8py_source.html">QNetworkReply.py</a> 第 <a class="el" href="../../d0/d95/QNetworkReply_8py_source.html#l00011">11</a> 行定义.</p>
+</div><h2 class="groupheader">成员函数说明</h2>
+<a class="anchor" id="adbc06da1310e02aa32700367313aafdf"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def PyQt5.QtNetwork.QNetworkReply.QNetworkReply.abort </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">abort(self) </pre> 
+<p>在文件 <a class="el" href="../../d0/d95/QNetworkReply_8py_source.html">QNetworkReply.py</a> 第 <a class="el" href="../../d0/d95/QNetworkReply_8py_source.html#l00013">13</a> 行定义.</p>
+
+</div>
+</div>
+<a class="anchor" id="a9a31bd0af44f9a8642c2eae346a81e5d"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def PyQt5.QtNetwork.QNetworkReply.QNetworkReply.attribute </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>QNetworkRequest_Attribute</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">attribute(self, QNetworkRequest.Attribute) -&gt; Any </pre> 
+<p>在文件 <a class="el" href="../../d0/d95/QNetworkReply_8py_source.html">QNetworkReply.py</a> 第 <a class="el" href="../../d0/d95/QNetworkReply_8py_source.html#l00017">17</a> 行定义.</p>
+
+</div>
+</div>
+<a class="anchor" id="a99579980feacab1050269b3fed12bdd1"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def PyQt5.QtNetwork.QNetworkReply.QNetworkReply.close </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">close(self) </pre> 
+<p>在文件 <a class="el" href="../../d0/d95/QNetworkReply_8py_source.html">QNetworkReply.py</a> 第 <a class="el" href="../../d0/d95/QNetworkReply_8py_source.html#l00021">21</a> 行定义.</p>
+
+</div>
+</div>
+<a class="anchor" id="aa378929c31db945995abf741b790a5eb"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def PyQt5.QtNetwork.QNetworkReply.QNetworkReply.downloadProgress </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>p_int</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>p_int_1</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">downloadProgress(self, int, int) [signal] </pre> 
+<p>在文件 <a class="el" href="../../d0/d95/QNetworkReply_8py_source.html">QNetworkReply.py</a> 第 <a class="el" href="../../d0/d95/QNetworkReply_8py_source.html#l00025">25</a> 行定义.</p>
+
+</div>
+</div>
+<a class="anchor" id="a76be543079252d27f4f98d1c1b8ec2a8"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def PyQt5.QtNetwork.QNetworkReply.QNetworkReply.encrypted </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">encrypted(self) [signal] </pre> 
+<p>在文件 <a class="el" href="../../d0/d95/QNetworkReply_8py_source.html">QNetworkReply.py</a> 第 <a class="el" href="../../d0/d95/QNetworkReply_8py_source.html#l00029">29</a> 行定义.</p>
+
+</div>
+</div>
+<a class="anchor" id="a788fa3396604ec2dab46cdfa99055e79"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def PyQt5.QtNetwork.QNetworkReply.QNetworkReply.error </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>QNetworkReply_NetworkError</em> = <code>None</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">error(self) -&gt; QNetworkReply.NetworkError
+error(self, QNetworkReply.NetworkError) [signal]
+</pre> 
+<p>在文件 <a class="el" href="../../d0/d95/QNetworkReply_8py_source.html">QNetworkReply.py</a> 第 <a class="el" href="../../d0/d95/QNetworkReply_8py_source.html#l00033">33</a> 行定义.</p>
+
+</div>
+</div>
+<a class="anchor" id="a6eef7bbb4f8ac9051b512af266f8979e"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def PyQt5.QtNetwork.QNetworkReply.QNetworkReply.finished </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">finished(self) [signal] </pre> 
+<p>在文件 <a class="el" href="../../d0/d95/QNetworkReply_8py_source.html">QNetworkReply.py</a> 第 <a class="el" href="../../d0/d95/QNetworkReply_8py_source.html#l00040">40</a> 行定义.</p>
+
+</div>
+</div>
+<a class="anchor" id="a6377b1a1d6135052bb1804380ad148cf"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def PyQt5.QtNetwork.QNetworkReply.QNetworkReply.hasRawHeader </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>Union</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>QByteArray</em> = <code>None</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>bytes</em> = <code>None</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>bytearray</em> = <code>None</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">hasRawHeader(self, Union[QByteArray, bytes, bytearray]) -&gt; bool </pre> 
+<p>在文件 <a class="el" href="../../d0/d95/QNetworkReply_8py_source.html">QNetworkReply.py</a> 第 <a class="el" href="../../d0/d95/QNetworkReply_8py_source.html#l00044">44</a> 行定义.</p>
+
+</div>
+</div>
+<a class="anchor" id="a27d82653c8481006050de9cf77f9d35f"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def PyQt5.QtNetwork.QNetworkReply.QNetworkReply.header </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>QNetworkRequest_KnownHeaders</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">header(self, QNetworkRequest.KnownHeaders) -&gt; Any </pre> 
+<p>在文件 <a class="el" href="../../d0/d95/QNetworkReply_8py_source.html">QNetworkReply.py</a> 第 <a class="el" href="../../d0/d95/QNetworkReply_8py_source.html#l00048">48</a> 行定义.</p>
+
+</div>
+</div>
+<a class="anchor" id="abd367d08a8d1a9c476b3d775406bc6e0"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def PyQt5.QtNetwork.QNetworkReply.QNetworkReply.ignoreSslErrors </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>Iterable</em> = <code>None</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>QSslError</em> = <code>None</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">ignoreSslErrors(self)
+ignoreSslErrors(self, Iterable[QSslError])
+</pre> 
+<p>在文件 <a class="el" href="../../d0/d95/QNetworkReply_8py_source.html">QNetworkReply.py</a> 第 <a class="el" href="../../d0/d95/QNetworkReply_8py_source.html#l00052">52</a> 行定义.</p>
+
+</div>
+</div>
+<a class="anchor" id="ab56a79a31796abc44604ad33eaf16c60"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def PyQt5.QtNetwork.QNetworkReply.QNetworkReply.ignoreSslErrorsImplementation </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>Iterable</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>QSslError</em> = <code>None</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">ignoreSslErrorsImplementation(self, Iterable[QSslError]) </pre> 
+<p>在文件 <a class="el" href="../../d0/d95/QNetworkReply_8py_source.html">QNetworkReply.py</a> 第 <a class="el" href="../../d0/d95/QNetworkReply_8py_source.html#l00059">59</a> 行定义.</p>
+
+</div>
+</div>
+<a class="anchor" id="a078a13d355d3e5511c9cd4b0dee9cf32"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def PyQt5.QtNetwork.QNetworkReply.QNetworkReply.isFinished </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">isFinished(self) -&gt; bool </pre> 
+<p>在文件 <a class="el" href="../../d0/d95/QNetworkReply_8py_source.html">QNetworkReply.py</a> 第 <a class="el" href="../../d0/d95/QNetworkReply_8py_source.html#l00063">63</a> 行定义.</p>
+
+</div>
+</div>
+<a class="anchor" id="a1d547234dc289195d405a035902a9642"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def PyQt5.QtNetwork.QNetworkReply.QNetworkReply.isRunning </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">isRunning(self) -&gt; bool </pre> 
+<p>在文件 <a class="el" href="../../d0/d95/QNetworkReply_8py_source.html">QNetworkReply.py</a> 第 <a class="el" href="../../d0/d95/QNetworkReply_8py_source.html#l00067">67</a> 行定义.</p>
+
+</div>
+</div>
+<a class="anchor" id="a26840a0a618b8deb112d83d6fc6cc2f4"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def PyQt5.QtNetwork.QNetworkReply.QNetworkReply.isSequential </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">isSequential(self) -&gt; bool </pre> 
+<p>在文件 <a class="el" href="../../d0/d95/QNetworkReply_8py_source.html">QNetworkReply.py</a> 第 <a class="el" href="../../d0/d95/QNetworkReply_8py_source.html#l00071">71</a> 行定义.</p>
+
+</div>
+</div>
+<a class="anchor" id="a309c6760b29c7c245a8d6db837ab3587"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def PyQt5.QtNetwork.QNetworkReply.QNetworkReply.manager </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">manager(self) -&gt; QNetworkAccessManager </pre> 
+<p>在文件 <a class="el" href="../../d0/d95/QNetworkReply_8py_source.html">QNetworkReply.py</a> 第 <a class="el" href="../../d0/d95/QNetworkReply_8py_source.html#l00075">75</a> 行定义.</p>
+
+</div>
+</div>
+<a class="anchor" id="ab1b532755b686fdea2eb0f9c6536cd6e"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def PyQt5.QtNetwork.QNetworkReply.QNetworkReply.metaDataChanged </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">metaDataChanged(self) [signal] </pre> 
+<p>在文件 <a class="el" href="../../d0/d95/QNetworkReply_8py_source.html">QNetworkReply.py</a> 第 <a class="el" href="../../d0/d95/QNetworkReply_8py_source.html#l00079">79</a> 行定义.</p>
+
+</div>
+</div>
+<a class="anchor" id="a18458c992db6f1d3d851e8272586d424"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def PyQt5.QtNetwork.QNetworkReply.QNetworkReply.operation </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">operation(self) -&gt; QNetworkAccessManager.Operation </pre> 
+<p>在文件 <a class="el" href="../../d0/d95/QNetworkReply_8py_source.html">QNetworkReply.py</a> 第 <a class="el" href="../../d0/d95/QNetworkReply_8py_source.html#l00083">83</a> 行定义.</p>
+
+</div>
+</div>
+<a class="anchor" id="a728acbed7c553c4388b5440dc1912550"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def PyQt5.QtNetwork.QNetworkReply.QNetworkReply.preSharedKeyAuthenticationRequired </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>QSslPreSharedKeyAuthenticator</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">preSharedKeyAuthenticationRequired(self, QSslPreSharedKeyAuthenticator) [signal] </pre> 
+<p>在文件 <a class="el" href="../../d0/d95/QNetworkReply_8py_source.html">QNetworkReply.py</a> 第 <a class="el" href="../../d0/d95/QNetworkReply_8py_source.html#l00087">87</a> 行定义.</p>
+
+</div>
+</div>
+<a class="anchor" id="a32a661ffbe9b1f9dd599db98bde3421b"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def PyQt5.QtNetwork.QNetworkReply.QNetworkReply.rawHeader </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>Union</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>QByteArray</em> = <code>None</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>bytes</em> = <code>None</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>bytearray</em> = <code>None</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">rawHeader(self, Union[QByteArray, bytes, bytearray]) -&gt; QByteArray </pre> 
+<p>在文件 <a class="el" href="../../d0/d95/QNetworkReply_8py_source.html">QNetworkReply.py</a> 第 <a class="el" href="../../d0/d95/QNetworkReply_8py_source.html#l00091">91</a> 行定义.</p>
+
+</div>
+</div>
+<a class="anchor" id="acc066b4b44d2c82c4c7a603f4f7f7b62"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def PyQt5.QtNetwork.QNetworkReply.QNetworkReply.rawHeaderList </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">rawHeaderList(self) -&gt; List[QByteArray] </pre> 
+<p>在文件 <a class="el" href="../../d0/d95/QNetworkReply_8py_source.html">QNetworkReply.py</a> 第 <a class="el" href="../../d0/d95/QNetworkReply_8py_source.html#l00095">95</a> 行定义.</p>
+
+</div>
+</div>
+<a class="anchor" id="a6e01e1b9148daf8c84ab07207f1a7b10"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def PyQt5.QtNetwork.QNetworkReply.QNetworkReply.rawHeaderPairs </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">rawHeaderPairs(self) -&gt; List[Tuple[QByteArray, QByteArray]] </pre> 
+<p>在文件 <a class="el" href="../../d0/d95/QNetworkReply_8py_source.html">QNetworkReply.py</a> 第 <a class="el" href="../../d0/d95/QNetworkReply_8py_source.html#l00099">99</a> 行定义.</p>
+
+</div>
+</div>
+<a class="anchor" id="a3e04478aabf08823b309113413185d78"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def PyQt5.QtNetwork.QNetworkReply.QNetworkReply.readBufferSize </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">readBufferSize(self) -&gt; int </pre> 
+<p>在文件 <a class="el" href="../../d0/d95/QNetworkReply_8py_source.html">QNetworkReply.py</a> 第 <a class="el" href="../../d0/d95/QNetworkReply_8py_source.html#l00103">103</a> 行定义.</p>
+
+</div>
+</div>
+<a class="anchor" id="a87c6318e709b68606ec77c0c456ac5d9"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def PyQt5.QtNetwork.QNetworkReply.QNetworkReply.redirected </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>QUrl</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">redirected(self, QUrl) [signal] </pre> 
+<p>在文件 <a class="el" href="../../d0/d95/QNetworkReply_8py_source.html">QNetworkReply.py</a> 第 <a class="el" href="../../d0/d95/QNetworkReply_8py_source.html#l00107">107</a> 行定义.</p>
+
+</div>
+</div>
+<a class="anchor" id="a2de7bc6cdc4b69f89950870c2f45b6e9"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def PyQt5.QtNetwork.QNetworkReply.QNetworkReply.request </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">request(self) -&gt; QNetworkRequest </pre> 
+<p>在文件 <a class="el" href="../../d0/d95/QNetworkReply_8py_source.html">QNetworkReply.py</a> 第 <a class="el" href="../../d0/d95/QNetworkReply_8py_source.html#l00111">111</a> 行定义.</p>
+
+</div>
+</div>
+<a class="anchor" id="aa6cf1060a0bc5b9e3507b105201ece89"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def PyQt5.QtNetwork.QNetworkReply.QNetworkReply.setAttribute </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>QNetworkRequest_Attribute</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>Any</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">setAttribute(self, QNetworkRequest.Attribute, Any) </pre> 
+<p>在文件 <a class="el" href="../../d0/d95/QNetworkReply_8py_source.html">QNetworkReply.py</a> 第 <a class="el" href="../../d0/d95/QNetworkReply_8py_source.html#l00115">115</a> 行定义.</p>
+
+</div>
+</div>
+<a class="anchor" id="a8dfd169f25161cf0ac625401f8387e44"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def PyQt5.QtNetwork.QNetworkReply.QNetworkReply.setError </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>QNetworkReply_NetworkError</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>p_str</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">setError(self, QNetworkReply.NetworkError, str) </pre> 
+<p>在文件 <a class="el" href="../../d0/d95/QNetworkReply_8py_source.html">QNetworkReply.py</a> 第 <a class="el" href="../../d0/d95/QNetworkReply_8py_source.html#l00119">119</a> 行定义.</p>
+
+</div>
+</div>
+<a class="anchor" id="ac6edbf527e86a59c0bf93e4430562a86"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def PyQt5.QtNetwork.QNetworkReply.QNetworkReply.setFinished </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>bool</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">setFinished(self, bool) </pre> 
+<p>在文件 <a class="el" href="../../d0/d95/QNetworkReply_8py_source.html">QNetworkReply.py</a> 第 <a class="el" href="../../d0/d95/QNetworkReply_8py_source.html#l00123">123</a> 行定义.</p>
+
+</div>
+</div>
+<a class="anchor" id="ac37948523b393a45518bc7cdbd4847ae"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def PyQt5.QtNetwork.QNetworkReply.QNetworkReply.setHeader </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>QNetworkRequest_KnownHeaders</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>Any</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">setHeader(self, QNetworkRequest.KnownHeaders, Any) </pre> 
+<p>在文件 <a class="el" href="../../d0/d95/QNetworkReply_8py_source.html">QNetworkReply.py</a> 第 <a class="el" href="../../d0/d95/QNetworkReply_8py_source.html#l00127">127</a> 行定义.</p>
+
+</div>
+</div>
+<a class="anchor" id="a84ce560bd051a880482ed403db5ef079"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def PyQt5.QtNetwork.QNetworkReply.QNetworkReply.setOperation </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>QNetworkAccessManager_Operation</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">setOperation(self, QNetworkAccessManager.Operation) </pre> 
+<p>在文件 <a class="el" href="../../d0/d95/QNetworkReply_8py_source.html">QNetworkReply.py</a> 第 <a class="el" href="../../d0/d95/QNetworkReply_8py_source.html#l00131">131</a> 行定义.</p>
+
+</div>
+</div>
+<a class="anchor" id="aea7e04af563d0fcd3e57c9c88f1492ce"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def PyQt5.QtNetwork.QNetworkReply.QNetworkReply.setRawHeader </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>Union</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>QByteArray</em> = <code>None</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>bytes</em> = <code>None</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>bytearray</em> = <code>None</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>args</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>kwargs</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">setRawHeader(self, Union[QByteArray, bytes, bytearray], Union[QByteArray, bytes, bytearray]) </pre> 
+<p>在文件 <a class="el" href="../../d0/d95/QNetworkReply_8py_source.html">QNetworkReply.py</a> 第 <a class="el" href="../../d0/d95/QNetworkReply_8py_source.html#l00135">135</a> 行定义.</p>
+
+</div>
+</div>
+<a class="anchor" id="a8b9d614701a932fbc4364df504f7b427"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def PyQt5.QtNetwork.QNetworkReply.QNetworkReply.setReadBufferSize </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>p_int</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">setReadBufferSize(self, int) </pre> 
+<p>在文件 <a class="el" href="../../d0/d95/QNetworkReply_8py_source.html">QNetworkReply.py</a> 第 <a class="el" href="../../d0/d95/QNetworkReply_8py_source.html#l00139">139</a> 行定义.</p>
+
+</div>
+</div>
+<a class="anchor" id="a262c791a561165a2a8348d8ba1bbfda3"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def PyQt5.QtNetwork.QNetworkReply.QNetworkReply.setRequest </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>QNetworkRequest</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">setRequest(self, QNetworkRequest) </pre> 
+<p>在文件 <a class="el" href="../../d0/d95/QNetworkReply_8py_source.html">QNetworkReply.py</a> 第 <a class="el" href="../../d0/d95/QNetworkReply_8py_source.html#l00143">143</a> 行定义.</p>
+
+</div>
+</div>
+<a class="anchor" id="a258f38e7bcda23911d6fe25c2c206b46"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def PyQt5.QtNetwork.QNetworkReply.QNetworkReply.setSslConfiguration </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>QSslConfiguration</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">setSslConfiguration(self, QSslConfiguration) </pre> 
+<p>在文件 <a class="el" href="../../d0/d95/QNetworkReply_8py_source.html">QNetworkReply.py</a> 第 <a class="el" href="../../d0/d95/QNetworkReply_8py_source.html#l00147">147</a> 行定义.</p>
+
+</div>
+</div>
+<a class="anchor" id="a3821016e1c130a3bbd24792c0664727a"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def PyQt5.QtNetwork.QNetworkReply.QNetworkReply.setSslConfigurationImplementation </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>QSslConfiguration</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">setSslConfigurationImplementation(self, QSslConfiguration) </pre> 
+<p>在文件 <a class="el" href="../../d0/d95/QNetworkReply_8py_source.html">QNetworkReply.py</a> 第 <a class="el" href="../../d0/d95/QNetworkReply_8py_source.html#l00151">151</a> 行定义.</p>
+
+</div>
+</div>
+<a class="anchor" id="aa4fa9f009beb00b7bd07c7cac546984a"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def PyQt5.QtNetwork.QNetworkReply.QNetworkReply.setUrl </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>QUrl</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">setUrl(self, QUrl) </pre> 
+<p>在文件 <a class="el" href="../../d0/d95/QNetworkReply_8py_source.html">QNetworkReply.py</a> 第 <a class="el" href="../../d0/d95/QNetworkReply_8py_source.html#l00155">155</a> 行定义.</p>
+
+</div>
+</div>
+<a class="anchor" id="a5cfcfc7bfa285aeedad3fc09a2fcd88b"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def PyQt5.QtNetwork.QNetworkReply.QNetworkReply.sslConfiguration </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">sslConfiguration(self) -&gt; QSslConfiguration </pre> 
+<p>在文件 <a class="el" href="../../d0/d95/QNetworkReply_8py_source.html">QNetworkReply.py</a> 第 <a class="el" href="../../d0/d95/QNetworkReply_8py_source.html#l00159">159</a> 行定义.</p>
+
+</div>
+</div>
+<a class="anchor" id="ac2a1057dbfb69f29eb264ebc01db8364"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def PyQt5.QtNetwork.QNetworkReply.QNetworkReply.sslConfigurationImplementation </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>QSslConfiguration</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">sslConfigurationImplementation(self, QSslConfiguration) </pre> 
+<p>在文件 <a class="el" href="../../d0/d95/QNetworkReply_8py_source.html">QNetworkReply.py</a> 第 <a class="el" href="../../d0/d95/QNetworkReply_8py_source.html#l00163">163</a> 行定义.</p>
+
+</div>
+</div>
+<a class="anchor" id="a90b04e4b4eb649d7724024224e891dee"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def PyQt5.QtNetwork.QNetworkReply.QNetworkReply.sslErrors </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>Iterable</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>QSslError</em> = <code>None</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">sslErrors(self, Iterable[QSslError]) [signal] </pre> 
+<p>在文件 <a class="el" href="../../d0/d95/QNetworkReply_8py_source.html">QNetworkReply.py</a> 第 <a class="el" href="../../d0/d95/QNetworkReply_8py_source.html#l00167">167</a> 行定义.</p>
+
+</div>
+</div>
+<a class="anchor" id="a9ef57a5f8e2d338623ec147486814aac"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def PyQt5.QtNetwork.QNetworkReply.QNetworkReply.uploadProgress </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>p_int</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>p_int_1</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">uploadProgress(self, int, int) [signal] </pre> 
+<p>在文件 <a class="el" href="../../d0/d95/QNetworkReply_8py_source.html">QNetworkReply.py</a> 第 <a class="el" href="../../d0/d95/QNetworkReply_8py_source.html#l00171">171</a> 行定义.</p>
+
+</div>
+</div>
+<a class="anchor" id="a7f7ddb83c6087199f2a6dfe9e3c8e57a"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def PyQt5.QtNetwork.QNetworkReply.QNetworkReply.url </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">url(self) -&gt; QUrl </pre> 
+<p>在文件 <a class="el" href="../../d0/d95/QNetworkReply_8py_source.html">QNetworkReply.py</a> 第 <a class="el" href="../../d0/d95/QNetworkReply_8py_source.html#l00175">175</a> 行定义.</p>
+
+</div>
+</div>
+<a class="anchor" id="a6fc1235901dcb079fa034b99e506efae"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def PyQt5.QtNetwork.QNetworkReply.QNetworkReply.writeData </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>bytes</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">writeData(self, bytes) -&gt; int </pre> 
+<p>在文件 <a class="el" href="../../d0/d95/QNetworkReply_8py_source.html">QNetworkReply.py</a> 第 <a class="el" href="../../d0/d95/QNetworkReply_8py_source.html#l00179">179</a> 行定义.</p>
+
+</div>
+</div>
+<hr/>该类的文档由以下文件生成:<ul>
+<li>QtNetwork/<a class="el" href="../../d0/d95/QNetworkReply_8py_source.html">QNetworkReply.py</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><b>PyQt5</b></li><li class="navelem"><b>QtNetwork</b></li><li class="navelem"><b>QNetworkReply</b></li><li class="navelem"><a class="el" href="../../dc/d00/classPyQt5_1_1QtNetwork_1_1QNetworkReply_1_1QNetworkReply.html">QNetworkReply</a></li>
+    <li class="footer">制作者
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
+  </ul>
+</div>
+</body>
+</html>

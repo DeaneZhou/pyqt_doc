@@ -1,0 +1,25 @@
+var classPyQt5_1_1QtWidgets_1_1QUndoGroup_1_1QUndoGroup =
+[
+    [ "__init__", "dc/d20/classPyQt5_1_1QtWidgets_1_1QUndoGroup_1_1QUndoGroup.html#a2ccd9dd433af1d2eda0d2cf2567e49e0", null ],
+    [ "activeStack", "dc/d20/classPyQt5_1_1QtWidgets_1_1QUndoGroup_1_1QUndoGroup.html#a9b5f66057d96ea63c16ad05e505853c7", null ],
+    [ "activeStackChanged", "dc/d20/classPyQt5_1_1QtWidgets_1_1QUndoGroup_1_1QUndoGroup.html#aaac05f4b3c9ced20a9f2c563ffe76137", null ],
+    [ "addStack", "dc/d20/classPyQt5_1_1QtWidgets_1_1QUndoGroup_1_1QUndoGroup.html#a6fdd00c7f8788b2bcbd8fcba82d5baba", null ],
+    [ "canRedo", "dc/d20/classPyQt5_1_1QtWidgets_1_1QUndoGroup_1_1QUndoGroup.html#ad0dad1ae7c0f4b3b950de18ede4d4af0", null ],
+    [ "canRedoChanged", "dc/d20/classPyQt5_1_1QtWidgets_1_1QUndoGroup_1_1QUndoGroup.html#a77219e72fdc7231981917302713319a0", null ],
+    [ "canUndo", "dc/d20/classPyQt5_1_1QtWidgets_1_1QUndoGroup_1_1QUndoGroup.html#a02faad508c613784646153ad6053757b", null ],
+    [ "canUndoChanged", "dc/d20/classPyQt5_1_1QtWidgets_1_1QUndoGroup_1_1QUndoGroup.html#a89c1227629c408791044a5bff14b000a", null ],
+    [ "cleanChanged", "dc/d20/classPyQt5_1_1QtWidgets_1_1QUndoGroup_1_1QUndoGroup.html#abd6bc0061feef31f539ba82e399f0a15", null ],
+    [ "createRedoAction", "dc/d20/classPyQt5_1_1QtWidgets_1_1QUndoGroup_1_1QUndoGroup.html#a855f1cd2826abc367ecc647533860074", null ],
+    [ "createUndoAction", "dc/d20/classPyQt5_1_1QtWidgets_1_1QUndoGroup_1_1QUndoGroup.html#a258d0a1511519b07ed1d3dee17a37265", null ],
+    [ "indexChanged", "dc/d20/classPyQt5_1_1QtWidgets_1_1QUndoGroup_1_1QUndoGroup.html#aa47d787cc48e0dbc3261cae0b2179e64", null ],
+    [ "isClean", "dc/d20/classPyQt5_1_1QtWidgets_1_1QUndoGroup_1_1QUndoGroup.html#af754db68a588cdeb227fcc8a3e270db5", null ],
+    [ "redo", "dc/d20/classPyQt5_1_1QtWidgets_1_1QUndoGroup_1_1QUndoGroup.html#a28ee749e9683d809c8da3d157b41d00c", null ],
+    [ "redoText", "dc/d20/classPyQt5_1_1QtWidgets_1_1QUndoGroup_1_1QUndoGroup.html#aa93a46b5771da2531bad0c3fc0680e16", null ],
+    [ "redoTextChanged", "dc/d20/classPyQt5_1_1QtWidgets_1_1QUndoGroup_1_1QUndoGroup.html#a8f906ea0f8f28743701f3ef204e3d5cd", null ],
+    [ "removeStack", "dc/d20/classPyQt5_1_1QtWidgets_1_1QUndoGroup_1_1QUndoGroup.html#afe3112b2152331eac6b080739f62153b", null ],
+    [ "setActiveStack", "dc/d20/classPyQt5_1_1QtWidgets_1_1QUndoGroup_1_1QUndoGroup.html#a1374e3aa6c2978c2b04df4b6e5516f4a", null ],
+    [ "stacks", "dc/d20/classPyQt5_1_1QtWidgets_1_1QUndoGroup_1_1QUndoGroup.html#a3a2254e94b2b18ee259380225dd5725b", null ],
+    [ "undo", "dc/d20/classPyQt5_1_1QtWidgets_1_1QUndoGroup_1_1QUndoGroup.html#a3e25fa85201e1d8410255399c109831b", null ],
+    [ "undoText", "dc/d20/classPyQt5_1_1QtWidgets_1_1QUndoGroup_1_1QUndoGroup.html#a16f2cc7a8024f15a9338d65eb3319a17", null ],
+    [ "undoTextChanged", "dc/d20/classPyQt5_1_1QtWidgets_1_1QUndoGroup_1_1QUndoGroup.html#aeb953a08dcf1e8c18d05c242b9bec117", null ]
+];

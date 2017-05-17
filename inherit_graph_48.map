@@ -1,0 +1,5 @@
+<map id="类继承关系图" name="类继承关系图">
+<area shape="rect" id="node2" href="$d6/d2e/classPyQt5_1_1QtCore_1_1QFinalState_1_1QFinalState.html" title="PyQt5.QtCore.QFinalState.\lQFinalState" alt="" coords="172,5,355,47"/>
+<area shape="rect" id="node3" href="$d4/d92/classPyQt5_1_1QtCore_1_1QHistoryState_1_1QHistoryState.html" title="PyQt5.QtCore.QHistoryState.\lQHistoryState" alt="" coords="165,71,361,112"/>
+<area shape="rect" id="node4" href="$dc/d64/classPyQt5_1_1QtCore_1_1QState_1_1QState.html" title="PyQt5.QtCore.QState.QState" alt="" coords="166,137,361,163"/>
+</map>

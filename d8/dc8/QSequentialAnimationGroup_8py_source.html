@@ -1,0 +1,133 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.11"/>
+<title>PyQt: QtCore/QSequentialAnimationGroup.py 源文件</title>
+<link href="../../tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../jquery.js"></script>
+<script type="text/javascript" src="../../dynsections.js"></script>
+<link href="../../navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../resize.js"></script>
+<script type="text/javascript" src="../../navtreedata.js"></script>
+<script type="text/javascript" src="../../navtree.js"></script>
+<script type="text/javascript">
+  $(document).ready(initResizable);
+  $(window).load(resizeHeight);
+</script>
+<link href="../../search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../search/searchdata.js"></script>
+<script type="text/javascript" src="../../search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { init_search(); });
+</script>
+<link href="../../doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="../../48X48.png"/></td>
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">PyQt
+   &#160;<span id="projectnumber">1.0</span>
+   </div>
+   <div id="projectbrief">学习PyQt</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 制作者 Doxygen 1.8.11 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "../../search",false,'搜索');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="../../index.html"><span>首页</span></a></li>
+      <li><a href="../../annotated.html"><span>类</span></a></li>
+      <li class="current"><a href="../../files.html"><span>文件</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="../../search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="搜索" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="../../search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="../../files.html"><span>文件列表</span></a></li>
+    </ul>
+  </div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){initNavTree('d8/dc8/QSequentialAnimationGroup_8py_source.html','../../');});
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="headertitle">
+<div class="title">QSequentialAnimationGroup.py</div>  </div>
+</div><!--header-->
+<div class="contents">
+<div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="comment"># encoding: utf-8</span></div><div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="comment"># module PyQt5.QtCore</span></div><div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="comment"># from /usr/local/lib/python3.5/dist-packages/PyQt5/QtCore.so</span></div><div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="comment"># by generator 1.144</span></div><div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="comment"># no doc</span></div><div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="comment"># no imports</span></div><div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;</div><div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="keyword">from</span> .QAnimationGroup <span class="keyword">import</span> QAnimationGroup</div><div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;</div><div class="line"><a name="l00010"></a><span class="lineno"><a class="line" href="../../d3/d20/classPyQt5_1_1QtCore_1_1QSequentialAnimationGroup_1_1QSequentialAnimationGroup.html">   10</a></span>&#160;<span class="keyword">class </span><a class="code" href="../../d3/d20/classPyQt5_1_1QtCore_1_1QSequentialAnimationGroup_1_1QSequentialAnimationGroup.html">QSequentialAnimationGroup</a>(QAnimationGroup):</div><div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;    <span class="stringliteral">&quot;&quot;&quot; QSequentialAnimationGroup(parent: QObject = None) &quot;&quot;&quot;</span></div><div class="line"><a name="l00012"></a><span class="lineno"><a class="line" href="../../d3/d20/classPyQt5_1_1QtCore_1_1QSequentialAnimationGroup_1_1QSequentialAnimationGroup.html#acee2fb8061c5ca96e34f11106f2eace0">   12</a></span>&#160;    <span class="keyword">def </span><a class="code" href="../../d3/d20/classPyQt5_1_1QtCore_1_1QSequentialAnimationGroup_1_1QSequentialAnimationGroup.html#acee2fb8061c5ca96e34f11106f2eace0">addPause</a>(self, p_int): <span class="comment"># real signature unknown; restored from __doc__</span></div><div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;        <span class="stringliteral">&quot;&quot;&quot; addPause(self, int) -&gt; QPauseAnimation &quot;&quot;&quot;</span></div><div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;        <span class="keywordflow">return</span> QPauseAnimation</div><div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;</div><div class="line"><a name="l00016"></a><span class="lineno"><a class="line" href="../../d3/d20/classPyQt5_1_1QtCore_1_1QSequentialAnimationGroup_1_1QSequentialAnimationGroup.html#ae1d30fe68c39f5ba061401d73b75e59b">   16</a></span>&#160;    <span class="keyword">def </span><a class="code" href="../../d3/d20/classPyQt5_1_1QtCore_1_1QSequentialAnimationGroup_1_1QSequentialAnimationGroup.html#ae1d30fe68c39f5ba061401d73b75e59b">currentAnimation</a>(self): <span class="comment"># real signature unknown; restored from __doc__</span></div><div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;        <span class="stringliteral">&quot;&quot;&quot; currentAnimation(self) -&gt; QAbstractAnimation &quot;&quot;&quot;</span></div><div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;        <span class="keywordflow">return</span> QAbstractAnimation</div><div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;</div><div class="line"><a name="l00020"></a><span class="lineno"><a class="line" href="../../d3/d20/classPyQt5_1_1QtCore_1_1QSequentialAnimationGroup_1_1QSequentialAnimationGroup.html#aaae5460bf11364cef65262d1d7a1d84f">   20</a></span>&#160;    <span class="keyword">def </span><a class="code" href="../../d3/d20/classPyQt5_1_1QtCore_1_1QSequentialAnimationGroup_1_1QSequentialAnimationGroup.html#aaae5460bf11364cef65262d1d7a1d84f">currentAnimationChanged</a>(self, QAbstractAnimation): <span class="comment"># real signature unknown; restored from __doc__</span></div><div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;        <span class="stringliteral">&quot;&quot;&quot; currentAnimationChanged(self, QAbstractAnimation) [signal] &quot;&quot;&quot;</span></div><div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;        <span class="keywordflow">pass</span></div><div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;</div><div class="line"><a name="l00024"></a><span class="lineno"><a class="line" href="../../d3/d20/classPyQt5_1_1QtCore_1_1QSequentialAnimationGroup_1_1QSequentialAnimationGroup.html#a738adfbb3c045ea88f753cf4fc5b4915">   24</a></span>&#160;    <span class="keyword">def </span><a class="code" href="../../d3/d20/classPyQt5_1_1QtCore_1_1QSequentialAnimationGroup_1_1QSequentialAnimationGroup.html#a738adfbb3c045ea88f753cf4fc5b4915">duration</a>(self): <span class="comment"># real signature unknown; restored from __doc__</span></div><div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;        <span class="stringliteral">&quot;&quot;&quot; duration(self) -&gt; int &quot;&quot;&quot;</span></div><div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;        <span class="keywordflow">return</span> 0</div><div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;</div><div class="line"><a name="l00028"></a><span class="lineno"><a class="line" href="../../d3/d20/classPyQt5_1_1QtCore_1_1QSequentialAnimationGroup_1_1QSequentialAnimationGroup.html#a246c7f2c5e935382f7c033218681bbd1">   28</a></span>&#160;    <span class="keyword">def </span><a class="code" href="../../d3/d20/classPyQt5_1_1QtCore_1_1QSequentialAnimationGroup_1_1QSequentialAnimationGroup.html#a246c7f2c5e935382f7c033218681bbd1">event</a>(self, QEvent): <span class="comment"># real signature unknown; restored from __doc__</span></div><div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;        <span class="stringliteral">&quot;&quot;&quot; event(self, QEvent) -&gt; bool &quot;&quot;&quot;</span></div><div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;        <span class="keywordflow">return</span> <span class="keyword">False</span></div><div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;</div><div class="line"><a name="l00032"></a><span class="lineno"><a class="line" href="../../d3/d20/classPyQt5_1_1QtCore_1_1QSequentialAnimationGroup_1_1QSequentialAnimationGroup.html#aaa6218a8d4eee6e3a06af11a6781e6a5">   32</a></span>&#160;    <span class="keyword">def </span><a class="code" href="../../d3/d20/classPyQt5_1_1QtCore_1_1QSequentialAnimationGroup_1_1QSequentialAnimationGroup.html#aaa6218a8d4eee6e3a06af11a6781e6a5">insertPause</a>(self, p_int, p_int_1): <span class="comment"># real signature unknown; restored from __doc__</span></div><div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;        <span class="stringliteral">&quot;&quot;&quot; insertPause(self, int, int) -&gt; QPauseAnimation &quot;&quot;&quot;</span></div><div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;        <span class="keywordflow">return</span> QPauseAnimation</div><div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;</div><div class="line"><a name="l00036"></a><span class="lineno"><a class="line" href="../../d3/d20/classPyQt5_1_1QtCore_1_1QSequentialAnimationGroup_1_1QSequentialAnimationGroup.html#a10b617e82e0e70c043d2fb2453783701">   36</a></span>&#160;    <span class="keyword">def </span><a class="code" href="../../d3/d20/classPyQt5_1_1QtCore_1_1QSequentialAnimationGroup_1_1QSequentialAnimationGroup.html#a10b617e82e0e70c043d2fb2453783701">updateCurrentTime</a>(self, p_int): <span class="comment"># real signature unknown; restored from __doc__</span></div><div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;        <span class="stringliteral">&quot;&quot;&quot; updateCurrentTime(self, int) &quot;&quot;&quot;</span></div><div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;        <span class="keywordflow">pass</span></div><div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;</div><div class="line"><a name="l00040"></a><span class="lineno"><a class="line" href="../../d3/d20/classPyQt5_1_1QtCore_1_1QSequentialAnimationGroup_1_1QSequentialAnimationGroup.html#a5e55daac048802fd8b0e3b150f779dd1">   40</a></span>&#160;    <span class="keyword">def </span><a class="code" href="../../d3/d20/classPyQt5_1_1QtCore_1_1QSequentialAnimationGroup_1_1QSequentialAnimationGroup.html#a5e55daac048802fd8b0e3b150f779dd1">updateDirection</a>(self, QAbstractAnimation_Direction): <span class="comment"># real signature unknown; restored from __doc__</span></div><div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;        <span class="stringliteral">&quot;&quot;&quot; updateDirection(self, QAbstractAnimation.Direction) &quot;&quot;&quot;</span></div><div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;        <span class="keywordflow">pass</span></div><div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;</div><div class="line"><a name="l00044"></a><span class="lineno"><a class="line" href="../../d3/d20/classPyQt5_1_1QtCore_1_1QSequentialAnimationGroup_1_1QSequentialAnimationGroup.html#aecca24b33c246d9f9e8382b9f854b840">   44</a></span>&#160;    <span class="keyword">def </span><a class="code" href="../../d3/d20/classPyQt5_1_1QtCore_1_1QSequentialAnimationGroup_1_1QSequentialAnimationGroup.html#aecca24b33c246d9f9e8382b9f854b840">updateState</a>(self, QAbstractAnimation_State, QAbstractAnimation_State_1): <span class="comment"># real signature unknown; restored from __doc__</span></div><div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;        <span class="stringliteral">&quot;&quot;&quot; updateState(self, QAbstractAnimation.State, QAbstractAnimation.State) &quot;&quot;&quot;</span></div><div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;        <span class="keywordflow">pass</span></div><div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;</div><div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;    <span class="keyword">def </span>__init__(self, parent=None): <span class="comment"># real signature unknown; restored from __doc__</span></div><div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;        <span class="keywordflow">pass</span></div><div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;</div><div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;</div><div class="ttc" id="classPyQt5_1_1QtCore_1_1QSequentialAnimationGroup_1_1QSequentialAnimationGroup_html_aaae5460bf11364cef65262d1d7a1d84f"><div class="ttname"><a href="../../d3/d20/classPyQt5_1_1QtCore_1_1QSequentialAnimationGroup_1_1QSequentialAnimationGroup.html#aaae5460bf11364cef65262d1d7a1d84f">PyQt5.QtCore.QSequentialAnimationGroup.QSequentialAnimationGroup.currentAnimationChanged</a></div><div class="ttdeci">def currentAnimationChanged(self, QAbstractAnimation)</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/dc8/QSequentialAnimationGroup_8py_source.html#l00020">QSequentialAnimationGroup.py:20</a></div></div>
+<div class="ttc" id="classPyQt5_1_1QtCore_1_1QSequentialAnimationGroup_1_1QSequentialAnimationGroup_html_aaa6218a8d4eee6e3a06af11a6781e6a5"><div class="ttname"><a href="../../d3/d20/classPyQt5_1_1QtCore_1_1QSequentialAnimationGroup_1_1QSequentialAnimationGroup.html#aaa6218a8d4eee6e3a06af11a6781e6a5">PyQt5.QtCore.QSequentialAnimationGroup.QSequentialAnimationGroup.insertPause</a></div><div class="ttdeci">def insertPause(self, p_int, p_int_1)</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/dc8/QSequentialAnimationGroup_8py_source.html#l00032">QSequentialAnimationGroup.py:32</a></div></div>
+<div class="ttc" id="classPyQt5_1_1QtCore_1_1QSequentialAnimationGroup_1_1QSequentialAnimationGroup_html_a738adfbb3c045ea88f753cf4fc5b4915"><div class="ttname"><a href="../../d3/d20/classPyQt5_1_1QtCore_1_1QSequentialAnimationGroup_1_1QSequentialAnimationGroup.html#a738adfbb3c045ea88f753cf4fc5b4915">PyQt5.QtCore.QSequentialAnimationGroup.QSequentialAnimationGroup.duration</a></div><div class="ttdeci">def duration(self)</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/dc8/QSequentialAnimationGroup_8py_source.html#l00024">QSequentialAnimationGroup.py:24</a></div></div>
+<div class="ttc" id="classPyQt5_1_1QtCore_1_1QSequentialAnimationGroup_1_1QSequentialAnimationGroup_html_acee2fb8061c5ca96e34f11106f2eace0"><div class="ttname"><a href="../../d3/d20/classPyQt5_1_1QtCore_1_1QSequentialAnimationGroup_1_1QSequentialAnimationGroup.html#acee2fb8061c5ca96e34f11106f2eace0">PyQt5.QtCore.QSequentialAnimationGroup.QSequentialAnimationGroup.addPause</a></div><div class="ttdeci">def addPause(self, p_int)</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/dc8/QSequentialAnimationGroup_8py_source.html#l00012">QSequentialAnimationGroup.py:12</a></div></div>
+<div class="ttc" id="classPyQt5_1_1QtCore_1_1QSequentialAnimationGroup_1_1QSequentialAnimationGroup_html_a5e55daac048802fd8b0e3b150f779dd1"><div class="ttname"><a href="../../d3/d20/classPyQt5_1_1QtCore_1_1QSequentialAnimationGroup_1_1QSequentialAnimationGroup.html#a5e55daac048802fd8b0e3b150f779dd1">PyQt5.QtCore.QSequentialAnimationGroup.QSequentialAnimationGroup.updateDirection</a></div><div class="ttdeci">def updateDirection(self, QAbstractAnimation_Direction)</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/dc8/QSequentialAnimationGroup_8py_source.html#l00040">QSequentialAnimationGroup.py:40</a></div></div>
+<div class="ttc" id="classPyQt5_1_1QtCore_1_1QSequentialAnimationGroup_1_1QSequentialAnimationGroup_html"><div class="ttname"><a href="../../d3/d20/classPyQt5_1_1QtCore_1_1QSequentialAnimationGroup_1_1QSequentialAnimationGroup.html">PyQt5.QtCore.QSequentialAnimationGroup.QSequentialAnimationGroup</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d8/dc8/QSequentialAnimationGroup_8py_source.html#l00010">QSequentialAnimationGroup.py:10</a></div></div>
+<div class="ttc" id="classPyQt5_1_1QtCore_1_1QSequentialAnimationGroup_1_1QSequentialAnimationGroup_html_a10b617e82e0e70c043d2fb2453783701"><div class="ttname"><a href="../../d3/d20/classPyQt5_1_1QtCore_1_1QSequentialAnimationGroup_1_1QSequentialAnimationGroup.html#a10b617e82e0e70c043d2fb2453783701">PyQt5.QtCore.QSequentialAnimationGroup.QSequentialAnimationGroup.updateCurrentTime</a></div><div class="ttdeci">def updateCurrentTime(self, p_int)</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/dc8/QSequentialAnimationGroup_8py_source.html#l00036">QSequentialAnimationGroup.py:36</a></div></div>
+<div class="ttc" id="classPyQt5_1_1QtCore_1_1QSequentialAnimationGroup_1_1QSequentialAnimationGroup_html_a246c7f2c5e935382f7c033218681bbd1"><div class="ttname"><a href="../../d3/d20/classPyQt5_1_1QtCore_1_1QSequentialAnimationGroup_1_1QSequentialAnimationGroup.html#a246c7f2c5e935382f7c033218681bbd1">PyQt5.QtCore.QSequentialAnimationGroup.QSequentialAnimationGroup.event</a></div><div class="ttdeci">def event(self, QEvent)</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/dc8/QSequentialAnimationGroup_8py_source.html#l00028">QSequentialAnimationGroup.py:28</a></div></div>
+<div class="ttc" id="classPyQt5_1_1QtCore_1_1QSequentialAnimationGroup_1_1QSequentialAnimationGroup_html_ae1d30fe68c39f5ba061401d73b75e59b"><div class="ttname"><a href="../../d3/d20/classPyQt5_1_1QtCore_1_1QSequentialAnimationGroup_1_1QSequentialAnimationGroup.html#ae1d30fe68c39f5ba061401d73b75e59b">PyQt5.QtCore.QSequentialAnimationGroup.QSequentialAnimationGroup.currentAnimation</a></div><div class="ttdeci">def currentAnimation(self)</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/dc8/QSequentialAnimationGroup_8py_source.html#l00016">QSequentialAnimationGroup.py:16</a></div></div>
+<div class="ttc" id="classPyQt5_1_1QtCore_1_1QSequentialAnimationGroup_1_1QSequentialAnimationGroup_html_aecca24b33c246d9f9e8382b9f854b840"><div class="ttname"><a href="../../d3/d20/classPyQt5_1_1QtCore_1_1QSequentialAnimationGroup_1_1QSequentialAnimationGroup.html#aecca24b33c246d9f9e8382b9f854b840">PyQt5.QtCore.QSequentialAnimationGroup.QSequentialAnimationGroup.updateState</a></div><div class="ttdeci">def updateState(self, QAbstractAnimation_State, QAbstractAnimation_State_1)</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/dc8/QSequentialAnimationGroup_8py_source.html#l00044">QSequentialAnimationGroup.py:44</a></div></div>
+</div><!-- fragment --></div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="../../dir_bd382a1de38bbb2eba5ad9a0dfbb7840.html">QtCore</a></li><li class="navelem"><b>QSequentialAnimationGroup.py</b></li>
+    <li class="footer">制作者
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
+  </ul>
+</div>
+</body>
+</html>

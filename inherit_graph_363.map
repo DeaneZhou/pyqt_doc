@@ -1,0 +1,5 @@
+<map id="类继承关系图" name="类继承关系图">
+<area shape="rect" id="node2" href="$d8/d45/classPyQt5_1_1QtQuick_1_1QSGFlatColorMaterial_1_1QSGFlatColorMaterial.html" title="PyQt5.QtQuick.QSGFlatColor\lMaterial.QSGFlatColorMaterial" alt="" coords="169,5,369,47"/>
+<area shape="rect" id="node3" href="$d3/d83/classPyQt5_1_1QtQuick_1_1QSGOpaqueTextureMaterial_1_1QSGOpaqueTextureMaterial.html" title="PyQt5.QtQuick.QSGOpaqueTexture\lMaterial.QSGOpaqueTextureMaterial" alt="" coords="151,71,387,112"/>
+<area shape="rect" id="node4" href="$d2/dcf/classPyQt5_1_1QtQuick_1_1QSGVertexColorMaterial_1_1QSGVertexColorMaterial.html" title="PyQt5.QtQuick.QSGVertexColor\lMaterial.QSGVertexColorMaterial" alt="" coords="161,136,377,177"/>
+</map>

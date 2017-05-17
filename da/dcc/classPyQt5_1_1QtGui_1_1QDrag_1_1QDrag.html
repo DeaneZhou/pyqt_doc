@@ -1,0 +1,597 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.11"/>
+<title>PyQt: PyQt5.QtGui.QDrag.QDrag类 参考</title>
+<link href="../../tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../jquery.js"></script>
+<script type="text/javascript" src="../../dynsections.js"></script>
+<link href="../../navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../resize.js"></script>
+<script type="text/javascript" src="../../navtreedata.js"></script>
+<script type="text/javascript" src="../../navtree.js"></script>
+<script type="text/javascript">
+  $(document).ready(initResizable);
+  $(window).load(resizeHeight);
+</script>
+<link href="../../search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../search/searchdata.js"></script>
+<script type="text/javascript" src="../../search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { init_search(); });
+</script>
+<link href="../../doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="../../48X48.png"/></td>
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">PyQt
+   &#160;<span id="projectnumber">1.0</span>
+   </div>
+   <div id="projectbrief">学习PyQt</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 制作者 Doxygen 1.8.11 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "../../search",false,'搜索');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="../../index.html"><span>首页</span></a></li>
+      <li class="current"><a href="../../annotated.html"><span>类</span></a></li>
+      <li><a href="../../files.html"><span>文件</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="../../search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="搜索" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="../../search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="../../annotated.html"><span>类列表</span></a></li>
+      <li><a href="../../classes.html"><span>类索引</span></a></li>
+      <li><a href="../../inherits.html"><span>类继承关系</span></a></li>
+      <li><a href="../../functions.html"><span>类成员</span></a></li>
+    </ul>
+  </div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){initNavTree('da/dcc/classPyQt5_1_1QtGui_1_1QDrag_1_1QDrag.html','../../');});
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Public 成员函数</a> &#124;
+<a href="../../df/def/classPyQt5_1_1QtGui_1_1QDrag_1_1QDrag-members.html">所有成员列表</a>  </div>
+  <div class="headertitle">
+<div class="title">PyQt5.QtGui.QDrag.QDrag类 参考</div>  </div>
+</div><!--header-->
+<div class="contents">
+<div class="dynheader">
+类 PyQt5.QtGui.QDrag.QDrag 继承关系图:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../d9/dea/classPyQt5_1_1QtGui_1_1QDrag_1_1QDrag__inherit__graph.png" border="0" usemap="#PyQt5_8QtGui_8QDrag_8QDrag_inherit__map" alt="Inheritance graph"/></div>
+<map name="PyQt5_8QtGui_8QDrag_8QDrag_inherit__map" id="PyQt5_8QtGui_8QDrag_8QDrag_inherit__map">
+</map>
+<center><span class="legend">[<a target="top" href="../../graph_legend.html">图例</a>]</span></center></div>
+<div class="dynheader">
+PyQt5.QtGui.QDrag.QDrag 的协作图:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../d9/dc9/classPyQt5_1_1QtGui_1_1QDrag_1_1QDrag__coll__graph.png" border="0" usemap="#PyQt5_8QtGui_8QDrag_8QDrag_coll__map" alt="Collaboration graph"/></div>
+<map name="PyQt5_8QtGui_8QDrag_8QDrag_coll__map" id="PyQt5_8QtGui_8QDrag_8QDrag_coll__map">
+</map>
+<center><span class="legend">[<a target="top" href="../../graph_legend.html">图例</a>]</span></center></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Public 成员函数</h2></td></tr>
+<tr class="memitem:a12226901d14d1eddd6f32ada3e1bdf23"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/dcc/classPyQt5_1_1QtGui_1_1QDrag_1_1QDrag.html#a12226901d14d1eddd6f32ada3e1bdf23">actionChanged</a> (self, Qt_DropAction)</td></tr>
+<tr class="separator:a12226901d14d1eddd6f32ada3e1bdf23"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a38e2ead64f551b8b210107a045a4d744"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/dcc/classPyQt5_1_1QtGui_1_1QDrag_1_1QDrag.html#a38e2ead64f551b8b210107a045a4d744">cancel</a> (self)</td></tr>
+<tr class="separator:a38e2ead64f551b8b210107a045a4d744"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acc49c01bb21ed15f24a5418a3413079f"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/dcc/classPyQt5_1_1QtGui_1_1QDrag_1_1QDrag.html#acc49c01bb21ed15f24a5418a3413079f">defaultAction</a> (self)</td></tr>
+<tr class="separator:acc49c01bb21ed15f24a5418a3413079f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae9dfba5265840ca3b4278270bd60b4dc"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/dcc/classPyQt5_1_1QtGui_1_1QDrag_1_1QDrag.html#ae9dfba5265840ca3b4278270bd60b4dc">dragCursor</a> (self, Qt_DropAction)</td></tr>
+<tr class="separator:ae9dfba5265840ca3b4278270bd60b4dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab57e7dfca019c521c0eca995911d6d56"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/dcc/classPyQt5_1_1QtGui_1_1QDrag_1_1QDrag.html#ab57e7dfca019c521c0eca995911d6d56">exec</a> (self, __args)</td></tr>
+<tr class="separator:ab57e7dfca019c521c0eca995911d6d56"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a407f3a5a88b6b80b707e20089cefe1a7"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/dcc/classPyQt5_1_1QtGui_1_1QDrag_1_1QDrag.html#a407f3a5a88b6b80b707e20089cefe1a7">exec_</a> (self, __args)</td></tr>
+<tr class="separator:a407f3a5a88b6b80b707e20089cefe1a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a14b6d0bbf3840d5d92355bf4df671395"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/dcc/classPyQt5_1_1QtGui_1_1QDrag_1_1QDrag.html#a14b6d0bbf3840d5d92355bf4df671395">hotSpot</a> (self)</td></tr>
+<tr class="separator:a14b6d0bbf3840d5d92355bf4df671395"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a21419b35b93d5a7dd4a02b533095f490"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/dcc/classPyQt5_1_1QtGui_1_1QDrag_1_1QDrag.html#a21419b35b93d5a7dd4a02b533095f490">mimeData</a> (self)</td></tr>
+<tr class="separator:a21419b35b93d5a7dd4a02b533095f490"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad4081214a5eed844ef20d3882452fed5"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/dcc/classPyQt5_1_1QtGui_1_1QDrag_1_1QDrag.html#ad4081214a5eed844ef20d3882452fed5">pixmap</a> (self)</td></tr>
+<tr class="separator:ad4081214a5eed844ef20d3882452fed5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a51fad3abc2c79208897a4557c87b0722"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/dcc/classPyQt5_1_1QtGui_1_1QDrag_1_1QDrag.html#a51fad3abc2c79208897a4557c87b0722">setDragCursor</a> (self, QPixmap, Qt_DropAction)</td></tr>
+<tr class="separator:a51fad3abc2c79208897a4557c87b0722"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7089ad83ef90d49b06a71988e2ac2ef7"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/dcc/classPyQt5_1_1QtGui_1_1QDrag_1_1QDrag.html#a7089ad83ef90d49b06a71988e2ac2ef7">setHotSpot</a> (self, QPoint)</td></tr>
+<tr class="separator:a7089ad83ef90d49b06a71988e2ac2ef7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0283b4a8c64e1376142e9613c029ba8d"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/dcc/classPyQt5_1_1QtGui_1_1QDrag_1_1QDrag.html#a0283b4a8c64e1376142e9613c029ba8d">setMimeData</a> (self, QMimeData)</td></tr>
+<tr class="separator:a0283b4a8c64e1376142e9613c029ba8d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a80f828163259dec772d71c5aadc6e0e3"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/dcc/classPyQt5_1_1QtGui_1_1QDrag_1_1QDrag.html#a80f828163259dec772d71c5aadc6e0e3">setPixmap</a> (self, QPixmap)</td></tr>
+<tr class="separator:a80f828163259dec772d71c5aadc6e0e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a58eeeaa9ec32c86578244198557f668d"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/dcc/classPyQt5_1_1QtGui_1_1QDrag_1_1QDrag.html#a58eeeaa9ec32c86578244198557f668d">source</a> (self)</td></tr>
+<tr class="separator:a58eeeaa9ec32c86578244198557f668d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a78e0f156febfe9aef9087a4f42b0440e"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/dcc/classPyQt5_1_1QtGui_1_1QDrag_1_1QDrag.html#a78e0f156febfe9aef9087a4f42b0440e">supportedActions</a> (self)</td></tr>
+<tr class="separator:a78e0f156febfe9aef9087a4f42b0440e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac6e887408f474873240d7a582c3c3d22"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/dcc/classPyQt5_1_1QtGui_1_1QDrag_1_1QDrag.html#ac6e887408f474873240d7a582c3c3d22">target</a> (self)</td></tr>
+<tr class="separator:ac6e887408f474873240d7a582c3c3d22"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa8c4df0f74e706e21281847c86696de1"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/dcc/classPyQt5_1_1QtGui_1_1QDrag_1_1QDrag.html#aa8c4df0f74e706e21281847c86696de1">targetChanged</a> (self, QObject)</td></tr>
+<tr class="separator:aa8c4df0f74e706e21281847c86696de1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a15ee3651156ba17936c4440e2bd6ae55"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a15ee3651156ba17936c4440e2bd6ae55"></a>
+def&#160;</td><td class="memItemRight" valign="bottom"><b>__init__</b> (self, QObject)</td></tr>
+<tr class="separator:a15ee3651156ba17936c4440e2bd6ae55"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">详细描述</h2>
+<div class="textblock"><pre class="fragment">QDrag(QObject) </pre> 
+<p>在文件 <a class="el" href="../../d0/d72/QDrag_8py_source.html">QDrag.py</a> 第 <a class="el" href="../../d0/d72/QDrag_8py_source.html#l00011">11</a> 行定义.</p>
+</div><h2 class="groupheader">成员函数说明</h2>
+<a class="anchor" id="a12226901d14d1eddd6f32ada3e1bdf23"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def PyQt5.QtGui.QDrag.QDrag.actionChanged </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>Qt_DropAction</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">actionChanged(self, Qt.DropAction) [signal] </pre> 
+<p>在文件 <a class="el" href="../../d0/d72/QDrag_8py_source.html">QDrag.py</a> 第 <a class="el" href="../../d0/d72/QDrag_8py_source.html#l00013">13</a> 行定义.</p>
+
+</div>
+</div>
+<a class="anchor" id="a38e2ead64f551b8b210107a045a4d744"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def PyQt5.QtGui.QDrag.QDrag.cancel </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">cancel() </pre> 
+<p>在文件 <a class="el" href="../../d0/d72/QDrag_8py_source.html">QDrag.py</a> 第 <a class="el" href="../../d0/d72/QDrag_8py_source.html#l00017">17</a> 行定义.</p>
+
+</div>
+</div>
+<a class="anchor" id="acc49c01bb21ed15f24a5418a3413079f"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def PyQt5.QtGui.QDrag.QDrag.defaultAction </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">defaultAction(self) -&gt; Qt.DropAction </pre> 
+<p>在文件 <a class="el" href="../../d0/d72/QDrag_8py_source.html">QDrag.py</a> 第 <a class="el" href="../../d0/d72/QDrag_8py_source.html#l00021">21</a> 行定义.</p>
+
+</div>
+</div>
+<a class="anchor" id="ae9dfba5265840ca3b4278270bd60b4dc"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def PyQt5.QtGui.QDrag.QDrag.dragCursor </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>Qt_DropAction</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">dragCursor(self, Qt.DropAction) -&gt; QPixmap </pre> 
+<p>在文件 <a class="el" href="../../d0/d72/QDrag_8py_source.html">QDrag.py</a> 第 <a class="el" href="../../d0/d72/QDrag_8py_source.html#l00025">25</a> 行定义.</p>
+
+</div>
+</div>
+<a class="anchor" id="ab57e7dfca019c521c0eca995911d6d56"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def PyQt5.QtGui.QDrag.QDrag.exec </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>__args</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">exec(self, supportedActions: Union[Qt.DropActions, Qt.DropAction] = Qt.MoveAction) -&gt; Qt.DropAction
+exec(self, Union[Qt.DropActions, Qt.DropAction], Qt.DropAction) -&gt; Qt.DropAction
+</pre> 
+<p>在文件 <a class="el" href="../../d0/d72/QDrag_8py_source.html">QDrag.py</a> 第 <a class="el" href="../../d0/d72/QDrag_8py_source.html#l00029">29</a> 行定义.</p>
+
+</div>
+</div>
+<a class="anchor" id="a407f3a5a88b6b80b707e20089cefe1a7"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def PyQt5.QtGui.QDrag.QDrag.exec_ </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>__args</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">exec_(self, supportedActions: Union[Qt.DropActions, Qt.DropAction] = Qt.MoveAction) -&gt; Qt.DropAction
+exec_(self, Union[Qt.DropActions, Qt.DropAction], Qt.DropAction) -&gt; Qt.DropAction
+</pre> 
+<p>在文件 <a class="el" href="../../d0/d72/QDrag_8py_source.html">QDrag.py</a> 第 <a class="el" href="../../d0/d72/QDrag_8py_source.html#l00036">36</a> 行定义.</p>
+
+</div>
+</div>
+<a class="anchor" id="a14b6d0bbf3840d5d92355bf4df671395"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def PyQt5.QtGui.QDrag.QDrag.hotSpot </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">hotSpot(self) -&gt; QPoint </pre> 
+<p>在文件 <a class="el" href="../../d0/d72/QDrag_8py_source.html">QDrag.py</a> 第 <a class="el" href="../../d0/d72/QDrag_8py_source.html#l00043">43</a> 行定义.</p>
+
+</div>
+</div>
+<a class="anchor" id="a21419b35b93d5a7dd4a02b533095f490"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def PyQt5.QtGui.QDrag.QDrag.mimeData </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">mimeData(self) -&gt; QMimeData </pre> 
+<p>在文件 <a class="el" href="../../d0/d72/QDrag_8py_source.html">QDrag.py</a> 第 <a class="el" href="../../d0/d72/QDrag_8py_source.html#l00047">47</a> 行定义.</p>
+
+</div>
+</div>
+<a class="anchor" id="ad4081214a5eed844ef20d3882452fed5"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def PyQt5.QtGui.QDrag.QDrag.pixmap </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">pixmap(self) -&gt; QPixmap </pre> 
+<p>在文件 <a class="el" href="../../d0/d72/QDrag_8py_source.html">QDrag.py</a> 第 <a class="el" href="../../d0/d72/QDrag_8py_source.html#l00051">51</a> 行定义.</p>
+
+</div>
+</div>
+<a class="anchor" id="a51fad3abc2c79208897a4557c87b0722"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def PyQt5.QtGui.QDrag.QDrag.setDragCursor </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>QPixmap</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>Qt_DropAction</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">setDragCursor(self, QPixmap, Qt.DropAction) </pre> 
+<p>在文件 <a class="el" href="../../d0/d72/QDrag_8py_source.html">QDrag.py</a> 第 <a class="el" href="../../d0/d72/QDrag_8py_source.html#l00055">55</a> 行定义.</p>
+
+</div>
+</div>
+<a class="anchor" id="a7089ad83ef90d49b06a71988e2ac2ef7"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def PyQt5.QtGui.QDrag.QDrag.setHotSpot </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>QPoint</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">setHotSpot(self, QPoint) </pre> 
+<p>在文件 <a class="el" href="../../d0/d72/QDrag_8py_source.html">QDrag.py</a> 第 <a class="el" href="../../d0/d72/QDrag_8py_source.html#l00059">59</a> 行定义.</p>
+
+</div>
+</div>
+<a class="anchor" id="a0283b4a8c64e1376142e9613c029ba8d"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def PyQt5.QtGui.QDrag.QDrag.setMimeData </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>QMimeData</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">setMimeData(self, QMimeData) </pre> 
+<p>在文件 <a class="el" href="../../d0/d72/QDrag_8py_source.html">QDrag.py</a> 第 <a class="el" href="../../d0/d72/QDrag_8py_source.html#l00063">63</a> 行定义.</p>
+
+</div>
+</div>
+<a class="anchor" id="a80f828163259dec772d71c5aadc6e0e3"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def PyQt5.QtGui.QDrag.QDrag.setPixmap </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>QPixmap</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">setPixmap(self, QPixmap) </pre> 
+<p>在文件 <a class="el" href="../../d0/d72/QDrag_8py_source.html">QDrag.py</a> 第 <a class="el" href="../../d0/d72/QDrag_8py_source.html#l00067">67</a> 行定义.</p>
+
+</div>
+</div>
+<a class="anchor" id="a58eeeaa9ec32c86578244198557f668d"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def PyQt5.QtGui.QDrag.QDrag.source </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">source(self) -&gt; QObject </pre> 
+<p>在文件 <a class="el" href="../../d0/d72/QDrag_8py_source.html">QDrag.py</a> 第 <a class="el" href="../../d0/d72/QDrag_8py_source.html#l00071">71</a> 行定义.</p>
+
+</div>
+</div>
+<a class="anchor" id="a78e0f156febfe9aef9087a4f42b0440e"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def PyQt5.QtGui.QDrag.QDrag.supportedActions </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">supportedActions(self) -&gt; Qt.DropActions </pre> 
+<p>在文件 <a class="el" href="../../d0/d72/QDrag_8py_source.html">QDrag.py</a> 第 <a class="el" href="../../d0/d72/QDrag_8py_source.html#l00075">75</a> 行定义.</p>
+
+</div>
+</div>
+<a class="anchor" id="ac6e887408f474873240d7a582c3c3d22"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def PyQt5.QtGui.QDrag.QDrag.target </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">target(self) -&gt; QObject </pre> 
+<p>在文件 <a class="el" href="../../d0/d72/QDrag_8py_source.html">QDrag.py</a> 第 <a class="el" href="../../d0/d72/QDrag_8py_source.html#l00079">79</a> 行定义.</p>
+
+</div>
+</div>
+<a class="anchor" id="aa8c4df0f74e706e21281847c86696de1"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def PyQt5.QtGui.QDrag.QDrag.targetChanged </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>QObject</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">targetChanged(self, QObject) [signal] </pre> 
+<p>在文件 <a class="el" href="../../d0/d72/QDrag_8py_source.html">QDrag.py</a> 第 <a class="el" href="../../d0/d72/QDrag_8py_source.html#l00083">83</a> 行定义.</p>
+
+</div>
+</div>
+<hr/>该类的文档由以下文件生成:<ul>
+<li>QtGui/<a class="el" href="../../d0/d72/QDrag_8py_source.html">QDrag.py</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><b>PyQt5</b></li><li class="navelem"><b>QtGui</b></li><li class="navelem"><b>QDrag</b></li><li class="navelem"><a class="el" href="../../da/dcc/classPyQt5_1_1QtGui_1_1QDrag_1_1QDrag.html">QDrag</a></li>
+    <li class="footer">制作者
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
+  </ul>
+</div>
+</body>
+</html>

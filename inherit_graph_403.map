@@ -1,0 +1,8 @@
+<map id="类继承关系图" name="类继承关系图">
+<area shape="rect" id="node2" href="$d1/d6e/classPyQt5_1_1QtWidgets_1_1QAbstractItemView_1_1QAbstractItemView.html" title="PyQt5.QtWidgets.QAbstract\lItemView.QAbstractItemView" alt="" coords="199,5,393,47"/>
+<area shape="rect" id="node3" href="$da/d1a/classPyQt5_1_1QtWidgets_1_1QGraphicsView_1_1QGraphicsView.html" title="PyQt5.QtWidgets.QGraphics\lView.QGraphicsView" alt="" coords="201,71,391,112"/>
+<area shape="rect" id="node4" href="$d8/d1e/classPyQt5_1_1QtWidgets_1_1QMdiArea_1_1QMdiArea.html" title="PyQt5.QtWidgets.QMdiArea.\lQMdiArea" alt="" coords="201,136,391,177"/>
+<area shape="rect" id="node5" href="$d9/daa/classPyQt5_1_1QtWidgets_1_1QPlainTextEdit_1_1QPlainTextEdit.html" title="PyQt5.QtWidgets.QPlainText\lEdit.QPlainTextEdit" alt="" coords="199,201,393,243"/>
+<area shape="rect" id="node6" href="$db/d58/classPyQt5_1_1QtWidgets_1_1QScrollArea_1_1QScrollArea.html" title="PyQt5.QtWidgets.QScrollArea.\lQScrollArea" alt="" coords="195,267,397,308"/>
+<area shape="rect" id="node7" href="$d4/d2f/classPyQt5_1_1QtWidgets_1_1QTextEdit_1_1QTextEdit.html" title="PyQt5.QtWidgets.QTextEdit.\lQTextEdit" alt="" coords="200,332,392,373"/>
+</map>

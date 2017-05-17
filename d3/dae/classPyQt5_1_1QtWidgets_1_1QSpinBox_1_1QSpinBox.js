@@ -1,0 +1,26 @@
+var classPyQt5_1_1QtWidgets_1_1QSpinBox_1_1QSpinBox =
+[
+    [ "__init__", "d3/dae/classPyQt5_1_1QtWidgets_1_1QSpinBox_1_1QSpinBox.html#ac60040da1e27d88c8dc4be7351cf4aac", null ],
+    [ "cleanText", "d3/dae/classPyQt5_1_1QtWidgets_1_1QSpinBox_1_1QSpinBox.html#a8368fdeb1335d77550c1e94177f0d612", null ],
+    [ "displayIntegerBase", "d3/dae/classPyQt5_1_1QtWidgets_1_1QSpinBox_1_1QSpinBox.html#ad8a5f2b9266f79c219740fef6772b8e2", null ],
+    [ "event", "d3/dae/classPyQt5_1_1QtWidgets_1_1QSpinBox_1_1QSpinBox.html#a8c8bad110d58a04949e2b715fbb0dce9", null ],
+    [ "fixup", "d3/dae/classPyQt5_1_1QtWidgets_1_1QSpinBox_1_1QSpinBox.html#a68f45450b9ec65dbab8e8190e6f7b9a6", null ],
+    [ "maximum", "d3/dae/classPyQt5_1_1QtWidgets_1_1QSpinBox_1_1QSpinBox.html#aee07a59a67f5608d9f3b8c4dd87740db", null ],
+    [ "minimum", "d3/dae/classPyQt5_1_1QtWidgets_1_1QSpinBox_1_1QSpinBox.html#aa08162de54b2b8da43333e0fdfe8cfb7", null ],
+    [ "prefix", "d3/dae/classPyQt5_1_1QtWidgets_1_1QSpinBox_1_1QSpinBox.html#abf79c5f020e18ba9f607bd3a4a3f127c", null ],
+    [ "setDisplayIntegerBase", "d3/dae/classPyQt5_1_1QtWidgets_1_1QSpinBox_1_1QSpinBox.html#a8e5e8ee45264964e8b39f972b4d2f302", null ],
+    [ "setMaximum", "d3/dae/classPyQt5_1_1QtWidgets_1_1QSpinBox_1_1QSpinBox.html#a4671f0858efe313635af6364f0106825", null ],
+    [ "setMinimum", "d3/dae/classPyQt5_1_1QtWidgets_1_1QSpinBox_1_1QSpinBox.html#aa12178571d4671cb2011745e401d6d75", null ],
+    [ "setPrefix", "d3/dae/classPyQt5_1_1QtWidgets_1_1QSpinBox_1_1QSpinBox.html#afb9c7aa468166ac61260d14748712af0", null ],
+    [ "setRange", "d3/dae/classPyQt5_1_1QtWidgets_1_1QSpinBox_1_1QSpinBox.html#a800dac17eaa336a31fb35df8fa5f1da3", null ],
+    [ "setSingleStep", "d3/dae/classPyQt5_1_1QtWidgets_1_1QSpinBox_1_1QSpinBox.html#ab0a25cdfd7599eaea15a76133ae5b647", null ],
+    [ "setSuffix", "d3/dae/classPyQt5_1_1QtWidgets_1_1QSpinBox_1_1QSpinBox.html#afcbdc42a32e5c7d0e51a934e81416e44", null ],
+    [ "setValue", "d3/dae/classPyQt5_1_1QtWidgets_1_1QSpinBox_1_1QSpinBox.html#a7f03a23b3979abab62770c1d9f69ce79", null ],
+    [ "singleStep", "d3/dae/classPyQt5_1_1QtWidgets_1_1QSpinBox_1_1QSpinBox.html#abcacf0d87ac2c9e5b7942eddcc91de1b", null ],
+    [ "suffix", "d3/dae/classPyQt5_1_1QtWidgets_1_1QSpinBox_1_1QSpinBox.html#a1c69865188fb7caf683c17899bd7ea63", null ],
+    [ "textFromValue", "d3/dae/classPyQt5_1_1QtWidgets_1_1QSpinBox_1_1QSpinBox.html#abca4e5b846bce60a2ab27fb8ae353f86", null ],
+    [ "validate", "d3/dae/classPyQt5_1_1QtWidgets_1_1QSpinBox_1_1QSpinBox.html#a6f19a9c32d05b21222e1bdf8579e7418", null ],
+    [ "value", "d3/dae/classPyQt5_1_1QtWidgets_1_1QSpinBox_1_1QSpinBox.html#a5e448fddcdaee58039b515e8be6b8b30", null ],
+    [ "valueChanged", "d3/dae/classPyQt5_1_1QtWidgets_1_1QSpinBox_1_1QSpinBox.html#a4e61c36823335a9b1a1d6a7c6a2cbc5e", null ],
+    [ "valueFromText", "d3/dae/classPyQt5_1_1QtWidgets_1_1QSpinBox_1_1QSpinBox.html#ae1a077854287678e4cf1e47c323aab1a", null ]
+];

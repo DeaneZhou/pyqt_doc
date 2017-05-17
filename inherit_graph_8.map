@@ -1,0 +1,7 @@
+<map id="类继承关系图" name="类继承关系图">
+<area shape="rect" id="node2" href="$d2/d78/classPyQt5_1_1QtBluetooth_1_1QBluetoothSocket.html" title="PyQt5.QtBluetooth.QBluetooth\lSocket" alt="" coords="147,5,349,47"/>
+<area shape="rect" id="node3" href="$d5/d48/classPyQt5_1_1QtNetwork_1_1QAbstractSocket_1_1QAbstractSocket.html" title="PyQt5.QtNetwork.QAbstract\lSocket.QAbstractSocket" alt="" coords="153,71,343,112"/>
+<area shape="rect" id="node4" href="$d9/dba/classPyQt5_1_1QtNetwork_1_1QLocalSocket_1_1QLocalSocket.html" title="PyQt5.QtNetwork.QLocalSocket.\lQLocalSocket" alt="" coords="140,136,356,177"/>
+<area shape="rect" id="node5" href="$dc/d00/classPyQt5_1_1QtNetwork_1_1QNetworkReply_1_1QNetworkReply.html" title="PyQt5.QtNetwork.QNetwork\lReply.QNetworkReply" alt="" coords="153,201,343,243"/>
+<area shape="rect" id="node6" href="$d8/da9/classPyQt5_1_1QtSerialPort_1_1QSerialPort.html" title="PyQt5.QtSerialPort.QSerialPort" alt="" coords="145,267,351,294"/>
+</map>

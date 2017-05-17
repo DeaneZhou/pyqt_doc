@@ -1,0 +1,5 @@
+<map id="类继承关系图" name="类继承关系图">
+<area shape="rect" id="node2" href="$d7/d21/classPyQt5_1_1QtSql_1_1QSqlQueryModel.html" title="PyQt5.QtSql.QSqlQueryModel" alt="" coords="201,13,400,39"/>
+<area shape="rect" id="node3" href="$d0/df1/classPyQt5_1_1QtSql_1_1QSqlTableModel.html" title="PyQt5.QtSql.QSqlTableModel" alt="" coords="448,13,644,39"/>
+<area shape="rect" id="node4" href="$d3/d82/classPyQt5_1_1QtSql_1_1QSqlRelationalTableModel.html" title="PyQt5.QtSql.QSqlRelational\lTableModel" alt="" coords="692,5,879,47"/>
+</map>

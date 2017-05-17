@@ -1,0 +1,10 @@
+<map id="类继承关系图" name="类继承关系图">
+<area shape="rect" id="node2" href="$d1/d5a/classPyQt5_1_1QtWidgets_1_1QGraphicsSceneContextMenuEvent_1_1QGraphicsSceneContextMenuEvent.html" title="PyQt5.QtWidgets.QGraphics\lSceneContextMenuEvent.QGraphics\lSceneContextMenuEvent" alt="" coords="237,5,474,61"/>
+<area shape="rect" id="node3" href="$d6/db3/classPyQt5_1_1QtWidgets_1_1QGraphicsSceneDragDropEvent_1_1QGraphicsSceneDragDropEvent.html" title="PyQt5.QtWidgets.QGraphics\lSceneDragDropEvent.QGraphicsScene\lDragDropEvent" alt="" coords="229,85,481,141"/>
+<area shape="rect" id="node4" href="$d0/d23/classPyQt5_1_1QtWidgets_1_1QGraphicsSceneHelpEvent_1_1QGraphicsSceneHelpEvent.html" title="PyQt5.QtWidgets.QGraphics\lSceneHelpEvent.QGraphicsSceneHelpEvent" alt="" coords="213,165,497,206"/>
+<area shape="rect" id="node5" href="$dc/ddf/classPyQt5_1_1QtWidgets_1_1QGraphicsSceneHoverEvent_1_1QGraphicsSceneHoverEvent.html" title="PyQt5.QtWidgets.QGraphics\lSceneHoverEvent.QGraphicsScene\lHoverEvent" alt="" coords="240,229,471,285"/>
+<area shape="rect" id="node6" href="$db/d40/classPyQt5_1_1QtWidgets_1_1QGraphicsSceneMouseEvent_1_1QGraphicsSceneMouseEvent.html" title="PyQt5.QtWidgets.QGraphics\lSceneMouseEvent.QGraphicsScene\lMouseEvent" alt="" coords="238,309,473,365"/>
+<area shape="rect" id="node7" href="$de/dd6/classPyQt5_1_1QtWidgets_1_1QGraphicsSceneMoveEvent_1_1QGraphicsSceneMoveEvent.html" title="PyQt5.QtWidgets.QGraphics\lSceneMoveEvent.QGraphicsSceneMoveEvent" alt="" coords="208,389,503,430"/>
+<area shape="rect" id="node8" href="$d5/d97/classPyQt5_1_1QtWidgets_1_1QGraphicsSceneResizeEvent_1_1QGraphicsSceneResizeEvent.html" title="PyQt5.QtWidgets.QGraphics\lSceneResizeEvent.QGraphicsScene\lResizeEvent" alt="" coords="237,453,474,509"/>
+<area shape="rect" id="node9" href="$d1/dae/classPyQt5_1_1QtWidgets_1_1QGraphicsSceneWheelEvent_1_1QGraphicsSceneWheelEvent.html" title="PyQt5.QtWidgets.QGraphics\lSceneWheelEvent.QGraphicsScene\lWheelEvent" alt="" coords="239,533,472,589"/>
+</map>

@@ -1,0 +1,26 @@
+var classPyQt5_1_1QtWidgets_1_1QPinchGesture_1_1QPinchGesture =
+[
+    [ "__init__", "d8/d84/classPyQt5_1_1QtWidgets_1_1QPinchGesture_1_1QPinchGesture.html#a92c52be363ce6050b21be1d1e4385636", null ],
+    [ "centerPoint", "d8/d84/classPyQt5_1_1QtWidgets_1_1QPinchGesture_1_1QPinchGesture.html#aa72dc2901c34a37523a2c247daf75e65", null ],
+    [ "changeFlags", "d8/d84/classPyQt5_1_1QtWidgets_1_1QPinchGesture_1_1QPinchGesture.html#a207140e9578e4ae83656d38db38dc404", null ],
+    [ "lastCenterPoint", "d8/d84/classPyQt5_1_1QtWidgets_1_1QPinchGesture_1_1QPinchGesture.html#a25f78c4bc9a9f9747fb43ca70752af31", null ],
+    [ "lastRotationAngle", "d8/d84/classPyQt5_1_1QtWidgets_1_1QPinchGesture_1_1QPinchGesture.html#a8a5e1d06a0e95be3da2802fc78130a7b", null ],
+    [ "lastScaleFactor", "d8/d84/classPyQt5_1_1QtWidgets_1_1QPinchGesture_1_1QPinchGesture.html#ac036120bae8c716e31b01383d175afaf", null ],
+    [ "rotationAngle", "d8/d84/classPyQt5_1_1QtWidgets_1_1QPinchGesture_1_1QPinchGesture.html#a81d0b2efcdab33ac964b0e0c0495d6ee", null ],
+    [ "scaleFactor", "d8/d84/classPyQt5_1_1QtWidgets_1_1QPinchGesture_1_1QPinchGesture.html#ae3a274ccaede455ce65c48c753996885", null ],
+    [ "setCenterPoint", "d8/d84/classPyQt5_1_1QtWidgets_1_1QPinchGesture_1_1QPinchGesture.html#a18d628434bbd21c492e1172b9b31aa85", null ],
+    [ "setChangeFlags", "d8/d84/classPyQt5_1_1QtWidgets_1_1QPinchGesture_1_1QPinchGesture.html#a66bd02a2b9e9eef97953e29083bd4a3e", null ],
+    [ "setLastCenterPoint", "d8/d84/classPyQt5_1_1QtWidgets_1_1QPinchGesture_1_1QPinchGesture.html#ab539ae0cf1aef861bac3782cd25ad86c", null ],
+    [ "setLastRotationAngle", "d8/d84/classPyQt5_1_1QtWidgets_1_1QPinchGesture_1_1QPinchGesture.html#a18be681c4cf2b07b393203586b0e1d72", null ],
+    [ "setLastScaleFactor", "d8/d84/classPyQt5_1_1QtWidgets_1_1QPinchGesture_1_1QPinchGesture.html#ab516c48b936d0181dd008ea3c264dc52", null ],
+    [ "setRotationAngle", "d8/d84/classPyQt5_1_1QtWidgets_1_1QPinchGesture_1_1QPinchGesture.html#aaaebfebe663504ad13c99cc9d5b506b0", null ],
+    [ "setScaleFactor", "d8/d84/classPyQt5_1_1QtWidgets_1_1QPinchGesture_1_1QPinchGesture.html#a26e95118a02c8a40297a9cf5ac4332a8", null ],
+    [ "setStartCenterPoint", "d8/d84/classPyQt5_1_1QtWidgets_1_1QPinchGesture_1_1QPinchGesture.html#ad55ff3cdac9396098366ec4a7dca3ae2", null ],
+    [ "setTotalChangeFlags", "d8/d84/classPyQt5_1_1QtWidgets_1_1QPinchGesture_1_1QPinchGesture.html#ab33b97b9aa617bb5a1af3db564ae2696", null ],
+    [ "setTotalRotationAngle", "d8/d84/classPyQt5_1_1QtWidgets_1_1QPinchGesture_1_1QPinchGesture.html#a8421815eb67b718bec65db4c00c3bd03", null ],
+    [ "setTotalScaleFactor", "d8/d84/classPyQt5_1_1QtWidgets_1_1QPinchGesture_1_1QPinchGesture.html#aa98bf333d8206b80a3b2000d2d5fdd39", null ],
+    [ "startCenterPoint", "d8/d84/classPyQt5_1_1QtWidgets_1_1QPinchGesture_1_1QPinchGesture.html#aa3bd47e9e641817ad3f33f4563890d43", null ],
+    [ "totalChangeFlags", "d8/d84/classPyQt5_1_1QtWidgets_1_1QPinchGesture_1_1QPinchGesture.html#aa587536f2e3b6754e818613aedef0b8d", null ],
+    [ "totalRotationAngle", "d8/d84/classPyQt5_1_1QtWidgets_1_1QPinchGesture_1_1QPinchGesture.html#af930f5660370fd885b93e74a22cbb830", null ],
+    [ "totalScaleFactor", "d8/d84/classPyQt5_1_1QtWidgets_1_1QPinchGesture_1_1QPinchGesture.html#aa37b514c8642540529fcd04ba9fb75e0", null ]
+];

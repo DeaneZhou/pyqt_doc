@@ -1,0 +1,25 @@
+var classPyQt5_1_1QtWidgets_1_1QDoubleSpinBox_1_1QDoubleSpinBox =
+[
+    [ "__init__", "d3/d7b/classPyQt5_1_1QtWidgets_1_1QDoubleSpinBox_1_1QDoubleSpinBox.html#ae0d7fb6b5d6ac7869b54a84466318ce9", null ],
+    [ "cleanText", "d3/d7b/classPyQt5_1_1QtWidgets_1_1QDoubleSpinBox_1_1QDoubleSpinBox.html#afd86a2852ae0469bd72d0b6baadbd495", null ],
+    [ "decimals", "d3/d7b/classPyQt5_1_1QtWidgets_1_1QDoubleSpinBox_1_1QDoubleSpinBox.html#a489d1b454cfd6cda690413abc170b874", null ],
+    [ "fixup", "d3/d7b/classPyQt5_1_1QtWidgets_1_1QDoubleSpinBox_1_1QDoubleSpinBox.html#a063867f26f0741cab76847ce3c9ebb0f", null ],
+    [ "maximum", "d3/d7b/classPyQt5_1_1QtWidgets_1_1QDoubleSpinBox_1_1QDoubleSpinBox.html#a23f01baf9ec3ea2ef327b6e3297e72d2", null ],
+    [ "minimum", "d3/d7b/classPyQt5_1_1QtWidgets_1_1QDoubleSpinBox_1_1QDoubleSpinBox.html#ae3c0407de0073aedded0637f0e55b23a", null ],
+    [ "prefix", "d3/d7b/classPyQt5_1_1QtWidgets_1_1QDoubleSpinBox_1_1QDoubleSpinBox.html#ac6f3627b21882c596c7665afb1c6bdeb", null ],
+    [ "setDecimals", "d3/d7b/classPyQt5_1_1QtWidgets_1_1QDoubleSpinBox_1_1QDoubleSpinBox.html#a8287a1e37bb7645a9d2d7aca6c47a4c2", null ],
+    [ "setMaximum", "d3/d7b/classPyQt5_1_1QtWidgets_1_1QDoubleSpinBox_1_1QDoubleSpinBox.html#a4d07149f446032b30d41dce43e99af59", null ],
+    [ "setMinimum", "d3/d7b/classPyQt5_1_1QtWidgets_1_1QDoubleSpinBox_1_1QDoubleSpinBox.html#abb42048ce0b909c42b9d5832e1dbbafc", null ],
+    [ "setPrefix", "d3/d7b/classPyQt5_1_1QtWidgets_1_1QDoubleSpinBox_1_1QDoubleSpinBox.html#adb93f9109a97e98931483b2b59a311ef", null ],
+    [ "setRange", "d3/d7b/classPyQt5_1_1QtWidgets_1_1QDoubleSpinBox_1_1QDoubleSpinBox.html#a7959d63e7a192887a573f8cdb7107cec", null ],
+    [ "setSingleStep", "d3/d7b/classPyQt5_1_1QtWidgets_1_1QDoubleSpinBox_1_1QDoubleSpinBox.html#a4dc44fdcfc074990c29436c5180c26e2", null ],
+    [ "setSuffix", "d3/d7b/classPyQt5_1_1QtWidgets_1_1QDoubleSpinBox_1_1QDoubleSpinBox.html#ad20fcd1917e3e9d8686740e9b5275ccf", null ],
+    [ "setValue", "d3/d7b/classPyQt5_1_1QtWidgets_1_1QDoubleSpinBox_1_1QDoubleSpinBox.html#a21fb945f4e6e058389329f5ae613d255", null ],
+    [ "singleStep", "d3/d7b/classPyQt5_1_1QtWidgets_1_1QDoubleSpinBox_1_1QDoubleSpinBox.html#ab4c5a70e0b041c9cdae69ba52e3806f0", null ],
+    [ "suffix", "d3/d7b/classPyQt5_1_1QtWidgets_1_1QDoubleSpinBox_1_1QDoubleSpinBox.html#a29c0b2ea8dc4c3be39dff84b2102784f", null ],
+    [ "textFromValue", "d3/d7b/classPyQt5_1_1QtWidgets_1_1QDoubleSpinBox_1_1QDoubleSpinBox.html#a12b84ab3d3580ed4b0642cece48d6b20", null ],
+    [ "validate", "d3/d7b/classPyQt5_1_1QtWidgets_1_1QDoubleSpinBox_1_1QDoubleSpinBox.html#aeade05deb4bceda04d1f13659f273ec4", null ],
+    [ "value", "d3/d7b/classPyQt5_1_1QtWidgets_1_1QDoubleSpinBox_1_1QDoubleSpinBox.html#aaf31abf4762896d345ac22c1ac26ad22", null ],
+    [ "valueChanged", "d3/d7b/classPyQt5_1_1QtWidgets_1_1QDoubleSpinBox_1_1QDoubleSpinBox.html#a892f9a1ee6c8fcba52fd8dd9ad3d4c11", null ],
+    [ "valueFromText", "d3/d7b/classPyQt5_1_1QtWidgets_1_1QDoubleSpinBox_1_1QDoubleSpinBox.html#a48aa802d36ef92aca4776f4968599ce5", null ]
+];

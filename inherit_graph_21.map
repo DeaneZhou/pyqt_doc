@@ -1,0 +1,5 @@
+<map id="类继承关系图" name="类继承关系图">
+<area shape="rect" id="node2" href="$da/d4c/classPyQt5_1_1QtCore_1_1QAbstractListModel_1_1QAbstractListModel.html" title="PyQt5.QtCore.QAbstractList\lModel.QAbstractListModel" alt="" coords="203,5,392,47"/>
+<area shape="rect" id="node3" href="$d6/df7/classPyQt5_1_1QtCore_1_1QAbstractProxyModel_1_1QAbstractProxyModel.html" title="PyQt5.QtCore.QAbstractProxy\lModel.QAbstractProxyModel" alt="" coords="196,71,399,112"/>
+<area shape="rect" id="node4" href="$df/da5/classPyQt5_1_1QtCore_1_1QAbstractTableModel_1_1QAbstractTableModel.html" title="PyQt5.QtCore.QAbstractTable\lModel.QAbstractTableModel" alt="" coords="197,136,397,177"/>
+</map>

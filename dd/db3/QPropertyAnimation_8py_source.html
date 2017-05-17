@@ -1,0 +1,131 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.11"/>
+<title>PyQt: QtCore/QPropertyAnimation.py 源文件</title>
+<link href="../../tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../jquery.js"></script>
+<script type="text/javascript" src="../../dynsections.js"></script>
+<link href="../../navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../resize.js"></script>
+<script type="text/javascript" src="../../navtreedata.js"></script>
+<script type="text/javascript" src="../../navtree.js"></script>
+<script type="text/javascript">
+  $(document).ready(initResizable);
+  $(window).load(resizeHeight);
+</script>
+<link href="../../search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../search/searchdata.js"></script>
+<script type="text/javascript" src="../../search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { init_search(); });
+</script>
+<link href="../../doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="../../48X48.png"/></td>
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">PyQt
+   &#160;<span id="projectnumber">1.0</span>
+   </div>
+   <div id="projectbrief">学习PyQt</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 制作者 Doxygen 1.8.11 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "../../search",false,'搜索');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="../../index.html"><span>首页</span></a></li>
+      <li><a href="../../annotated.html"><span>类</span></a></li>
+      <li class="current"><a href="../../files.html"><span>文件</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="../../search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="搜索" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="../../search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="../../files.html"><span>文件列表</span></a></li>
+    </ul>
+  </div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){initNavTree('dd/db3/QPropertyAnimation_8py_source.html','../../');});
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="headertitle">
+<div class="title">QPropertyAnimation.py</div>  </div>
+</div><!--header-->
+<div class="contents">
+<div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="comment"># encoding: utf-8</span></div><div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="comment"># module PyQt5.QtCore</span></div><div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="comment"># from /usr/local/lib/python3.5/dist-packages/PyQt5/QtCore.so</span></div><div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="comment"># by generator 1.144</span></div><div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="comment"># no doc</span></div><div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="comment"># no imports</span></div><div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;</div><div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="keyword">from</span> .QVariantAnimation <span class="keyword">import</span> QVariantAnimation</div><div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;</div><div class="line"><a name="l00010"></a><span class="lineno"><a class="line" href="../../d2/d04/classPyQt5_1_1QtCore_1_1QPropertyAnimation_1_1QPropertyAnimation.html">   10</a></span>&#160;<span class="keyword">class </span><a class="code" href="../../d2/d04/classPyQt5_1_1QtCore_1_1QPropertyAnimation_1_1QPropertyAnimation.html">QPropertyAnimation</a>(QVariantAnimation):</div><div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;    <span class="stringliteral">&quot;&quot;&quot;</span></div><div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="stringliteral">    QPropertyAnimation(parent: QObject = None)</span></div><div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<span class="stringliteral">    QPropertyAnimation(QObject, Union[QByteArray, bytes, bytearray], parent: QObject = None)</span></div><div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="stringliteral">    &quot;&quot;&quot;</span></div><div class="line"><a name="l00015"></a><span class="lineno"><a class="line" href="../../d2/d04/classPyQt5_1_1QtCore_1_1QPropertyAnimation_1_1QPropertyAnimation.html#a1eace86e1a258bffb0675a33000b0cec">   15</a></span>&#160;    <span class="keyword">def </span><a class="code" href="../../d2/d04/classPyQt5_1_1QtCore_1_1QPropertyAnimation_1_1QPropertyAnimation.html#a1eace86e1a258bffb0675a33000b0cec">event</a>(self, QEvent): <span class="comment"># real signature unknown; restored from __doc__</span></div><div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;        <span class="stringliteral">&quot;&quot;&quot; event(self, QEvent) -&gt; bool &quot;&quot;&quot;</span></div><div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;        <span class="keywordflow">return</span> <span class="keyword">False</span></div><div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;</div><div class="line"><a name="l00019"></a><span class="lineno"><a class="line" href="../../d2/d04/classPyQt5_1_1QtCore_1_1QPropertyAnimation_1_1QPropertyAnimation.html#af3286a354304ef1454198df6161ce962">   19</a></span>&#160;    <span class="keyword">def </span><a class="code" href="../../d2/d04/classPyQt5_1_1QtCore_1_1QPropertyAnimation_1_1QPropertyAnimation.html#af3286a354304ef1454198df6161ce962">propertyName</a>(self): <span class="comment"># real signature unknown; restored from __doc__</span></div><div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;        <span class="stringliteral">&quot;&quot;&quot; propertyName(self) -&gt; QByteArray &quot;&quot;&quot;</span></div><div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;        <span class="keywordflow">return</span> QByteArray</div><div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;</div><div class="line"><a name="l00023"></a><span class="lineno"><a class="line" href="../../d2/d04/classPyQt5_1_1QtCore_1_1QPropertyAnimation_1_1QPropertyAnimation.html#a2bb179bc49367c482bb47d161bd4b20f">   23</a></span>&#160;    <span class="keyword">def </span><a class="code" href="../../d2/d04/classPyQt5_1_1QtCore_1_1QPropertyAnimation_1_1QPropertyAnimation.html#a2bb179bc49367c482bb47d161bd4b20f">setPropertyName</a>(self, Union, QByteArray=None, bytes=None, bytearray=None): <span class="comment"># real signature unknown; restored from __doc__</span></div><div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;        <span class="stringliteral">&quot;&quot;&quot; setPropertyName(self, Union[QByteArray, bytes, bytearray]) &quot;&quot;&quot;</span></div><div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;        <span class="keywordflow">pass</span></div><div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;</div><div class="line"><a name="l00027"></a><span class="lineno"><a class="line" href="../../d2/d04/classPyQt5_1_1QtCore_1_1QPropertyAnimation_1_1QPropertyAnimation.html#a0ca9d6f0b330ab2da5e0aba42f00e7a9">   27</a></span>&#160;    <span class="keyword">def </span><a class="code" href="../../d2/d04/classPyQt5_1_1QtCore_1_1QPropertyAnimation_1_1QPropertyAnimation.html#a0ca9d6f0b330ab2da5e0aba42f00e7a9">setTargetObject</a>(self, QObject): <span class="comment"># real signature unknown; restored from __doc__</span></div><div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;        <span class="stringliteral">&quot;&quot;&quot; setTargetObject(self, QObject) &quot;&quot;&quot;</span></div><div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;        <span class="keywordflow">pass</span></div><div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;</div><div class="line"><a name="l00031"></a><span class="lineno"><a class="line" href="../../d2/d04/classPyQt5_1_1QtCore_1_1QPropertyAnimation_1_1QPropertyAnimation.html#acc3552c607beb4cdb078722258fe3ff7">   31</a></span>&#160;    <span class="keyword">def </span><a class="code" href="../../d2/d04/classPyQt5_1_1QtCore_1_1QPropertyAnimation_1_1QPropertyAnimation.html#acc3552c607beb4cdb078722258fe3ff7">targetObject</a>(self): <span class="comment"># real signature unknown; restored from __doc__</span></div><div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;        <span class="stringliteral">&quot;&quot;&quot; targetObject(self) -&gt; QObject &quot;&quot;&quot;</span></div><div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;        <span class="keywordflow">return</span> QObject</div><div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;</div><div class="line"><a name="l00035"></a><span class="lineno"><a class="line" href="../../d2/d04/classPyQt5_1_1QtCore_1_1QPropertyAnimation_1_1QPropertyAnimation.html#aa9f5fbec180fced7c605d4acfa0d155e">   35</a></span>&#160;    <span class="keyword">def </span><a class="code" href="../../d2/d04/classPyQt5_1_1QtCore_1_1QPropertyAnimation_1_1QPropertyAnimation.html#aa9f5fbec180fced7c605d4acfa0d155e">updateCurrentValue</a>(self, Any): <span class="comment"># real signature unknown; restored from __doc__</span></div><div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;        <span class="stringliteral">&quot;&quot;&quot; updateCurrentValue(self, Any) &quot;&quot;&quot;</span></div><div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;        <span class="keywordflow">pass</span></div><div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;</div><div class="line"><a name="l00039"></a><span class="lineno"><a class="line" href="../../d2/d04/classPyQt5_1_1QtCore_1_1QPropertyAnimation_1_1QPropertyAnimation.html#aeef0db96c912cf4277b4503f64f09e05">   39</a></span>&#160;    <span class="keyword">def </span><a class="code" href="../../d2/d04/classPyQt5_1_1QtCore_1_1QPropertyAnimation_1_1QPropertyAnimation.html#aeef0db96c912cf4277b4503f64f09e05">updateState</a>(self, QAbstractAnimation_State, QAbstractAnimation_State_1): <span class="comment"># real signature unknown; restored from __doc__</span></div><div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;        <span class="stringliteral">&quot;&quot;&quot; updateState(self, QAbstractAnimation.State, QAbstractAnimation.State) &quot;&quot;&quot;</span></div><div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;        <span class="keywordflow">pass</span></div><div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;</div><div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;    <span class="keyword">def </span>__init__(self, *__args): <span class="comment"># real signature unknown; restored from __doc__ with multiple overloads</span></div><div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;        <span class="keywordflow">pass</span></div><div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;</div><div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;</div><div class="ttc" id="classPyQt5_1_1QtCore_1_1QPropertyAnimation_1_1QPropertyAnimation_html_aa9f5fbec180fced7c605d4acfa0d155e"><div class="ttname"><a href="../../d2/d04/classPyQt5_1_1QtCore_1_1QPropertyAnimation_1_1QPropertyAnimation.html#aa9f5fbec180fced7c605d4acfa0d155e">PyQt5.QtCore.QPropertyAnimation.QPropertyAnimation.updateCurrentValue</a></div><div class="ttdeci">def updateCurrentValue(self, Any)</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/db3/QPropertyAnimation_8py_source.html#l00035">QPropertyAnimation.py:35</a></div></div>
+<div class="ttc" id="classPyQt5_1_1QtCore_1_1QPropertyAnimation_1_1QPropertyAnimation_html_a2bb179bc49367c482bb47d161bd4b20f"><div class="ttname"><a href="../../d2/d04/classPyQt5_1_1QtCore_1_1QPropertyAnimation_1_1QPropertyAnimation.html#a2bb179bc49367c482bb47d161bd4b20f">PyQt5.QtCore.QPropertyAnimation.QPropertyAnimation.setPropertyName</a></div><div class="ttdeci">def setPropertyName(self, Union, QByteArray=None, bytes=None, bytearray=None)</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/db3/QPropertyAnimation_8py_source.html#l00023">QPropertyAnimation.py:23</a></div></div>
+<div class="ttc" id="classPyQt5_1_1QtCore_1_1QPropertyAnimation_1_1QPropertyAnimation_html"><div class="ttname"><a href="../../d2/d04/classPyQt5_1_1QtCore_1_1QPropertyAnimation_1_1QPropertyAnimation.html">PyQt5.QtCore.QPropertyAnimation.QPropertyAnimation</a></div><div class="ttdef"><b>Definition:</b> <a href="../../dd/db3/QPropertyAnimation_8py_source.html#l00010">QPropertyAnimation.py:10</a></div></div>
+<div class="ttc" id="classPyQt5_1_1QtCore_1_1QPropertyAnimation_1_1QPropertyAnimation_html_aeef0db96c912cf4277b4503f64f09e05"><div class="ttname"><a href="../../d2/d04/classPyQt5_1_1QtCore_1_1QPropertyAnimation_1_1QPropertyAnimation.html#aeef0db96c912cf4277b4503f64f09e05">PyQt5.QtCore.QPropertyAnimation.QPropertyAnimation.updateState</a></div><div class="ttdeci">def updateState(self, QAbstractAnimation_State, QAbstractAnimation_State_1)</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/db3/QPropertyAnimation_8py_source.html#l00039">QPropertyAnimation.py:39</a></div></div>
+<div class="ttc" id="classPyQt5_1_1QtCore_1_1QPropertyAnimation_1_1QPropertyAnimation_html_acc3552c607beb4cdb078722258fe3ff7"><div class="ttname"><a href="../../d2/d04/classPyQt5_1_1QtCore_1_1QPropertyAnimation_1_1QPropertyAnimation.html#acc3552c607beb4cdb078722258fe3ff7">PyQt5.QtCore.QPropertyAnimation.QPropertyAnimation.targetObject</a></div><div class="ttdeci">def targetObject(self)</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/db3/QPropertyAnimation_8py_source.html#l00031">QPropertyAnimation.py:31</a></div></div>
+<div class="ttc" id="classPyQt5_1_1QtCore_1_1QPropertyAnimation_1_1QPropertyAnimation_html_a1eace86e1a258bffb0675a33000b0cec"><div class="ttname"><a href="../../d2/d04/classPyQt5_1_1QtCore_1_1QPropertyAnimation_1_1QPropertyAnimation.html#a1eace86e1a258bffb0675a33000b0cec">PyQt5.QtCore.QPropertyAnimation.QPropertyAnimation.event</a></div><div class="ttdeci">def event(self, QEvent)</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/db3/QPropertyAnimation_8py_source.html#l00015">QPropertyAnimation.py:15</a></div></div>
+<div class="ttc" id="classPyQt5_1_1QtCore_1_1QPropertyAnimation_1_1QPropertyAnimation_html_af3286a354304ef1454198df6161ce962"><div class="ttname"><a href="../../d2/d04/classPyQt5_1_1QtCore_1_1QPropertyAnimation_1_1QPropertyAnimation.html#af3286a354304ef1454198df6161ce962">PyQt5.QtCore.QPropertyAnimation.QPropertyAnimation.propertyName</a></div><div class="ttdeci">def propertyName(self)</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/db3/QPropertyAnimation_8py_source.html#l00019">QPropertyAnimation.py:19</a></div></div>
+<div class="ttc" id="classPyQt5_1_1QtCore_1_1QPropertyAnimation_1_1QPropertyAnimation_html_a0ca9d6f0b330ab2da5e0aba42f00e7a9"><div class="ttname"><a href="../../d2/d04/classPyQt5_1_1QtCore_1_1QPropertyAnimation_1_1QPropertyAnimation.html#a0ca9d6f0b330ab2da5e0aba42f00e7a9">PyQt5.QtCore.QPropertyAnimation.QPropertyAnimation.setTargetObject</a></div><div class="ttdeci">def setTargetObject(self, QObject)</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/db3/QPropertyAnimation_8py_source.html#l00027">QPropertyAnimation.py:27</a></div></div>
+</div><!-- fragment --></div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="../../dir_bd382a1de38bbb2eba5ad9a0dfbb7840.html">QtCore</a></li><li class="navelem"><b>QPropertyAnimation.py</b></li>
+    <li class="footer">制作者
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
+  </ul>
+</div>
+</body>
+</html>

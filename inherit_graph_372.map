@@ -1,0 +1,19 @@
+<map id="类继承关系图" name="类继承关系图">
+<area shape="rect" id="node2" href="$da/d84/classPyQt5_1_1QtSensors_1_1QAccelerometer_1_1QAccelerometer.html" title="PyQt5.QtSensors.QAccelerometer.\lQAccelerometer" alt="" coords="149,5,375,47"/>
+<area shape="rect" id="node3" href="$dc/ddc/classPyQt5_1_1QtSensors_1_1QAltimeter_1_1QAltimeter.html" title="PyQt5.QtSensors.QAltimeter.\lQAltimeter" alt="" coords="165,71,359,112"/>
+<area shape="rect" id="node4" href="$d3/dee/classPyQt5_1_1QtSensors_1_1QAmbientLightSensor_1_1QAmbientLightSensor.html" title="PyQt5.QtSensors.QAmbient\lLightSensor.QAmbientLightSensor" alt="" coords="151,136,373,177"/>
+<area shape="rect" id="node5" href="$d3/dd4/classPyQt5_1_1QtSensors_1_1QAmbientTemperatureSensor_1_1QAmbientTemperatureSensor.html" title="PyQt5.QtSensors.QAmbient\lTemperatureSensor.QAmbientTemperature\lSensor" alt="" coords="127,201,397,257"/>
+<area shape="rect" id="node6" href="$d1/d75/classPyQt5_1_1QtSensors_1_1QCompass_1_1QCompass.html" title="PyQt5.QtSensors.QCompass.\lQCompass" alt="" coords="163,280,361,321"/>
+<area shape="rect" id="node7" href="$df/dd0/classPyQt5_1_1QtSensors_1_1QDistanceSensor_1_1QDistanceSensor.html" title="PyQt5.QtSensors.QDistance\lSensor.QDistanceSensor" alt="" coords="167,345,357,387"/>
+<area shape="rect" id="node8" href="$d6/d75/classPyQt5_1_1QtSensors_1_1QGyroscope_1_1QGyroscope.html" title="PyQt5.QtSensors.QGyroscope.\lQGyroscope" alt="" coords="159,411,365,452"/>
+<area shape="rect" id="node9" href="$d6/d2b/classPyQt5_1_1QtSensors_1_1QHolsterSensor_1_1QHolsterSensor.html" title="PyQt5.QtSensors.QHolster\lSensor.QHolsterSensor" alt="" coords="171,476,353,517"/>
+<area shape="rect" id="node10" href="$dd/d98/classPyQt5_1_1QtSensors_1_1QIRProximitySensor_1_1QIRProximitySensor.html" title="PyQt5.QtSensors.QIRProximity\lSensor.QIRProximitySensor" alt="" coords="158,541,366,583"/>
+<area shape="rect" id="node11" href="$db/d89/classPyQt5_1_1QtSensors_1_1QLightSensor_1_1QLightSensor.html" title="PyQt5.QtSensors.QLightSensor.\lQLightSensor" alt="" coords="156,607,368,648"/>
+<area shape="rect" id="node12" href="$da/def/classPyQt5_1_1QtSensors_1_1QMagnetometer_1_1QMagnetometer.html" title="PyQt5.QtSensors.QMagnetometer.\lQMagnetometer" alt="" coords="149,672,375,713"/>
+<area shape="rect" id="node13" href="$de/d2b/classPyQt5_1_1QtSensors_1_1QOrientationSensor_1_1QOrientationSensor.html" title="PyQt5.QtSensors.QOrientation\lSensor.QOrientationSensor" alt="" coords="161,737,363,779"/>
+<area shape="rect" id="node14" href="$d8/dd5/classPyQt5_1_1QtSensors_1_1QPressureSensor_1_1QPressureSensor.html" title="PyQt5.QtSensors.QPressure\lSensor.QPressureSensor" alt="" coords="167,803,357,844"/>
+<area shape="rect" id="node15" href="$d4/d1d/classPyQt5_1_1QtSensors_1_1QProximitySensor_1_1QProximitySensor.html" title="PyQt5.QtSensors.QProximity\lSensor.QProximitySensor" alt="" coords="165,868,359,909"/>
+<area shape="rect" id="node16" href="$d0/de0/classPyQt5_1_1QtSensors_1_1QRotationSensor_1_1QRotationSensor.html" title="PyQt5.QtSensors.QRotation\lSensor.QRotationSensor" alt="" coords="168,933,356,975"/>
+<area shape="rect" id="node17" href="$d9/d8f/classPyQt5_1_1QtSensors_1_1QTapSensor_1_1QTapSensor.html" title="PyQt5.QtSensors.QTapSensor.\lQTapSensor" alt="" coords="159,999,365,1040"/>
+<area shape="rect" id="node18" href="$d0/d80/classPyQt5_1_1QtSensors_1_1QTiltSensor_1_1QTiltSensor.html" title="PyQt5.QtSensors.QTiltSensor.\lQTiltSensor" alt="" coords="161,1064,363,1105"/>
+</map>

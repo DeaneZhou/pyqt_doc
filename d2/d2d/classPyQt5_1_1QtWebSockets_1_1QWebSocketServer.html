@@ -1,0 +1,957 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.11"/>
+<title>PyQt: PyQt5.QtWebSockets.QWebSocketServer类 参考</title>
+<link href="../../tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../jquery.js"></script>
+<script type="text/javascript" src="../../dynsections.js"></script>
+<link href="../../navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../resize.js"></script>
+<script type="text/javascript" src="../../navtreedata.js"></script>
+<script type="text/javascript" src="../../navtree.js"></script>
+<script type="text/javascript">
+  $(document).ready(initResizable);
+  $(window).load(resizeHeight);
+</script>
+<link href="../../search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../search/searchdata.js"></script>
+<script type="text/javascript" src="../../search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { init_search(); });
+</script>
+<link href="../../doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="../../48X48.png"/></td>
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">PyQt
+   &#160;<span id="projectnumber">1.0</span>
+   </div>
+   <div id="projectbrief">学习PyQt</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 制作者 Doxygen 1.8.11 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "../../search",false,'搜索');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="../../index.html"><span>首页</span></a></li>
+      <li class="current"><a href="../../annotated.html"><span>类</span></a></li>
+      <li><a href="../../files.html"><span>文件</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="../../search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="搜索" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="../../search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="../../annotated.html"><span>类列表</span></a></li>
+      <li><a href="../../classes.html"><span>类索引</span></a></li>
+      <li><a href="../../inherits.html"><span>类继承关系</span></a></li>
+      <li><a href="../../functions.html"><span>类成员</span></a></li>
+    </ul>
+  </div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){initNavTree('d2/d2d/classPyQt5_1_1QtWebSockets_1_1QWebSocketServer.html','../../');});
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Public 成员函数</a> &#124;
+<a href="#pub-static-attribs">静态 Public 属性</a> &#124;
+<a href="../../d3/d9f/classPyQt5_1_1QtWebSockets_1_1QWebSocketServer-members.html">所有成员列表</a>  </div>
+  <div class="headertitle">
+<div class="title">PyQt5.QtWebSockets.QWebSocketServer类 参考</div>  </div>
+</div><!--header-->
+<div class="contents">
+<div class="dynheader">
+类 PyQt5.QtWebSockets.QWebSocketServer 继承关系图:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../d9/d36/classPyQt5_1_1QtWebSockets_1_1QWebSocketServer__inherit__graph.png" border="0" usemap="#PyQt5_8QtWebSockets_8QWebSocketServer_inherit__map" alt="Inheritance graph"/></div>
+<map name="PyQt5_8QtWebSockets_8QWebSocketServer_inherit__map" id="PyQt5_8QtWebSockets_8QWebSocketServer_inherit__map">
+</map>
+<center><span class="legend">[<a target="top" href="../../graph_legend.html">图例</a>]</span></center></div>
+<div class="dynheader">
+PyQt5.QtWebSockets.QWebSocketServer 的协作图:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../dc/d4d/classPyQt5_1_1QtWebSockets_1_1QWebSocketServer__coll__graph.png" border="0" usemap="#PyQt5_8QtWebSockets_8QWebSocketServer_coll__map" alt="Collaboration graph"/></div>
+<map name="PyQt5_8QtWebSockets_8QWebSocketServer_coll__map" id="PyQt5_8QtWebSockets_8QWebSocketServer_coll__map">
+</map>
+<center><span class="legend">[<a target="top" href="../../graph_legend.html">图例</a>]</span></center></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Public 成员函数</h2></td></tr>
+<tr class="memitem:a9494acdb543f5860a0a0dca36978e409"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d2d/classPyQt5_1_1QtWebSockets_1_1QWebSocketServer.html#a9494acdb543f5860a0a0dca36978e409">acceptError</a> (self, QAbstractSocket_SocketError)</td></tr>
+<tr class="separator:a9494acdb543f5860a0a0dca36978e409"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a97b531df6aca492175ff1592759eed14"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d2d/classPyQt5_1_1QtWebSockets_1_1QWebSocketServer.html#a97b531df6aca492175ff1592759eed14">close</a> (self)</td></tr>
+<tr class="separator:a97b531df6aca492175ff1592759eed14"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7a24d0e16be99947c0749264c055670c"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d2d/classPyQt5_1_1QtWebSockets_1_1QWebSocketServer.html#a7a24d0e16be99947c0749264c055670c">closed</a> (self)</td></tr>
+<tr class="separator:a7a24d0e16be99947c0749264c055670c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a02af3ef594a927f4e6701379b796a16d"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d2d/classPyQt5_1_1QtWebSockets_1_1QWebSocketServer.html#a02af3ef594a927f4e6701379b796a16d">error</a> (self)</td></tr>
+<tr class="separator:a02af3ef594a927f4e6701379b796a16d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af8a01ea872bd1294508d2533d68667cb"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d2d/classPyQt5_1_1QtWebSockets_1_1QWebSocketServer.html#af8a01ea872bd1294508d2533d68667cb">errorString</a> (self)</td></tr>
+<tr class="separator:af8a01ea872bd1294508d2533d68667cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5dda52169cc10b0080fde957f0b42e10"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d2d/classPyQt5_1_1QtWebSockets_1_1QWebSocketServer.html#a5dda52169cc10b0080fde957f0b42e10">hasPendingConnections</a> (self)</td></tr>
+<tr class="separator:a5dda52169cc10b0080fde957f0b42e10"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab4ee3bfb706105cd6f7e4a0ca3d69596"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d2d/classPyQt5_1_1QtWebSockets_1_1QWebSocketServer.html#ab4ee3bfb706105cd6f7e4a0ca3d69596">isListening</a> (self)</td></tr>
+<tr class="separator:ab4ee3bfb706105cd6f7e4a0ca3d69596"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa585273ed6bf01e915685b6f029d4da0"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d2d/classPyQt5_1_1QtWebSockets_1_1QWebSocketServer.html#aa585273ed6bf01e915685b6f029d4da0">listen</a> (self, address, QHostAddress=None, QHostAddress_SpecialAddress=None, args, kwargs)</td></tr>
+<tr class="separator:aa585273ed6bf01e915685b6f029d4da0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac525311aefc4bcfef4296e4d7add58c9"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d2d/classPyQt5_1_1QtWebSockets_1_1QWebSocketServer.html#ac525311aefc4bcfef4296e4d7add58c9">maxPendingConnections</a> (self)</td></tr>
+<tr class="separator:ac525311aefc4bcfef4296e4d7add58c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a20b142cc0324f9bf33acdc6319edb31a"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d2d/classPyQt5_1_1QtWebSockets_1_1QWebSocketServer.html#a20b142cc0324f9bf33acdc6319edb31a">newConnection</a> (self)</td></tr>
+<tr class="separator:a20b142cc0324f9bf33acdc6319edb31a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a34e1af30e3b28c35e1f22833826e37a6"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d2d/classPyQt5_1_1QtWebSockets_1_1QWebSocketServer.html#a34e1af30e3b28c35e1f22833826e37a6">nextPendingConnection</a> (self)</td></tr>
+<tr class="separator:a34e1af30e3b28c35e1f22833826e37a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a133a724b7bd3e68b61f227a71d2546cf"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d2d/classPyQt5_1_1QtWebSockets_1_1QWebSocketServer.html#a133a724b7bd3e68b61f227a71d2546cf">originAuthenticationRequired</a> (self, <a class="el" href="../../d6/d0e/classPyQt5_1_1QtWebSockets_1_1QWebSocketCorsAuthenticator.html">QWebSocketCorsAuthenticator</a>)</td></tr>
+<tr class="separator:a133a724b7bd3e68b61f227a71d2546cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad0efd1226413e25ef3e483ceba201dc6"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d2d/classPyQt5_1_1QtWebSockets_1_1QWebSocketServer.html#ad0efd1226413e25ef3e483ceba201dc6">pauseAccepting</a> (self)</td></tr>
+<tr class="separator:ad0efd1226413e25ef3e483ceba201dc6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9b751cd43205a1aa3d4789f612a73843"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d2d/classPyQt5_1_1QtWebSockets_1_1QWebSocketServer.html#a9b751cd43205a1aa3d4789f612a73843">peerVerifyError</a> (self, QSslError)</td></tr>
+<tr class="separator:a9b751cd43205a1aa3d4789f612a73843"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5ac583d16b659a306b34f402056b354c"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d2d/classPyQt5_1_1QtWebSockets_1_1QWebSocketServer.html#a5ac583d16b659a306b34f402056b354c">preSharedKeyAuthenticationRequired</a> (self, QSslPreSharedKeyAuthenticator)</td></tr>
+<tr class="separator:a5ac583d16b659a306b34f402056b354c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaa325212f63c2b11fe7e7950a3ac102b"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d2d/classPyQt5_1_1QtWebSockets_1_1QWebSocketServer.html#aaa325212f63c2b11fe7e7950a3ac102b">proxy</a> (self)</td></tr>
+<tr class="separator:aaa325212f63c2b11fe7e7950a3ac102b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a74776bae66ce709be9a1d762572bb27a"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d2d/classPyQt5_1_1QtWebSockets_1_1QWebSocketServer.html#a74776bae66ce709be9a1d762572bb27a">resumeAccepting</a> (self)</td></tr>
+<tr class="separator:a74776bae66ce709be9a1d762572bb27a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a425ce51e3f5832d067aed767023d3b13"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d2d/classPyQt5_1_1QtWebSockets_1_1QWebSocketServer.html#a425ce51e3f5832d067aed767023d3b13">secureMode</a> (self)</td></tr>
+<tr class="separator:a425ce51e3f5832d067aed767023d3b13"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adab16de08cb18fd68fa477147467f692"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d2d/classPyQt5_1_1QtWebSockets_1_1QWebSocketServer.html#adab16de08cb18fd68fa477147467f692">serverAddress</a> (self)</td></tr>
+<tr class="separator:adab16de08cb18fd68fa477147467f692"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a71d9495be3fcd73c094ce8032c2f92ed"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d2d/classPyQt5_1_1QtWebSockets_1_1QWebSocketServer.html#a71d9495be3fcd73c094ce8032c2f92ed">serverError</a> (self, QWebSocketProtocol_CloseCode)</td></tr>
+<tr class="separator:a71d9495be3fcd73c094ce8032c2f92ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa7ef1ec6360e2af8057bca001f59f085"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d2d/classPyQt5_1_1QtWebSockets_1_1QWebSocketServer.html#aa7ef1ec6360e2af8057bca001f59f085">serverName</a> (self)</td></tr>
+<tr class="separator:aa7ef1ec6360e2af8057bca001f59f085"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4b290052390e5602d5f9a20280702c57"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d2d/classPyQt5_1_1QtWebSockets_1_1QWebSocketServer.html#a4b290052390e5602d5f9a20280702c57">serverPort</a> (self)</td></tr>
+<tr class="separator:a4b290052390e5602d5f9a20280702c57"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a352a0c3aa5f884ca0065071002bb7aa6"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d2d/classPyQt5_1_1QtWebSockets_1_1QWebSocketServer.html#a352a0c3aa5f884ca0065071002bb7aa6">serverUrl</a> (self)</td></tr>
+<tr class="separator:a352a0c3aa5f884ca0065071002bb7aa6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1d30d5b28354ea35648ea312e188b021"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d2d/classPyQt5_1_1QtWebSockets_1_1QWebSocketServer.html#a1d30d5b28354ea35648ea312e188b021">setMaxPendingConnections</a> (self, p_int)</td></tr>
+<tr class="separator:a1d30d5b28354ea35648ea312e188b021"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a15c678591efdb9c5f8b557862e11aea5"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d2d/classPyQt5_1_1QtWebSockets_1_1QWebSocketServer.html#a15c678591efdb9c5f8b557862e11aea5">setProxy</a> (self, QNetworkProxy)</td></tr>
+<tr class="separator:a15c678591efdb9c5f8b557862e11aea5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae0d9d239370ccf983ceb75261f3c25a7"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d2d/classPyQt5_1_1QtWebSockets_1_1QWebSocketServer.html#ae0d9d239370ccf983ceb75261f3c25a7">setServerName</a> (self, p_str)</td></tr>
+<tr class="separator:ae0d9d239370ccf983ceb75261f3c25a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a32ed27b94e487a63c558b08105763b7b"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d2d/classPyQt5_1_1QtWebSockets_1_1QWebSocketServer.html#a32ed27b94e487a63c558b08105763b7b">setSocketDescriptor</a> (self, p_int)</td></tr>
+<tr class="separator:a32ed27b94e487a63c558b08105763b7b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5b353544413c29564d8192b14b8eb6fa"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d2d/classPyQt5_1_1QtWebSockets_1_1QWebSocketServer.html#a5b353544413c29564d8192b14b8eb6fa">setSslConfiguration</a> (self, QSslConfiguration)</td></tr>
+<tr class="separator:a5b353544413c29564d8192b14b8eb6fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7b9182c843dc85e82563fbccc7451734"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d2d/classPyQt5_1_1QtWebSockets_1_1QWebSocketServer.html#a7b9182c843dc85e82563fbccc7451734">socketDescriptor</a> (self)</td></tr>
+<tr class="separator:a7b9182c843dc85e82563fbccc7451734"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a57d2299453b29d0d2af91c74d3e298a0"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d2d/classPyQt5_1_1QtWebSockets_1_1QWebSocketServer.html#a57d2299453b29d0d2af91c74d3e298a0">sslConfiguration</a> (self)</td></tr>
+<tr class="separator:a57d2299453b29d0d2af91c74d3e298a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac37a1910738f0b9f116df1bd57cc6015"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d2d/classPyQt5_1_1QtWebSockets_1_1QWebSocketServer.html#ac37a1910738f0b9f116df1bd57cc6015">sslErrors</a> (self, Iterable, QSslError=None)</td></tr>
+<tr class="separator:ac37a1910738f0b9f116df1bd57cc6015"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab1c0defa90195c8e5f0a1dc96bbed38d"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d2d/classPyQt5_1_1QtWebSockets_1_1QWebSocketServer.html#ab1c0defa90195c8e5f0a1dc96bbed38d">supportedVersions</a> (self)</td></tr>
+<tr class="separator:ab1c0defa90195c8e5f0a1dc96bbed38d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6edde77503e84a6b0e0402ca089bdb79"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a6edde77503e84a6b0e0402ca089bdb79"></a>
+def&#160;</td><td class="memItemRight" valign="bottom"><b>__init__</b> (self, p_str, QWebSocketServer_SslMode, parent=None)</td></tr>
+<tr class="separator:a6edde77503e84a6b0e0402ca089bdb79"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-attribs"></a>
+静态 Public 属性</h2></td></tr>
+<tr class="memitem:a5a2f9a99cd9bac7fb7f8ac80e1813833"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a5a2f9a99cd9bac7fb7f8ac80e1813833"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>NonSecureMode</b> = 1</td></tr>
+<tr class="separator:a5a2f9a99cd9bac7fb7f8ac80e1813833"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab10e163c36b54d59e3a4cc72d4ee4855"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ab10e163c36b54d59e3a4cc72d4ee4855"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>SecureMode</b> = 0</td></tr>
+<tr class="separator:ab10e163c36b54d59e3a4cc72d4ee4855"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">详细描述</h2>
+<div class="textblock"><pre class="fragment">QWebSocketServer(str, QWebSocketServer.SslMode, parent: QObject = None) </pre> 
+<p>在文件 <a class="el" href="../../dc/d90/QtWebSockets_8py_source.html">QtWebSockets.py</a> 第 <a class="el" href="../../dc/d90/QtWebSockets_8py_source.html#l00301">301</a> 行定义.</p>
+</div><h2 class="groupheader">成员函数说明</h2>
+<a class="anchor" id="a9494acdb543f5860a0a0dca36978e409"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def PyQt5.QtWebSockets.QWebSocketServer.acceptError </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>QAbstractSocket_SocketError</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">acceptError(self, QAbstractSocket.SocketError) [signal] </pre> 
+<p>在文件 <a class="el" href="../../dc/d90/QtWebSockets_8py_source.html">QtWebSockets.py</a> 第 <a class="el" href="../../dc/d90/QtWebSockets_8py_source.html#l00303">303</a> 行定义.</p>
+
+</div>
+</div>
+<a class="anchor" id="a97b531df6aca492175ff1592759eed14"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def PyQt5.QtWebSockets.QWebSocketServer.close </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">close(self) </pre> 
+<p>在文件 <a class="el" href="../../dc/d90/QtWebSockets_8py_source.html">QtWebSockets.py</a> 第 <a class="el" href="../../dc/d90/QtWebSockets_8py_source.html#l00307">307</a> 行定义.</p>
+
+</div>
+</div>
+<a class="anchor" id="a7a24d0e16be99947c0749264c055670c"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def PyQt5.QtWebSockets.QWebSocketServer.closed </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">closed(self) [signal] </pre> 
+<p>在文件 <a class="el" href="../../dc/d90/QtWebSockets_8py_source.html">QtWebSockets.py</a> 第 <a class="el" href="../../dc/d90/QtWebSockets_8py_source.html#l00311">311</a> 行定义.</p>
+
+</div>
+</div>
+<a class="anchor" id="a02af3ef594a927f4e6701379b796a16d"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def PyQt5.QtWebSockets.QWebSocketServer.error </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">error(self) -&gt; QWebSocketProtocol.CloseCode </pre> 
+<p>在文件 <a class="el" href="../../dc/d90/QtWebSockets_8py_source.html">QtWebSockets.py</a> 第 <a class="el" href="../../dc/d90/QtWebSockets_8py_source.html#l00315">315</a> 行定义.</p>
+
+</div>
+</div>
+<a class="anchor" id="af8a01ea872bd1294508d2533d68667cb"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def PyQt5.QtWebSockets.QWebSocketServer.errorString </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">errorString(self) -&gt; str </pre> 
+<p>在文件 <a class="el" href="../../dc/d90/QtWebSockets_8py_source.html">QtWebSockets.py</a> 第 <a class="el" href="../../dc/d90/QtWebSockets_8py_source.html#l00319">319</a> 行定义.</p>
+
+</div>
+</div>
+<a class="anchor" id="a5dda52169cc10b0080fde957f0b42e10"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def PyQt5.QtWebSockets.QWebSocketServer.hasPendingConnections </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">hasPendingConnections(self) -&gt; bool </pre> 
+<p>在文件 <a class="el" href="../../dc/d90/QtWebSockets_8py_source.html">QtWebSockets.py</a> 第 <a class="el" href="../../dc/d90/QtWebSockets_8py_source.html#l00323">323</a> 行定义.</p>
+
+</div>
+</div>
+<a class="anchor" id="ab4ee3bfb706105cd6f7e4a0ca3d69596"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def PyQt5.QtWebSockets.QWebSocketServer.isListening </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">isListening(self) -&gt; bool </pre> 
+<p>在文件 <a class="el" href="../../dc/d90/QtWebSockets_8py_source.html">QtWebSockets.py</a> 第 <a class="el" href="../../dc/d90/QtWebSockets_8py_source.html#l00327">327</a> 行定义.</p>
+
+</div>
+</div>
+<a class="anchor" id="aa585273ed6bf01e915685b6f029d4da0"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def PyQt5.QtWebSockets.QWebSocketServer.listen </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>address</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>QHostAddress</em> = <code>None</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>QHostAddress_SpecialAddress</em> = <code>None</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>args</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>kwargs</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">listen(self, address: Union[QHostAddress, QHostAddress.SpecialAddress] = QHostAddress.Any, port: int = 0) -&gt; bool </pre> 
+<p>在文件 <a class="el" href="../../dc/d90/QtWebSockets_8py_source.html">QtWebSockets.py</a> 第 <a class="el" href="../../dc/d90/QtWebSockets_8py_source.html#l00331">331</a> 行定义.</p>
+
+</div>
+</div>
+<a class="anchor" id="ac525311aefc4bcfef4296e4d7add58c9"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def PyQt5.QtWebSockets.QWebSocketServer.maxPendingConnections </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">maxPendingConnections(self) -&gt; int </pre> 
+<p>在文件 <a class="el" href="../../dc/d90/QtWebSockets_8py_source.html">QtWebSockets.py</a> 第 <a class="el" href="../../dc/d90/QtWebSockets_8py_source.html#l00335">335</a> 行定义.</p>
+
+</div>
+</div>
+<a class="anchor" id="a20b142cc0324f9bf33acdc6319edb31a"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def PyQt5.QtWebSockets.QWebSocketServer.newConnection </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">newConnection(self) [signal] </pre> 
+<p>在文件 <a class="el" href="../../dc/d90/QtWebSockets_8py_source.html">QtWebSockets.py</a> 第 <a class="el" href="../../dc/d90/QtWebSockets_8py_source.html#l00339">339</a> 行定义.</p>
+
+</div>
+</div>
+<a class="anchor" id="a34e1af30e3b28c35e1f22833826e37a6"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def PyQt5.QtWebSockets.QWebSocketServer.nextPendingConnection </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">nextPendingConnection(self) -&gt; QWebSocket </pre> 
+<p>在文件 <a class="el" href="../../dc/d90/QtWebSockets_8py_source.html">QtWebSockets.py</a> 第 <a class="el" href="../../dc/d90/QtWebSockets_8py_source.html#l00343">343</a> 行定义.</p>
+
+</div>
+</div>
+<a class="anchor" id="a133a724b7bd3e68b61f227a71d2546cf"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def PyQt5.QtWebSockets.QWebSocketServer.originAuthenticationRequired </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>QWebSocketCorsAuthenticator</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">originAuthenticationRequired(self, QWebSocketCorsAuthenticator) [signal] </pre> 
+<p>在文件 <a class="el" href="../../dc/d90/QtWebSockets_8py_source.html">QtWebSockets.py</a> 第 <a class="el" href="../../dc/d90/QtWebSockets_8py_source.html#l00347">347</a> 行定义.</p>
+
+</div>
+</div>
+<a class="anchor" id="ad0efd1226413e25ef3e483ceba201dc6"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def PyQt5.QtWebSockets.QWebSocketServer.pauseAccepting </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">pauseAccepting(self) </pre> 
+<p>在文件 <a class="el" href="../../dc/d90/QtWebSockets_8py_source.html">QtWebSockets.py</a> 第 <a class="el" href="../../dc/d90/QtWebSockets_8py_source.html#l00351">351</a> 行定义.</p>
+
+</div>
+</div>
+<a class="anchor" id="a9b751cd43205a1aa3d4789f612a73843"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def PyQt5.QtWebSockets.QWebSocketServer.peerVerifyError </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>QSslError</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">peerVerifyError(self, QSslError) [signal] </pre> 
+<p>在文件 <a class="el" href="../../dc/d90/QtWebSockets_8py_source.html">QtWebSockets.py</a> 第 <a class="el" href="../../dc/d90/QtWebSockets_8py_source.html#l00355">355</a> 行定义.</p>
+
+</div>
+</div>
+<a class="anchor" id="a5ac583d16b659a306b34f402056b354c"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def PyQt5.QtWebSockets.QWebSocketServer.preSharedKeyAuthenticationRequired </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>QSslPreSharedKeyAuthenticator</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">preSharedKeyAuthenticationRequired(self, QSslPreSharedKeyAuthenticator) [signal] </pre> 
+<p>在文件 <a class="el" href="../../dc/d90/QtWebSockets_8py_source.html">QtWebSockets.py</a> 第 <a class="el" href="../../dc/d90/QtWebSockets_8py_source.html#l00359">359</a> 行定义.</p>
+
+</div>
+</div>
+<a class="anchor" id="aaa325212f63c2b11fe7e7950a3ac102b"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def PyQt5.QtWebSockets.QWebSocketServer.proxy </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">proxy(self) -&gt; QNetworkProxy </pre> 
+<p>在文件 <a class="el" href="../../dc/d90/QtWebSockets_8py_source.html">QtWebSockets.py</a> 第 <a class="el" href="../../dc/d90/QtWebSockets_8py_source.html#l00363">363</a> 行定义.</p>
+
+</div>
+</div>
+<a class="anchor" id="a74776bae66ce709be9a1d762572bb27a"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def PyQt5.QtWebSockets.QWebSocketServer.resumeAccepting </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">resumeAccepting(self) </pre> 
+<p>在文件 <a class="el" href="../../dc/d90/QtWebSockets_8py_source.html">QtWebSockets.py</a> 第 <a class="el" href="../../dc/d90/QtWebSockets_8py_source.html#l00367">367</a> 行定义.</p>
+
+</div>
+</div>
+<a class="anchor" id="a425ce51e3f5832d067aed767023d3b13"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def PyQt5.QtWebSockets.QWebSocketServer.secureMode </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">secureMode(self) -&gt; QWebSocketServer.SslMode </pre> 
+<p>在文件 <a class="el" href="../../dc/d90/QtWebSockets_8py_source.html">QtWebSockets.py</a> 第 <a class="el" href="../../dc/d90/QtWebSockets_8py_source.html#l00371">371</a> 行定义.</p>
+
+</div>
+</div>
+<a class="anchor" id="adab16de08cb18fd68fa477147467f692"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def PyQt5.QtWebSockets.QWebSocketServer.serverAddress </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">serverAddress(self) -&gt; QHostAddress </pre> 
+<p>在文件 <a class="el" href="../../dc/d90/QtWebSockets_8py_source.html">QtWebSockets.py</a> 第 <a class="el" href="../../dc/d90/QtWebSockets_8py_source.html#l00375">375</a> 行定义.</p>
+
+</div>
+</div>
+<a class="anchor" id="a71d9495be3fcd73c094ce8032c2f92ed"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def PyQt5.QtWebSockets.QWebSocketServer.serverError </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>QWebSocketProtocol_CloseCode</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">serverError(self, QWebSocketProtocol.CloseCode) [signal] </pre> 
+<p>在文件 <a class="el" href="../../dc/d90/QtWebSockets_8py_source.html">QtWebSockets.py</a> 第 <a class="el" href="../../dc/d90/QtWebSockets_8py_source.html#l00379">379</a> 行定义.</p>
+
+</div>
+</div>
+<a class="anchor" id="aa7ef1ec6360e2af8057bca001f59f085"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def PyQt5.QtWebSockets.QWebSocketServer.serverName </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">serverName(self) -&gt; str </pre> 
+<p>在文件 <a class="el" href="../../dc/d90/QtWebSockets_8py_source.html">QtWebSockets.py</a> 第 <a class="el" href="../../dc/d90/QtWebSockets_8py_source.html#l00383">383</a> 行定义.</p>
+
+</div>
+</div>
+<a class="anchor" id="a4b290052390e5602d5f9a20280702c57"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def PyQt5.QtWebSockets.QWebSocketServer.serverPort </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">serverPort(self) -&gt; int </pre> 
+<p>在文件 <a class="el" href="../../dc/d90/QtWebSockets_8py_source.html">QtWebSockets.py</a> 第 <a class="el" href="../../dc/d90/QtWebSockets_8py_source.html#l00387">387</a> 行定义.</p>
+
+</div>
+</div>
+<a class="anchor" id="a352a0c3aa5f884ca0065071002bb7aa6"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def PyQt5.QtWebSockets.QWebSocketServer.serverUrl </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">serverUrl(self) -&gt; QUrl </pre> 
+<p>在文件 <a class="el" href="../../dc/d90/QtWebSockets_8py_source.html">QtWebSockets.py</a> 第 <a class="el" href="../../dc/d90/QtWebSockets_8py_source.html#l00391">391</a> 行定义.</p>
+
+</div>
+</div>
+<a class="anchor" id="a1d30d5b28354ea35648ea312e188b021"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def PyQt5.QtWebSockets.QWebSocketServer.setMaxPendingConnections </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>p_int</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">setMaxPendingConnections(self, int) </pre> 
+<p>在文件 <a class="el" href="../../dc/d90/QtWebSockets_8py_source.html">QtWebSockets.py</a> 第 <a class="el" href="../../dc/d90/QtWebSockets_8py_source.html#l00395">395</a> 行定义.</p>
+
+</div>
+</div>
+<a class="anchor" id="a15c678591efdb9c5f8b557862e11aea5"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def PyQt5.QtWebSockets.QWebSocketServer.setProxy </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>QNetworkProxy</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">setProxy(self, QNetworkProxy) </pre> 
+<p>在文件 <a class="el" href="../../dc/d90/QtWebSockets_8py_source.html">QtWebSockets.py</a> 第 <a class="el" href="../../dc/d90/QtWebSockets_8py_source.html#l00399">399</a> 行定义.</p>
+
+</div>
+</div>
+<a class="anchor" id="ae0d9d239370ccf983ceb75261f3c25a7"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def PyQt5.QtWebSockets.QWebSocketServer.setServerName </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>p_str</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">setServerName(self, str) </pre> 
+<p>在文件 <a class="el" href="../../dc/d90/QtWebSockets_8py_source.html">QtWebSockets.py</a> 第 <a class="el" href="../../dc/d90/QtWebSockets_8py_source.html#l00403">403</a> 行定义.</p>
+
+</div>
+</div>
+<a class="anchor" id="a32ed27b94e487a63c558b08105763b7b"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def PyQt5.QtWebSockets.QWebSocketServer.setSocketDescriptor </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>p_int</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">setSocketDescriptor(self, int) -&gt; bool </pre> 
+<p>在文件 <a class="el" href="../../dc/d90/QtWebSockets_8py_source.html">QtWebSockets.py</a> 第 <a class="el" href="../../dc/d90/QtWebSockets_8py_source.html#l00407">407</a> 行定义.</p>
+
+</div>
+</div>
+<a class="anchor" id="a5b353544413c29564d8192b14b8eb6fa"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def PyQt5.QtWebSockets.QWebSocketServer.setSslConfiguration </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>QSslConfiguration</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">setSslConfiguration(self, QSslConfiguration) </pre> 
+<p>在文件 <a class="el" href="../../dc/d90/QtWebSockets_8py_source.html">QtWebSockets.py</a> 第 <a class="el" href="../../dc/d90/QtWebSockets_8py_source.html#l00411">411</a> 行定义.</p>
+
+</div>
+</div>
+<a class="anchor" id="a7b9182c843dc85e82563fbccc7451734"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def PyQt5.QtWebSockets.QWebSocketServer.socketDescriptor </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">socketDescriptor(self) -&gt; int </pre> 
+<p>在文件 <a class="el" href="../../dc/d90/QtWebSockets_8py_source.html">QtWebSockets.py</a> 第 <a class="el" href="../../dc/d90/QtWebSockets_8py_source.html#l00415">415</a> 行定义.</p>
+
+</div>
+</div>
+<a class="anchor" id="a57d2299453b29d0d2af91c74d3e298a0"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def PyQt5.QtWebSockets.QWebSocketServer.sslConfiguration </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">sslConfiguration(self) -&gt; QSslConfiguration </pre> 
+<p>在文件 <a class="el" href="../../dc/d90/QtWebSockets_8py_source.html">QtWebSockets.py</a> 第 <a class="el" href="../../dc/d90/QtWebSockets_8py_source.html#l00419">419</a> 行定义.</p>
+
+</div>
+</div>
+<a class="anchor" id="ac37a1910738f0b9f116df1bd57cc6015"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def PyQt5.QtWebSockets.QWebSocketServer.sslErrors </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>Iterable</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>QSslError</em> = <code>None</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">sslErrors(self, Iterable[QSslError]) [signal] </pre> 
+<p>在文件 <a class="el" href="../../dc/d90/QtWebSockets_8py_source.html">QtWebSockets.py</a> 第 <a class="el" href="../../dc/d90/QtWebSockets_8py_source.html#l00423">423</a> 行定义.</p>
+
+</div>
+</div>
+<a class="anchor" id="ab1c0defa90195c8e5f0a1dc96bbed38d"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def PyQt5.QtWebSockets.QWebSocketServer.supportedVersions </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">supportedVersions(self) -&gt; object </pre> 
+<p>在文件 <a class="el" href="../../dc/d90/QtWebSockets_8py_source.html">QtWebSockets.py</a> 第 <a class="el" href="../../dc/d90/QtWebSockets_8py_source.html#l00427">427</a> 行定义.</p>
+
+</div>
+</div>
+<hr/>该类的文档由以下文件生成:<ul>
+<li><a class="el" href="../../dc/d90/QtWebSockets_8py_source.html">QtWebSockets.py</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><b>PyQt5</b></li><li class="navelem"><b>QtWebSockets</b></li><li class="navelem"><a class="el" href="../../d2/d2d/classPyQt5_1_1QtWebSockets_1_1QWebSocketServer.html">QWebSocketServer</a></li>
+    <li class="footer">制作者
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
+  </ul>
+</div>
+</body>
+</html>

@@ -1,0 +1,10 @@
+<map id="类继承关系图" name="类继承关系图">
+<area shape="rect" id="node2" href="$d7/df3/classPyQt5_1_1QtGui_1_1QContextMenuEvent_1_1QContextMenuEvent.html" title="PyQt5.QtGui.QContextMenu\lEvent.QContextMenuEvent" alt="" coords="156,5,345,47"/>
+<area shape="rect" id="node3" href="$d4/d51/classPyQt5_1_1QtGui_1_1QHoverEvent_1_1QHoverEvent.html" title="PyQt5.QtGui.QHoverEvent.\lQHoverEvent" alt="" coords="159,71,343,112"/>
+<area shape="rect" id="node4" href="$d5/d67/classPyQt5_1_1QtGui_1_1QKeyEvent_1_1QKeyEvent.html" title="PyQt5.QtGui.QKeyEvent.QKey\lEvent" alt="" coords="148,136,353,177"/>
+<area shape="rect" id="node5" href="$d0/d86/classPyQt5_1_1QtGui_1_1QMouseEvent_1_1QMouseEvent.html" title="PyQt5.QtGui.QMouseEvent.\lQMouseEvent" alt="" coords="157,201,345,243"/>
+<area shape="rect" id="node6" href="$da/dde/classPyQt5_1_1QtGui_1_1QNativeGestureEvent_1_1QNativeGestureEvent.html" title="PyQt5.QtGui.QNativeGesture\lEvent.QNativeGestureEvent" alt="" coords="153,267,348,308"/>
+<area shape="rect" id="node7" href="$d7/d93/classPyQt5_1_1QtGui_1_1QTabletEvent_1_1QTabletEvent.html" title="PyQt5.QtGui.QTabletEvent.\lQTabletEvent" alt="" coords="158,332,343,373"/>
+<area shape="rect" id="node8" href="$d5/d49/classPyQt5_1_1QtGui_1_1QTouchEvent_1_1QTouchEvent.html" title="PyQt5.QtGui.QTouchEvent.\lQTouchEvent" alt="" coords="158,397,343,439"/>
+<area shape="rect" id="node9" href="$de/d6b/classPyQt5_1_1QtGui_1_1QWheelEvent_1_1QWheelEvent.html" title="PyQt5.QtGui.QWheelEvent.\lQWheelEvent" alt="" coords="157,463,344,504"/>
+</map>

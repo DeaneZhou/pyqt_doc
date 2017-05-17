@@ -1,0 +1,135 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.11"/>
+<title>PyQt: QtCore/QStringListModel.py 源文件</title>
+<link href="../../tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../jquery.js"></script>
+<script type="text/javascript" src="../../dynsections.js"></script>
+<link href="../../navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../resize.js"></script>
+<script type="text/javascript" src="../../navtreedata.js"></script>
+<script type="text/javascript" src="../../navtree.js"></script>
+<script type="text/javascript">
+  $(document).ready(initResizable);
+  $(window).load(resizeHeight);
+</script>
+<link href="../../search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../search/searchdata.js"></script>
+<script type="text/javascript" src="../../search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { init_search(); });
+</script>
+<link href="../../doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="../../48X48.png"/></td>
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">PyQt
+   &#160;<span id="projectnumber">1.0</span>
+   </div>
+   <div id="projectbrief">学习PyQt</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 制作者 Doxygen 1.8.11 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "../../search",false,'搜索');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="../../index.html"><span>首页</span></a></li>
+      <li><a href="../../annotated.html"><span>类</span></a></li>
+      <li class="current"><a href="../../files.html"><span>文件</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="../../search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="搜索" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="../../search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="../../files.html"><span>文件列表</span></a></li>
+    </ul>
+  </div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){initNavTree('d5/d32/QStringListModel_8py_source.html','../../');});
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="headertitle">
+<div class="title">QStringListModel.py</div>  </div>
+</div><!--header-->
+<div class="contents">
+<div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="comment"># encoding: utf-8</span></div><div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="comment"># module PyQt5.QtCore</span></div><div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="comment"># from /usr/local/lib/python3.5/dist-packages/PyQt5/QtCore.so</span></div><div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="comment"># by generator 1.144</span></div><div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="comment"># no doc</span></div><div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="comment"># no imports</span></div><div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;</div><div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="keyword">from</span> .QAbstractListModel <span class="keyword">import</span> QAbstractListModel</div><div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;</div><div class="line"><a name="l00010"></a><span class="lineno"><a class="line" href="../../d3/dbe/classPyQt5_1_1QtCore_1_1QStringListModel_1_1QStringListModel.html">   10</a></span>&#160;<span class="keyword">class </span><a class="code" href="../../d3/dbe/classPyQt5_1_1QtCore_1_1QStringListModel_1_1QStringListModel.html">QStringListModel</a>(QAbstractListModel):</div><div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;    <span class="stringliteral">&quot;&quot;&quot;</span></div><div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="stringliteral">    QStringListModel(parent: QObject = None)</span></div><div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<span class="stringliteral">    QStringListModel(Iterable[str], parent: QObject = None)</span></div><div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="stringliteral">    &quot;&quot;&quot;</span></div><div class="line"><a name="l00015"></a><span class="lineno"><a class="line" href="../../d3/dbe/classPyQt5_1_1QtCore_1_1QStringListModel_1_1QStringListModel.html#abf45561a9d80245332b90bea6da6bc01">   15</a></span>&#160;    <span class="keyword">def </span><a class="code" href="../../d3/dbe/classPyQt5_1_1QtCore_1_1QStringListModel_1_1QStringListModel.html#abf45561a9d80245332b90bea6da6bc01">data</a>(self, QModelIndex, p_int): <span class="comment"># real signature unknown; restored from __doc__</span></div><div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;        <span class="stringliteral">&quot;&quot;&quot; data(self, QModelIndex, int) -&gt; Any &quot;&quot;&quot;</span></div><div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;        <span class="keywordflow">pass</span></div><div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;</div><div class="line"><a name="l00019"></a><span class="lineno"><a class="line" href="../../d3/dbe/classPyQt5_1_1QtCore_1_1QStringListModel_1_1QStringListModel.html#abef9c2d062cb8520649f55a6d00f4616">   19</a></span>&#160;    <span class="keyword">def </span><a class="code" href="../../d3/dbe/classPyQt5_1_1QtCore_1_1QStringListModel_1_1QStringListModel.html#abef9c2d062cb8520649f55a6d00f4616">flags</a>(self, QModelIndex): <span class="comment"># real signature unknown; restored from __doc__</span></div><div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;        <span class="stringliteral">&quot;&quot;&quot; flags(self, QModelIndex) -&gt; Qt.ItemFlags &quot;&quot;&quot;</span></div><div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;        <span class="keywordflow">pass</span></div><div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;</div><div class="line"><a name="l00023"></a><span class="lineno"><a class="line" href="../../d3/dbe/classPyQt5_1_1QtCore_1_1QStringListModel_1_1QStringListModel.html#a3306db848128a8a0ebfd9a2dfd18f55d">   23</a></span>&#160;    <span class="keyword">def </span><a class="code" href="../../d3/dbe/classPyQt5_1_1QtCore_1_1QStringListModel_1_1QStringListModel.html#a3306db848128a8a0ebfd9a2dfd18f55d">insertRows</a>(self, p_int, p_int_1, parent=None, *args, **kwargs): <span class="comment"># real signature unknown; NOTE: unreliably restored from __doc__ </span></div><div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;        <span class="stringliteral">&quot;&quot;&quot; insertRows(self, int, int, parent: QModelIndex = QModelIndex()) -&gt; bool &quot;&quot;&quot;</span></div><div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;        <span class="keywordflow">pass</span></div><div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;</div><div class="line"><a name="l00027"></a><span class="lineno"><a class="line" href="../../d3/dbe/classPyQt5_1_1QtCore_1_1QStringListModel_1_1QStringListModel.html#a1a0f45d694972fd4628b4a00a1a948e7">   27</a></span>&#160;    <span class="keyword">def </span><a class="code" href="../../d3/dbe/classPyQt5_1_1QtCore_1_1QStringListModel_1_1QStringListModel.html#a1a0f45d694972fd4628b4a00a1a948e7">removeRows</a>(self, p_int, p_int_1, parent=None, *args, **kwargs): <span class="comment"># real signature unknown; NOTE: unreliably restored from __doc__ </span></div><div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;        <span class="stringliteral">&quot;&quot;&quot; removeRows(self, int, int, parent: QModelIndex = QModelIndex()) -&gt; bool &quot;&quot;&quot;</span></div><div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;        <span class="keywordflow">pass</span></div><div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;</div><div class="line"><a name="l00031"></a><span class="lineno"><a class="line" href="../../d3/dbe/classPyQt5_1_1QtCore_1_1QStringListModel_1_1QStringListModel.html#abfc972b0624bd78e0f6263582acc5c47">   31</a></span>&#160;    <span class="keyword">def </span><a class="code" href="../../d3/dbe/classPyQt5_1_1QtCore_1_1QStringListModel_1_1QStringListModel.html#abfc972b0624bd78e0f6263582acc5c47">rowCount</a>(self, parent=None, *args, **kwargs): <span class="comment"># real signature unknown; NOTE: unreliably restored from __doc__ </span></div><div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;        <span class="stringliteral">&quot;&quot;&quot; rowCount(self, parent: QModelIndex = QModelIndex()) -&gt; int &quot;&quot;&quot;</span></div><div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;        <span class="keywordflow">pass</span></div><div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;</div><div class="line"><a name="l00035"></a><span class="lineno"><a class="line" href="../../d3/dbe/classPyQt5_1_1QtCore_1_1QStringListModel_1_1QStringListModel.html#ac7b2b312901eb2d4f6033425a58a997f">   35</a></span>&#160;    <span class="keyword">def </span><a class="code" href="../../d3/dbe/classPyQt5_1_1QtCore_1_1QStringListModel_1_1QStringListModel.html#ac7b2b312901eb2d4f6033425a58a997f">setData</a>(self, QModelIndex, Any, role=None): <span class="comment"># real signature unknown; restored from __doc__</span></div><div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;        <span class="stringliteral">&quot;&quot;&quot; setData(self, QModelIndex, Any, role: int = Qt.EditRole) -&gt; bool &quot;&quot;&quot;</span></div><div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;        <span class="keywordflow">return</span> <span class="keyword">False</span></div><div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;</div><div class="line"><a name="l00039"></a><span class="lineno"><a class="line" href="../../d3/dbe/classPyQt5_1_1QtCore_1_1QStringListModel_1_1QStringListModel.html#a40b91c4db9bfa0dd93dcf42884ecee3e">   39</a></span>&#160;    <span class="keyword">def </span><a class="code" href="../../d3/dbe/classPyQt5_1_1QtCore_1_1QStringListModel_1_1QStringListModel.html#a40b91c4db9bfa0dd93dcf42884ecee3e">setStringList</a>(self, Iterable, p_str=None): <span class="comment"># real signature unknown; restored from __doc__</span></div><div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;        <span class="stringliteral">&quot;&quot;&quot; setStringList(self, Iterable[str]) &quot;&quot;&quot;</span></div><div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;        <span class="keywordflow">pass</span></div><div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;</div><div class="line"><a name="l00043"></a><span class="lineno"><a class="line" href="../../d3/dbe/classPyQt5_1_1QtCore_1_1QStringListModel_1_1QStringListModel.html#a536d186ad0d852f90c675aa7eba9be62">   43</a></span>&#160;    <span class="keyword">def </span><a class="code" href="../../d3/dbe/classPyQt5_1_1QtCore_1_1QStringListModel_1_1QStringListModel.html#a536d186ad0d852f90c675aa7eba9be62">sibling</a>(self, p_int, p_int_1, QModelIndex): <span class="comment"># real signature unknown; restored from __doc__</span></div><div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;        <span class="stringliteral">&quot;&quot;&quot; sibling(self, int, int, QModelIndex) -&gt; QModelIndex &quot;&quot;&quot;</span></div><div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;        <span class="keywordflow">return</span> QModelIndex</div><div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;</div><div class="line"><a name="l00047"></a><span class="lineno"><a class="line" href="../../d3/dbe/classPyQt5_1_1QtCore_1_1QStringListModel_1_1QStringListModel.html#af9f96e54db719bfe7ea2dfe899b781af">   47</a></span>&#160;    <span class="keyword">def </span><a class="code" href="../../d3/dbe/classPyQt5_1_1QtCore_1_1QStringListModel_1_1QStringListModel.html#af9f96e54db719bfe7ea2dfe899b781af">sort</a>(self, p_int, order=None): <span class="comment"># real signature unknown; restored from __doc__</span></div><div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;        <span class="stringliteral">&quot;&quot;&quot; sort(self, int, order: Qt.SortOrder = Qt.AscendingOrder) &quot;&quot;&quot;</span></div><div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;        <span class="keywordflow">pass</span></div><div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;</div><div class="line"><a name="l00051"></a><span class="lineno"><a class="line" href="../../d3/dbe/classPyQt5_1_1QtCore_1_1QStringListModel_1_1QStringListModel.html#a19babd0f19fe2fa77b7fee20c2a9dcf9">   51</a></span>&#160;    <span class="keyword">def </span><a class="code" href="../../d3/dbe/classPyQt5_1_1QtCore_1_1QStringListModel_1_1QStringListModel.html#a19babd0f19fe2fa77b7fee20c2a9dcf9">stringList</a>(self): <span class="comment"># real signature unknown; restored from __doc__</span></div><div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;        <span class="stringliteral">&quot;&quot;&quot; stringList(self) -&gt; List[str] &quot;&quot;&quot;</span></div><div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;        <span class="keywordflow">return</span> []</div><div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;</div><div class="line"><a name="l00055"></a><span class="lineno"><a class="line" href="../../d3/dbe/classPyQt5_1_1QtCore_1_1QStringListModel_1_1QStringListModel.html#ae1fe25784c2447818a5401d1576423ad">   55</a></span>&#160;    <span class="keyword">def </span><a class="code" href="../../d3/dbe/classPyQt5_1_1QtCore_1_1QStringListModel_1_1QStringListModel.html#ae1fe25784c2447818a5401d1576423ad">supportedDropActions</a>(self): <span class="comment"># real signature unknown; restored from __doc__</span></div><div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;        <span class="stringliteral">&quot;&quot;&quot; supportedDropActions(self) -&gt; Qt.DropActions &quot;&quot;&quot;</span></div><div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;        <span class="keywordflow">pass</span></div><div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;</div><div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;    <span class="keyword">def </span>__init__(self, *__args): <span class="comment"># real signature unknown; restored from __doc__ with multiple overloads</span></div><div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;        <span class="keywordflow">pass</span></div><div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;</div><div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;</div><div class="ttc" id="classPyQt5_1_1QtCore_1_1QStringListModel_1_1QStringListModel_html_a1a0f45d694972fd4628b4a00a1a948e7"><div class="ttname"><a href="../../d3/dbe/classPyQt5_1_1QtCore_1_1QStringListModel_1_1QStringListModel.html#a1a0f45d694972fd4628b4a00a1a948e7">PyQt5.QtCore.QStringListModel.QStringListModel.removeRows</a></div><div class="ttdeci">def removeRows(self, p_int, p_int_1, parent=None, args, kwargs)</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d32/QStringListModel_8py_source.html#l00027">QStringListModel.py:27</a></div></div>
+<div class="ttc" id="classPyQt5_1_1QtCore_1_1QStringListModel_1_1QStringListModel_html_abef9c2d062cb8520649f55a6d00f4616"><div class="ttname"><a href="../../d3/dbe/classPyQt5_1_1QtCore_1_1QStringListModel_1_1QStringListModel.html#abef9c2d062cb8520649f55a6d00f4616">PyQt5.QtCore.QStringListModel.QStringListModel.flags</a></div><div class="ttdeci">def flags(self, QModelIndex)</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d32/QStringListModel_8py_source.html#l00019">QStringListModel.py:19</a></div></div>
+<div class="ttc" id="classPyQt5_1_1QtCore_1_1QStringListModel_1_1QStringListModel_html_ac7b2b312901eb2d4f6033425a58a997f"><div class="ttname"><a href="../../d3/dbe/classPyQt5_1_1QtCore_1_1QStringListModel_1_1QStringListModel.html#ac7b2b312901eb2d4f6033425a58a997f">PyQt5.QtCore.QStringListModel.QStringListModel.setData</a></div><div class="ttdeci">def setData(self, QModelIndex, Any, role=None)</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d32/QStringListModel_8py_source.html#l00035">QStringListModel.py:35</a></div></div>
+<div class="ttc" id="classPyQt5_1_1QtCore_1_1QStringListModel_1_1QStringListModel_html"><div class="ttname"><a href="../../d3/dbe/classPyQt5_1_1QtCore_1_1QStringListModel_1_1QStringListModel.html">PyQt5.QtCore.QStringListModel.QStringListModel</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d32/QStringListModel_8py_source.html#l00010">QStringListModel.py:10</a></div></div>
+<div class="ttc" id="classPyQt5_1_1QtCore_1_1QStringListModel_1_1QStringListModel_html_a19babd0f19fe2fa77b7fee20c2a9dcf9"><div class="ttname"><a href="../../d3/dbe/classPyQt5_1_1QtCore_1_1QStringListModel_1_1QStringListModel.html#a19babd0f19fe2fa77b7fee20c2a9dcf9">PyQt5.QtCore.QStringListModel.QStringListModel.stringList</a></div><div class="ttdeci">def stringList(self)</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d32/QStringListModel_8py_source.html#l00051">QStringListModel.py:51</a></div></div>
+<div class="ttc" id="classPyQt5_1_1QtCore_1_1QStringListModel_1_1QStringListModel_html_ae1fe25784c2447818a5401d1576423ad"><div class="ttname"><a href="../../d3/dbe/classPyQt5_1_1QtCore_1_1QStringListModel_1_1QStringListModel.html#ae1fe25784c2447818a5401d1576423ad">PyQt5.QtCore.QStringListModel.QStringListModel.supportedDropActions</a></div><div class="ttdeci">def supportedDropActions(self)</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d32/QStringListModel_8py_source.html#l00055">QStringListModel.py:55</a></div></div>
+<div class="ttc" id="classPyQt5_1_1QtCore_1_1QStringListModel_1_1QStringListModel_html_a40b91c4db9bfa0dd93dcf42884ecee3e"><div class="ttname"><a href="../../d3/dbe/classPyQt5_1_1QtCore_1_1QStringListModel_1_1QStringListModel.html#a40b91c4db9bfa0dd93dcf42884ecee3e">PyQt5.QtCore.QStringListModel.QStringListModel.setStringList</a></div><div class="ttdeci">def setStringList(self, Iterable, p_str=None)</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d32/QStringListModel_8py_source.html#l00039">QStringListModel.py:39</a></div></div>
+<div class="ttc" id="classPyQt5_1_1QtCore_1_1QStringListModel_1_1QStringListModel_html_abf45561a9d80245332b90bea6da6bc01"><div class="ttname"><a href="../../d3/dbe/classPyQt5_1_1QtCore_1_1QStringListModel_1_1QStringListModel.html#abf45561a9d80245332b90bea6da6bc01">PyQt5.QtCore.QStringListModel.QStringListModel.data</a></div><div class="ttdeci">def data(self, QModelIndex, p_int)</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d32/QStringListModel_8py_source.html#l00015">QStringListModel.py:15</a></div></div>
+<div class="ttc" id="classPyQt5_1_1QtCore_1_1QStringListModel_1_1QStringListModel_html_abfc972b0624bd78e0f6263582acc5c47"><div class="ttname"><a href="../../d3/dbe/classPyQt5_1_1QtCore_1_1QStringListModel_1_1QStringListModel.html#abfc972b0624bd78e0f6263582acc5c47">PyQt5.QtCore.QStringListModel.QStringListModel.rowCount</a></div><div class="ttdeci">def rowCount(self, parent=None, args, kwargs)</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d32/QStringListModel_8py_source.html#l00031">QStringListModel.py:31</a></div></div>
+<div class="ttc" id="classPyQt5_1_1QtCore_1_1QStringListModel_1_1QStringListModel_html_af9f96e54db719bfe7ea2dfe899b781af"><div class="ttname"><a href="../../d3/dbe/classPyQt5_1_1QtCore_1_1QStringListModel_1_1QStringListModel.html#af9f96e54db719bfe7ea2dfe899b781af">PyQt5.QtCore.QStringListModel.QStringListModel.sort</a></div><div class="ttdeci">def sort(self, p_int, order=None)</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d32/QStringListModel_8py_source.html#l00047">QStringListModel.py:47</a></div></div>
+<div class="ttc" id="classPyQt5_1_1QtCore_1_1QStringListModel_1_1QStringListModel_html_a536d186ad0d852f90c675aa7eba9be62"><div class="ttname"><a href="../../d3/dbe/classPyQt5_1_1QtCore_1_1QStringListModel_1_1QStringListModel.html#a536d186ad0d852f90c675aa7eba9be62">PyQt5.QtCore.QStringListModel.QStringListModel.sibling</a></div><div class="ttdeci">def sibling(self, p_int, p_int_1, QModelIndex)</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d32/QStringListModel_8py_source.html#l00043">QStringListModel.py:43</a></div></div>
+<div class="ttc" id="classPyQt5_1_1QtCore_1_1QStringListModel_1_1QStringListModel_html_a3306db848128a8a0ebfd9a2dfd18f55d"><div class="ttname"><a href="../../d3/dbe/classPyQt5_1_1QtCore_1_1QStringListModel_1_1QStringListModel.html#a3306db848128a8a0ebfd9a2dfd18f55d">PyQt5.QtCore.QStringListModel.QStringListModel.insertRows</a></div><div class="ttdeci">def insertRows(self, p_int, p_int_1, parent=None, args, kwargs)</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d32/QStringListModel_8py_source.html#l00023">QStringListModel.py:23</a></div></div>
+</div><!-- fragment --></div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="../../dir_bd382a1de38bbb2eba5ad9a0dfbb7840.html">QtCore</a></li><li class="navelem"><b>QStringListModel.py</b></li>
+    <li class="footer">制作者
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
+  </ul>
+</div>
+</body>
+</html>

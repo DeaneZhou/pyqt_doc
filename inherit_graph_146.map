@@ -1,0 +1,29 @@
+<map id="类继承关系图" name="类继承关系图">
+<area shape="rect" id="node2" href="$df/d15/classPyQt5_1_1QtGui_1_1QActionEvent_1_1QActionEvent.html" title="PyQt5.QtGui.QActionEvent.\lQActionEvent" alt="" coords="163,5,349,47"/>
+<area shape="rect" id="node3" href="$d0/d3a/classPyQt5_1_1QtGui_1_1QCloseEvent_1_1QCloseEvent.html" title="PyQt5.QtGui.QCloseEvent.\lQCloseEvent" alt="" coords="165,71,347,112"/>
+<area shape="rect" id="node4" href="$d2/d8e/classPyQt5_1_1QtGui_1_1QDragLeaveEvent_1_1QDragLeaveEvent.html" title="PyQt5.QtGui.QDragLeaveEvent.\lQDragLeaveEvent" alt="" coords="150,136,362,177"/>
+<area shape="rect" id="node5" href="$d8/de2/classPyQt5_1_1QtGui_1_1QDropEvent_1_1QDropEvent.html" title="PyQt5.QtGui.QDropEvent.QDrop\lEvent" alt="" coords="149,201,363,243"/>
+<area shape="rect" id="node6" href="$d3/d2e/classPyQt5_1_1QtGui_1_1QEnterEvent_1_1QEnterEvent.html" title="PyQt5.QtGui.QEnterEvent.\lQEnterEvent" alt="" coords="166,267,346,308"/>
+<area shape="rect" id="node7" href="$d1/d5c/classPyQt5_1_1QtGui_1_1QExposeEvent_1_1QExposeEvent.html" title="PyQt5.QtGui.QExposeEvent.\lQExposeEvent" alt="" coords="159,332,353,373"/>
+<area shape="rect" id="node8" href="$d4/d06/classPyQt5_1_1QtGui_1_1QFileOpenEvent_1_1QFileOpenEvent.html" title="PyQt5.QtGui.QFileOpenEvent.\lQFileOpenEvent" alt="" coords="155,397,357,439"/>
+<area shape="rect" id="node9" href="$dc/d54/classPyQt5_1_1QtGui_1_1QFocusEvent_1_1QFocusEvent.html" title="PyQt5.QtGui.QFocusEvent.\lQFocusEvent" alt="" coords="163,463,349,504"/>
+<area shape="rect" id="node10" href="$d1/d4a/classPyQt5_1_1QtGui_1_1QHelpEvent_1_1QHelpEvent.html" title="PyQt5.QtGui.QHelpEvent.QHelp\lEvent" alt="" coords="149,528,363,569"/>
+<area shape="rect" id="node11" href="$db/d07/classPyQt5_1_1QtGui_1_1QHideEvent_1_1QHideEvent.html" title="PyQt5.QtGui.QHideEvent.QHide\lEvent" alt="" coords="149,593,363,635"/>
+<area shape="rect" id="node12" href="$d1/db3/classPyQt5_1_1QtGui_1_1QIconDragEvent_1_1QIconDragEvent.html" title="PyQt5.QtGui.QIconDragEvent.\lQIconDragEvent" alt="" coords="155,659,357,700"/>
+<area shape="rect" id="node13" href="$da/d9a/classPyQt5_1_1QtGui_1_1QInputEvent_1_1QInputEvent.html" title="PyQt5.QtGui.QInputEvent.\lQInputEvent" alt="" coords="167,724,345,765"/>
+<area shape="rect" id="node14" href="$de/d66/classPyQt5_1_1QtGui_1_1QInputMethodEvent_1_1QInputMethodEvent.html" title="PyQt5.QtGui.QInputMethod\lEvent.QInputMethodEvent" alt="" coords="165,789,347,831"/>
+<area shape="rect" id="node15" href="$d4/d4f/classPyQt5_1_1QtGui_1_1QInputMethodQueryEvent_1_1QInputMethodQueryEvent.html" title="PyQt5.QtGui.QInputMethod\lQueryEvent.QInputMethodQueryEvent" alt="" coords="133,855,379,896"/>
+<area shape="rect" id="node16" href="$dc/d7f/classPyQt5_1_1QtGui_1_1QMoveEvent_1_1QMoveEvent.html" title="PyQt5.QtGui.QMoveEvent.QMove\lEvent" alt="" coords="145,920,367,961"/>
+<area shape="rect" id="node17" href="$d6/d6c/classPyQt5_1_1QtGui_1_1QPaintEvent_1_1QPaintEvent.html" title="PyQt5.QtGui.QPaintEvent.\lQPaintEvent" alt="" coords="167,985,345,1027"/>
+<area shape="rect" id="node18" href="$d5/d84/classPyQt5_1_1QtGui_1_1QPlatformSurfaceEvent_1_1QPlatformSurfaceEvent.html" title="PyQt5.QtGui.QPlatformSurface\lEvent.QPlatformSurfaceEvent" alt="" coords="153,1051,359,1092"/>
+<area shape="rect" id="node19" href="$dc/de0/classPyQt5_1_1QtGui_1_1QResizeEvent_1_1QResizeEvent.html" title="PyQt5.QtGui.QResizeEvent.\lQResizeEvent" alt="" coords="161,1116,351,1157"/>
+<area shape="rect" id="node20" href="$d6/d97/classPyQt5_1_1QtGui_1_1QScrollEvent_1_1QScrollEvent.html" title="PyQt5.QtGui.QScrollEvent.\lQScrollEvent" alt="" coords="165,1181,347,1223"/>
+<area shape="rect" id="node21" href="$d6/d0d/classPyQt5_1_1QtGui_1_1QScrollPrepareEvent_1_1QScrollPrepareEvent.html" title="PyQt5.QtGui.QScrollPrepare\lEvent.QScrollPrepareEvent" alt="" coords="161,1247,351,1288"/>
+<area shape="rect" id="node22" href="$d0/d99/classPyQt5_1_1QtGui_1_1QShortcutEvent_1_1QShortcutEvent.html" title="PyQt5.QtGui.QShortcutEvent.\lQShortcutEvent" alt="" coords="157,1312,355,1353"/>
+<area shape="rect" id="node23" href="$d8/dfc/classPyQt5_1_1QtGui_1_1QShowEvent_1_1QShowEvent.html" title="PyQt5.QtGui.QShowEvent.QShow\lEvent" alt="" coords="143,1377,369,1419"/>
+<area shape="rect" id="node24" href="$d7/ddc/classPyQt5_1_1QtGui_1_1QStatusTipEvent_1_1QStatusTipEvent.html" title="PyQt5.QtGui.QStatusTipEvent.\lQStatusTipEvent" alt="" coords="153,1443,359,1484"/>
+<area shape="rect" id="node25" href="$dd/d3b/classPyQt5_1_1QtGui_1_1QWhatsThisClickedEvent_1_1QWhatsThisClickedEvent.html" title="PyQt5.QtGui.QWhatsThisClicked\lEvent.QWhatsThisClickedEvent" alt="" coords="147,1508,365,1549"/>
+<area shape="rect" id="node26" href="$d6/d3e/classPyQt5_1_1QtGui_1_1QWindowStateChangeEvent_1_1QWindowStateChangeEvent.html" title="PyQt5.QtGui.QWindowState\lChangeEvent.QWindowStateChangeEvent" alt="" coords="120,1573,392,1615"/>
+<area shape="rect" id="node27" href="$df/d52/classPyQt5_1_1QtWidgets_1_1QGestureEvent_1_1QGestureEvent.html" title="PyQt5.QtWidgets.QGesture\lEvent.QGestureEvent" alt="" coords="163,1639,349,1680"/>
+<area shape="rect" id="node28" href="$d5/d6a/classPyQt5_1_1QtWidgets_1_1QGraphicsSceneEvent_1_1QGraphicsSceneEvent.html" title="PyQt5.QtWidgets.QGraphics\lSceneEvent.QGraphicsSceneEvent" alt="" coords="141,1704,371,1745"/>
+</map>

@@ -1,0 +1,978 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.11"/>
+<title>PyQt: PyQt5.QtCore.QSettings.QSettings类 参考</title>
+<link href="../../tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../jquery.js"></script>
+<script type="text/javascript" src="../../dynsections.js"></script>
+<link href="../../navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../resize.js"></script>
+<script type="text/javascript" src="../../navtreedata.js"></script>
+<script type="text/javascript" src="../../navtree.js"></script>
+<script type="text/javascript">
+  $(document).ready(initResizable);
+  $(window).load(resizeHeight);
+</script>
+<link href="../../search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../search/searchdata.js"></script>
+<script type="text/javascript" src="../../search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { init_search(); });
+</script>
+<link href="../../doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="../../48X48.png"/></td>
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">PyQt
+   &#160;<span id="projectnumber">1.0</span>
+   </div>
+   <div id="projectbrief">学习PyQt</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 制作者 Doxygen 1.8.11 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "../../search",false,'搜索');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="../../index.html"><span>首页</span></a></li>
+      <li class="current"><a href="../../annotated.html"><span>类</span></a></li>
+      <li><a href="../../files.html"><span>文件</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="../../search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="搜索" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="../../search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="../../annotated.html"><span>类列表</span></a></li>
+      <li><a href="../../classes.html"><span>类索引</span></a></li>
+      <li><a href="../../inherits.html"><span>类继承关系</span></a></li>
+      <li><a href="../../functions.html"><span>类成员</span></a></li>
+    </ul>
+  </div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){initNavTree('dc/d7f/classPyQt5_1_1QtCore_1_1QSettings_1_1QSettings.html','../../');});
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Public 成员函数</a> &#124;
+<a href="#pub-static-attribs">静态 Public 属性</a> &#124;
+<a href="../../d1/d4c/classPyQt5_1_1QtCore_1_1QSettings_1_1QSettings-members.html">所有成员列表</a>  </div>
+  <div class="headertitle">
+<div class="title">PyQt5.QtCore.QSettings.QSettings类 参考</div>  </div>
+</div><!--header-->
+<div class="contents">
+<div class="dynheader">
+类 PyQt5.QtCore.QSettings.QSettings 继承关系图:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../db/d3c/classPyQt5_1_1QtCore_1_1QSettings_1_1QSettings__inherit__graph.png" border="0" usemap="#PyQt5_8QtCore_8QSettings_8QSettings_inherit__map" alt="Inheritance graph"/></div>
+<map name="PyQt5_8QtCore_8QSettings_8QSettings_inherit__map" id="PyQt5_8QtCore_8QSettings_8QSettings_inherit__map">
+</map>
+<center><span class="legend">[<a target="top" href="../../graph_legend.html">图例</a>]</span></center></div>
+<div class="dynheader">
+PyQt5.QtCore.QSettings.QSettings 的协作图:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../d2/dbe/classPyQt5_1_1QtCore_1_1QSettings_1_1QSettings__coll__graph.png" border="0" usemap="#PyQt5_8QtCore_8QSettings_8QSettings_coll__map" alt="Collaboration graph"/></div>
+<map name="PyQt5_8QtCore_8QSettings_8QSettings_coll__map" id="PyQt5_8QtCore_8QSettings_8QSettings_coll__map">
+</map>
+<center><span class="legend">[<a target="top" href="../../graph_legend.html">图例</a>]</span></center></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Public 成员函数</h2></td></tr>
+<tr class="memitem:a9cd24c5616f62228d449ee7928626deb"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d7f/classPyQt5_1_1QtCore_1_1QSettings_1_1QSettings.html#a9cd24c5616f62228d449ee7928626deb">allKeys</a> (self)</td></tr>
+<tr class="separator:a9cd24c5616f62228d449ee7928626deb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3cf49c993175d0a339db4fd64a1194ce"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d7f/classPyQt5_1_1QtCore_1_1QSettings_1_1QSettings.html#a3cf49c993175d0a339db4fd64a1194ce">applicationName</a> (self)</td></tr>
+<tr class="separator:a3cf49c993175d0a339db4fd64a1194ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5e653d7607a9b6e471d947d742d5f82f"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d7f/classPyQt5_1_1QtCore_1_1QSettings_1_1QSettings.html#a5e653d7607a9b6e471d947d742d5f82f">beginGroup</a> (self, p_str)</td></tr>
+<tr class="separator:a5e653d7607a9b6e471d947d742d5f82f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2cc65334abcf6f723d539fa0c12732c9"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d7f/classPyQt5_1_1QtCore_1_1QSettings_1_1QSettings.html#a2cc65334abcf6f723d539fa0c12732c9">beginReadArray</a> (self, p_str)</td></tr>
+<tr class="separator:a2cc65334abcf6f723d539fa0c12732c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad0f7f771026f04b5c2cff32d97dd7e62"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d7f/classPyQt5_1_1QtCore_1_1QSettings_1_1QSettings.html#ad0f7f771026f04b5c2cff32d97dd7e62">beginWriteArray</a> (self, p_str, size=-1)</td></tr>
+<tr class="separator:ad0f7f771026f04b5c2cff32d97dd7e62"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a425d78d0d18ba4ea29f8da493e8f4caf"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d7f/classPyQt5_1_1QtCore_1_1QSettings_1_1QSettings.html#a425d78d0d18ba4ea29f8da493e8f4caf">childGroups</a> (self)</td></tr>
+<tr class="separator:a425d78d0d18ba4ea29f8da493e8f4caf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a76b99671dfaf9953a60c487193eb7ab7"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d7f/classPyQt5_1_1QtCore_1_1QSettings_1_1QSettings.html#a76b99671dfaf9953a60c487193eb7ab7">childKeys</a> (self)</td></tr>
+<tr class="separator:a76b99671dfaf9953a60c487193eb7ab7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9489cb0798b356acbc91d3293e1697d6"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d7f/classPyQt5_1_1QtCore_1_1QSettings_1_1QSettings.html#a9489cb0798b356acbc91d3293e1697d6">clear</a> (self)</td></tr>
+<tr class="separator:a9489cb0798b356acbc91d3293e1697d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1b4c923ad823798ba05f0567e0c5a03d"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d7f/classPyQt5_1_1QtCore_1_1QSettings_1_1QSettings.html#a1b4c923ad823798ba05f0567e0c5a03d">contains</a> (self, p_str)</td></tr>
+<tr class="separator:a1b4c923ad823798ba05f0567e0c5a03d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a448702e47643042babf5276570989619"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d7f/classPyQt5_1_1QtCore_1_1QSettings_1_1QSettings.html#a448702e47643042babf5276570989619">defaultFormat</a> (self)</td></tr>
+<tr class="separator:a448702e47643042babf5276570989619"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a39e433332733bc2449fc4fa95ae9dc89"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d7f/classPyQt5_1_1QtCore_1_1QSettings_1_1QSettings.html#a39e433332733bc2449fc4fa95ae9dc89">endArray</a> (self)</td></tr>
+<tr class="separator:a39e433332733bc2449fc4fa95ae9dc89"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac29537a4f42bba3f72c5a840616334ab"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d7f/classPyQt5_1_1QtCore_1_1QSettings_1_1QSettings.html#ac29537a4f42bba3f72c5a840616334ab">endGroup</a> (self)</td></tr>
+<tr class="separator:ac29537a4f42bba3f72c5a840616334ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad99d944eb280c0a7923d51a049389b3a"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d7f/classPyQt5_1_1QtCore_1_1QSettings_1_1QSettings.html#ad99d944eb280c0a7923d51a049389b3a">event</a> (self, QEvent)</td></tr>
+<tr class="separator:ad99d944eb280c0a7923d51a049389b3a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a11776c6e8443d0196209a712cce09360"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d7f/classPyQt5_1_1QtCore_1_1QSettings_1_1QSettings.html#a11776c6e8443d0196209a712cce09360">fallbacksEnabled</a> (self)</td></tr>
+<tr class="separator:a11776c6e8443d0196209a712cce09360"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6cde3320613e4af8e6154f500fb1aa09"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d7f/classPyQt5_1_1QtCore_1_1QSettings_1_1QSettings.html#a6cde3320613e4af8e6154f500fb1aa09">fileName</a> (self)</td></tr>
+<tr class="separator:a6cde3320613e4af8e6154f500fb1aa09"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac8a839a9706eb3aae2d1277aac6ba8ae"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d7f/classPyQt5_1_1QtCore_1_1QSettings_1_1QSettings.html#ac8a839a9706eb3aae2d1277aac6ba8ae">format</a> (self)</td></tr>
+<tr class="separator:ac8a839a9706eb3aae2d1277aac6ba8ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae1066228abb400c287730b723e1d57e2"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d7f/classPyQt5_1_1QtCore_1_1QSettings_1_1QSettings.html#ae1066228abb400c287730b723e1d57e2">group</a> (self)</td></tr>
+<tr class="separator:ae1066228abb400c287730b723e1d57e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a254f8707eb4c61928d8152f6d06f86b8"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d7f/classPyQt5_1_1QtCore_1_1QSettings_1_1QSettings.html#a254f8707eb4c61928d8152f6d06f86b8">iniCodec</a> (self)</td></tr>
+<tr class="separator:a254f8707eb4c61928d8152f6d06f86b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4a57834466ff527b88433a20d8e6884e"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d7f/classPyQt5_1_1QtCore_1_1QSettings_1_1QSettings.html#a4a57834466ff527b88433a20d8e6884e">isWritable</a> (self)</td></tr>
+<tr class="separator:a4a57834466ff527b88433a20d8e6884e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1a6892f143c8868de31900689dc8857a"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d7f/classPyQt5_1_1QtCore_1_1QSettings_1_1QSettings.html#a1a6892f143c8868de31900689dc8857a">organizationName</a> (self)</td></tr>
+<tr class="separator:a1a6892f143c8868de31900689dc8857a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aed580d69d60b069b6847d10ef74daadb"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d7f/classPyQt5_1_1QtCore_1_1QSettings_1_1QSettings.html#aed580d69d60b069b6847d10ef74daadb">remove</a> (self, p_str)</td></tr>
+<tr class="separator:aed580d69d60b069b6847d10ef74daadb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acefb917e06ceb644cbcd8a344954788f"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d7f/classPyQt5_1_1QtCore_1_1QSettings_1_1QSettings.html#acefb917e06ceb644cbcd8a344954788f">scope</a> (self)</td></tr>
+<tr class="separator:acefb917e06ceb644cbcd8a344954788f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a536019bef1cef2a35d439cb944698932"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d7f/classPyQt5_1_1QtCore_1_1QSettings_1_1QSettings.html#a536019bef1cef2a35d439cb944698932">setArrayIndex</a> (self, p_int)</td></tr>
+<tr class="separator:a536019bef1cef2a35d439cb944698932"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3543085c8627462628571d5f41a0b3cd"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d7f/classPyQt5_1_1QtCore_1_1QSettings_1_1QSettings.html#a3543085c8627462628571d5f41a0b3cd">setDefaultFormat</a> (self, QSettings_Format)</td></tr>
+<tr class="separator:a3543085c8627462628571d5f41a0b3cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a245a235ef492180c924d6b89daa0db59"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d7f/classPyQt5_1_1QtCore_1_1QSettings_1_1QSettings.html#a245a235ef492180c924d6b89daa0db59">setFallbacksEnabled</a> (self, bool)</td></tr>
+<tr class="separator:a245a235ef492180c924d6b89daa0db59"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6c19798f583ff52a7cdc1aff5487d05b"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d7f/classPyQt5_1_1QtCore_1_1QSettings_1_1QSettings.html#a6c19798f583ff52a7cdc1aff5487d05b">setIniCodec</a> (self, __args)</td></tr>
+<tr class="separator:a6c19798f583ff52a7cdc1aff5487d05b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac60158a1be572de77c9cb444594156e9"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d7f/classPyQt5_1_1QtCore_1_1QSettings_1_1QSettings.html#ac60158a1be572de77c9cb444594156e9">setPath</a> (self, QSettings_Format, QSettings_Scope, p_str)</td></tr>
+<tr class="separator:ac60158a1be572de77c9cb444594156e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a89aa7db46d761158e19a34ced021baeb"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d7f/classPyQt5_1_1QtCore_1_1QSettings_1_1QSettings.html#a89aa7db46d761158e19a34ced021baeb">setValue</a> (self, p_str, Any)</td></tr>
+<tr class="separator:a89aa7db46d761158e19a34ced021baeb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a79998e54d5313dea0d3f2bccea14be22"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d7f/classPyQt5_1_1QtCore_1_1QSettings_1_1QSettings.html#a79998e54d5313dea0d3f2bccea14be22">status</a> (self)</td></tr>
+<tr class="separator:a79998e54d5313dea0d3f2bccea14be22"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad7504c0c43bfb3ba06672b4e180a816d"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d7f/classPyQt5_1_1QtCore_1_1QSettings_1_1QSettings.html#ad7504c0c43bfb3ba06672b4e180a816d">sync</a> (self)</td></tr>
+<tr class="separator:ad7504c0c43bfb3ba06672b4e180a816d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a94123f72213e7b8615a35f1721bbe99e"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d7f/classPyQt5_1_1QtCore_1_1QSettings_1_1QSettings.html#a94123f72213e7b8615a35f1721bbe99e">value</a> (self, p_str, defaultValue=None, type=None)</td></tr>
+<tr class="separator:a94123f72213e7b8615a35f1721bbe99e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6e4e20d754f2e69997b863a43dba92ea"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a6e4e20d754f2e69997b863a43dba92ea"></a>
+def&#160;</td><td class="memItemRight" valign="bottom"><b>__init__</b> (self, __args)</td></tr>
+<tr class="separator:a6e4e20d754f2e69997b863a43dba92ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-attribs"></a>
+静态 Public 属性</h2></td></tr>
+<tr class="memitem:a0efc95ea68b16607d61b4ecf595623cd"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a0efc95ea68b16607d61b4ecf595623cd"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>AccessError</b> = 1</td></tr>
+<tr class="separator:a0efc95ea68b16607d61b4ecf595623cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7f54296d7b6bfc86b6fa03d683b20a82"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a7f54296d7b6bfc86b6fa03d683b20a82"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>FormatError</b> = 2</td></tr>
+<tr class="separator:a7f54296d7b6bfc86b6fa03d683b20a82"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a47d278b8b013819119c944c03910a439"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a47d278b8b013819119c944c03910a439"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>IniFormat</b> = 1</td></tr>
+<tr class="separator:a47d278b8b013819119c944c03910a439"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1bb65e23b1cdf7e4113cf68539834a4a"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a1bb65e23b1cdf7e4113cf68539834a4a"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>InvalidFormat</b> = 16</td></tr>
+<tr class="separator:a1bb65e23b1cdf7e4113cf68539834a4a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a25198d6c24e19f3525ca88dff405a73f"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a25198d6c24e19f3525ca88dff405a73f"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>NativeFormat</b> = 0</td></tr>
+<tr class="separator:a25198d6c24e19f3525ca88dff405a73f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adad0f4335c7635a902a0877b74ccb719"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="adad0f4335c7635a902a0877b74ccb719"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>NoError</b> = 0</td></tr>
+<tr class="separator:adad0f4335c7635a902a0877b74ccb719"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9ded2d92ccb8697efc6ddfa05cd00a6c"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a9ded2d92ccb8697efc6ddfa05cd00a6c"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>SystemScope</b> = 1</td></tr>
+<tr class="separator:a9ded2d92ccb8697efc6ddfa05cd00a6c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6560fc050d34e9a4ae1f72fb0a2687d1"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a6560fc050d34e9a4ae1f72fb0a2687d1"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>UserScope</b> = 0</td></tr>
+<tr class="separator:a6560fc050d34e9a4ae1f72fb0a2687d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">详细描述</h2>
+<div class="textblock"><pre class="fragment">QSettings(str, application: str = '', parent: QObject = None)
+QSettings(QSettings.Scope, str, application: str = '', parent: QObject = None)
+QSettings(QSettings.Format, QSettings.Scope, str, application: str = '', parent: QObject = None)
+QSettings(str, QSettings.Format, parent: QObject = None)
+QSettings(parent: QObject = None)
+</pre> 
+<p>在文件 <a class="el" href="../../d0/d85/QSettings_8py_source.html">QSettings.py</a> 第 <a class="el" href="../../d0/d85/QSettings_8py_source.html#l00010">10</a> 行定义.</p>
+</div><h2 class="groupheader">成员函数说明</h2>
+<a class="anchor" id="a9cd24c5616f62228d449ee7928626deb"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def PyQt5.QtCore.QSettings.QSettings.allKeys </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">allKeys(self) -&gt; List[str] </pre> 
+<p>在文件 <a class="el" href="../../d0/d85/QSettings_8py_source.html">QSettings.py</a> 第 <a class="el" href="../../d0/d85/QSettings_8py_source.html#l00018">18</a> 行定义.</p>
+
+</div>
+</div>
+<a class="anchor" id="a3cf49c993175d0a339db4fd64a1194ce"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def PyQt5.QtCore.QSettings.QSettings.applicationName </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">applicationName(self) -&gt; str </pre> 
+<p>在文件 <a class="el" href="../../d0/d85/QSettings_8py_source.html">QSettings.py</a> 第 <a class="el" href="../../d0/d85/QSettings_8py_source.html#l00022">22</a> 行定义.</p>
+
+</div>
+</div>
+<a class="anchor" id="a5e653d7607a9b6e471d947d742d5f82f"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def PyQt5.QtCore.QSettings.QSettings.beginGroup </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>p_str</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">beginGroup(self, str) </pre> 
+<p>在文件 <a class="el" href="../../d0/d85/QSettings_8py_source.html">QSettings.py</a> 第 <a class="el" href="../../d0/d85/QSettings_8py_source.html#l00026">26</a> 行定义.</p>
+
+</div>
+</div>
+<a class="anchor" id="a2cc65334abcf6f723d539fa0c12732c9"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def PyQt5.QtCore.QSettings.QSettings.beginReadArray </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>p_str</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">beginReadArray(self, str) -&gt; int </pre> 
+<p>在文件 <a class="el" href="../../d0/d85/QSettings_8py_source.html">QSettings.py</a> 第 <a class="el" href="../../d0/d85/QSettings_8py_source.html#l00030">30</a> 行定义.</p>
+
+</div>
+</div>
+<a class="anchor" id="ad0f7f771026f04b5c2cff32d97dd7e62"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def PyQt5.QtCore.QSettings.QSettings.beginWriteArray </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>p_str</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>size</em> = <code>-1</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">beginWriteArray(self, str, size: int = -1) </pre> 
+<p>在文件 <a class="el" href="../../d0/d85/QSettings_8py_source.html">QSettings.py</a> 第 <a class="el" href="../../d0/d85/QSettings_8py_source.html#l00034">34</a> 行定义.</p>
+
+</div>
+</div>
+<a class="anchor" id="a425d78d0d18ba4ea29f8da493e8f4caf"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def PyQt5.QtCore.QSettings.QSettings.childGroups </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">childGroups(self) -&gt; List[str] </pre> 
+<p>在文件 <a class="el" href="../../d0/d85/QSettings_8py_source.html">QSettings.py</a> 第 <a class="el" href="../../d0/d85/QSettings_8py_source.html#l00038">38</a> 行定义.</p>
+
+</div>
+</div>
+<a class="anchor" id="a76b99671dfaf9953a60c487193eb7ab7"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def PyQt5.QtCore.QSettings.QSettings.childKeys </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">childKeys(self) -&gt; List[str] </pre> 
+<p>在文件 <a class="el" href="../../d0/d85/QSettings_8py_source.html">QSettings.py</a> 第 <a class="el" href="../../d0/d85/QSettings_8py_source.html#l00042">42</a> 行定义.</p>
+
+</div>
+</div>
+<a class="anchor" id="a9489cb0798b356acbc91d3293e1697d6"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def PyQt5.QtCore.QSettings.QSettings.clear </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">clear(self) </pre> 
+<p>在文件 <a class="el" href="../../d0/d85/QSettings_8py_source.html">QSettings.py</a> 第 <a class="el" href="../../d0/d85/QSettings_8py_source.html#l00046">46</a> 行定义.</p>
+
+</div>
+</div>
+<a class="anchor" id="a1b4c923ad823798ba05f0567e0c5a03d"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def PyQt5.QtCore.QSettings.QSettings.contains </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>p_str</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">contains(self, str) -&gt; bool </pre> 
+<p>在文件 <a class="el" href="../../d0/d85/QSettings_8py_source.html">QSettings.py</a> 第 <a class="el" href="../../d0/d85/QSettings_8py_source.html#l00050">50</a> 行定义.</p>
+
+</div>
+</div>
+<a class="anchor" id="a448702e47643042babf5276570989619"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def PyQt5.QtCore.QSettings.QSettings.defaultFormat </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">defaultFormat() -&gt; QSettings.Format </pre> 
+<p>在文件 <a class="el" href="../../d0/d85/QSettings_8py_source.html">QSettings.py</a> 第 <a class="el" href="../../d0/d85/QSettings_8py_source.html#l00054">54</a> 行定义.</p>
+
+</div>
+</div>
+<a class="anchor" id="a39e433332733bc2449fc4fa95ae9dc89"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def PyQt5.QtCore.QSettings.QSettings.endArray </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">endArray(self) </pre> 
+<p>在文件 <a class="el" href="../../d0/d85/QSettings_8py_source.html">QSettings.py</a> 第 <a class="el" href="../../d0/d85/QSettings_8py_source.html#l00058">58</a> 行定义.</p>
+
+</div>
+</div>
+<a class="anchor" id="ac29537a4f42bba3f72c5a840616334ab"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def PyQt5.QtCore.QSettings.QSettings.endGroup </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">endGroup(self) </pre> 
+<p>在文件 <a class="el" href="../../d0/d85/QSettings_8py_source.html">QSettings.py</a> 第 <a class="el" href="../../d0/d85/QSettings_8py_source.html#l00062">62</a> 行定义.</p>
+
+</div>
+</div>
+<a class="anchor" id="ad99d944eb280c0a7923d51a049389b3a"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def PyQt5.QtCore.QSettings.QSettings.event </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>QEvent</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">event(self, QEvent) -&gt; bool </pre> 
+<p>在文件 <a class="el" href="../../d0/d85/QSettings_8py_source.html">QSettings.py</a> 第 <a class="el" href="../../d0/d85/QSettings_8py_source.html#l00066">66</a> 行定义.</p>
+
+</div>
+</div>
+<a class="anchor" id="a11776c6e8443d0196209a712cce09360"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def PyQt5.QtCore.QSettings.QSettings.fallbacksEnabled </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">fallbacksEnabled(self) -&gt; bool </pre> 
+<p>在文件 <a class="el" href="../../d0/d85/QSettings_8py_source.html">QSettings.py</a> 第 <a class="el" href="../../d0/d85/QSettings_8py_source.html#l00070">70</a> 行定义.</p>
+
+</div>
+</div>
+<a class="anchor" id="a6cde3320613e4af8e6154f500fb1aa09"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def PyQt5.QtCore.QSettings.QSettings.fileName </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">fileName(self) -&gt; str </pre> 
+<p>在文件 <a class="el" href="../../d0/d85/QSettings_8py_source.html">QSettings.py</a> 第 <a class="el" href="../../d0/d85/QSettings_8py_source.html#l00074">74</a> 行定义.</p>
+
+</div>
+</div>
+<a class="anchor" id="ac8a839a9706eb3aae2d1277aac6ba8ae"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def PyQt5.QtCore.QSettings.QSettings.format </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">format(self) -&gt; QSettings.Format </pre> 
+<p>在文件 <a class="el" href="../../d0/d85/QSettings_8py_source.html">QSettings.py</a> 第 <a class="el" href="../../d0/d85/QSettings_8py_source.html#l00078">78</a> 行定义.</p>
+
+</div>
+</div>
+<a class="anchor" id="ae1066228abb400c287730b723e1d57e2"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def PyQt5.QtCore.QSettings.QSettings.group </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">group(self) -&gt; str </pre> 
+<p>在文件 <a class="el" href="../../d0/d85/QSettings_8py_source.html">QSettings.py</a> 第 <a class="el" href="../../d0/d85/QSettings_8py_source.html#l00082">82</a> 行定义.</p>
+
+</div>
+</div>
+<a class="anchor" id="a254f8707eb4c61928d8152f6d06f86b8"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def PyQt5.QtCore.QSettings.QSettings.iniCodec </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">iniCodec(self) -&gt; QTextCodec </pre> 
+<p>在文件 <a class="el" href="../../d0/d85/QSettings_8py_source.html">QSettings.py</a> 第 <a class="el" href="../../d0/d85/QSettings_8py_source.html#l00086">86</a> 行定义.</p>
+
+</div>
+</div>
+<a class="anchor" id="a4a57834466ff527b88433a20d8e6884e"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def PyQt5.QtCore.QSettings.QSettings.isWritable </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">isWritable(self) -&gt; bool </pre> 
+<p>在文件 <a class="el" href="../../d0/d85/QSettings_8py_source.html">QSettings.py</a> 第 <a class="el" href="../../d0/d85/QSettings_8py_source.html#l00090">90</a> 行定义.</p>
+
+</div>
+</div>
+<a class="anchor" id="a1a6892f143c8868de31900689dc8857a"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def PyQt5.QtCore.QSettings.QSettings.organizationName </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">organizationName(self) -&gt; str </pre> 
+<p>在文件 <a class="el" href="../../d0/d85/QSettings_8py_source.html">QSettings.py</a> 第 <a class="el" href="../../d0/d85/QSettings_8py_source.html#l00094">94</a> 行定义.</p>
+
+</div>
+</div>
+<a class="anchor" id="aed580d69d60b069b6847d10ef74daadb"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def PyQt5.QtCore.QSettings.QSettings.remove </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>p_str</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">remove(self, str) </pre> 
+<p>在文件 <a class="el" href="../../d0/d85/QSettings_8py_source.html">QSettings.py</a> 第 <a class="el" href="../../d0/d85/QSettings_8py_source.html#l00098">98</a> 行定义.</p>
+
+</div>
+</div>
+<a class="anchor" id="acefb917e06ceb644cbcd8a344954788f"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def PyQt5.QtCore.QSettings.QSettings.scope </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">scope(self) -&gt; QSettings.Scope </pre> 
+<p>在文件 <a class="el" href="../../d0/d85/QSettings_8py_source.html">QSettings.py</a> 第 <a class="el" href="../../d0/d85/QSettings_8py_source.html#l00102">102</a> 行定义.</p>
+
+</div>
+</div>
+<a class="anchor" id="a536019bef1cef2a35d439cb944698932"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def PyQt5.QtCore.QSettings.QSettings.setArrayIndex </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>p_int</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">setArrayIndex(self, int) </pre> 
+<p>在文件 <a class="el" href="../../d0/d85/QSettings_8py_source.html">QSettings.py</a> 第 <a class="el" href="../../d0/d85/QSettings_8py_source.html#l00106">106</a> 行定义.</p>
+
+</div>
+</div>
+<a class="anchor" id="a3543085c8627462628571d5f41a0b3cd"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def PyQt5.QtCore.QSettings.QSettings.setDefaultFormat </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>QSettings_Format</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">setDefaultFormat(QSettings.Format) </pre> 
+<p>在文件 <a class="el" href="../../d0/d85/QSettings_8py_source.html">QSettings.py</a> 第 <a class="el" href="../../d0/d85/QSettings_8py_source.html#l00110">110</a> 行定义.</p>
+
+</div>
+</div>
+<a class="anchor" id="a245a235ef492180c924d6b89daa0db59"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def PyQt5.QtCore.QSettings.QSettings.setFallbacksEnabled </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>bool</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">setFallbacksEnabled(self, bool) </pre> 
+<p>在文件 <a class="el" href="../../d0/d85/QSettings_8py_source.html">QSettings.py</a> 第 <a class="el" href="../../d0/d85/QSettings_8py_source.html#l00114">114</a> 行定义.</p>
+
+</div>
+</div>
+<a class="anchor" id="a6c19798f583ff52a7cdc1aff5487d05b"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def PyQt5.QtCore.QSettings.QSettings.setIniCodec </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>__args</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">setIniCodec(self, QTextCodec)
+setIniCodec(self, str)
+</pre> 
+<p>在文件 <a class="el" href="../../d0/d85/QSettings_8py_source.html">QSettings.py</a> 第 <a class="el" href="../../d0/d85/QSettings_8py_source.html#l00118">118</a> 行定义.</p>
+
+</div>
+</div>
+<a class="anchor" id="ac60158a1be572de77c9cb444594156e9"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def PyQt5.QtCore.QSettings.QSettings.setPath </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>QSettings_Format</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>QSettings_Scope</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>p_str</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">setPath(QSettings.Format, QSettings.Scope, str) </pre> 
+<p>在文件 <a class="el" href="../../d0/d85/QSettings_8py_source.html">QSettings.py</a> 第 <a class="el" href="../../d0/d85/QSettings_8py_source.html#l00125">125</a> 行定义.</p>
+
+</div>
+</div>
+<a class="anchor" id="a89aa7db46d761158e19a34ced021baeb"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def PyQt5.QtCore.QSettings.QSettings.setValue </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>p_str</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>Any</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">setValue(self, str, Any) </pre> 
+<p>在文件 <a class="el" href="../../d0/d85/QSettings_8py_source.html">QSettings.py</a> 第 <a class="el" href="../../d0/d85/QSettings_8py_source.html#l00129">129</a> 行定义.</p>
+
+</div>
+</div>
+<a class="anchor" id="a79998e54d5313dea0d3f2bccea14be22"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def PyQt5.QtCore.QSettings.QSettings.status </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">status(self) -&gt; QSettings.Status </pre> 
+<p>在文件 <a class="el" href="../../d0/d85/QSettings_8py_source.html">QSettings.py</a> 第 <a class="el" href="../../d0/d85/QSettings_8py_source.html#l00133">133</a> 行定义.</p>
+
+</div>
+</div>
+<a class="anchor" id="ad7504c0c43bfb3ba06672b4e180a816d"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def PyQt5.QtCore.QSettings.QSettings.sync </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">sync(self) </pre> 
+<p>在文件 <a class="el" href="../../d0/d85/QSettings_8py_source.html">QSettings.py</a> 第 <a class="el" href="../../d0/d85/QSettings_8py_source.html#l00137">137</a> 行定义.</p>
+
+</div>
+</div>
+<a class="anchor" id="a94123f72213e7b8615a35f1721bbe99e"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def PyQt5.QtCore.QSettings.QSettings.value </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>p_str</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>defaultValue</em> = <code>None</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>type</em> = <code>None</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">value(self, str, defaultValue: Any = None, type: type = None) -&gt; object </pre> 
+<p>在文件 <a class="el" href="../../d0/d85/QSettings_8py_source.html">QSettings.py</a> 第 <a class="el" href="../../d0/d85/QSettings_8py_source.html#l00141">141</a> 行定义.</p>
+
+</div>
+</div>
+<hr/>该类的文档由以下文件生成:<ul>
+<li>QtCore/<a class="el" href="../../d0/d85/QSettings_8py_source.html">QSettings.py</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><b>PyQt5</b></li><li class="navelem"><b>QtCore</b></li><li class="navelem"><b>QSettings</b></li><li class="navelem"><a class="el" href="../../dc/d7f/classPyQt5_1_1QtCore_1_1QSettings_1_1QSettings.html">QSettings</a></li>
+    <li class="footer">制作者
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
+  </ul>
+</div>
+</body>
+</html>

@@ -1,0 +1,930 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.11"/>
+<title>PyQt: PyQt5.QtCore.QItemSelectionModel.QItemSelectionModel类 参考</title>
+<link href="../../tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../jquery.js"></script>
+<script type="text/javascript" src="../../dynsections.js"></script>
+<link href="../../navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../resize.js"></script>
+<script type="text/javascript" src="../../navtreedata.js"></script>
+<script type="text/javascript" src="../../navtree.js"></script>
+<script type="text/javascript">
+  $(document).ready(initResizable);
+  $(window).load(resizeHeight);
+</script>
+<link href="../../search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../search/searchdata.js"></script>
+<script type="text/javascript" src="../../search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { init_search(); });
+</script>
+<link href="../../doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="../../48X48.png"/></td>
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">PyQt
+   &#160;<span id="projectnumber">1.0</span>
+   </div>
+   <div id="projectbrief">学习PyQt</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 制作者 Doxygen 1.8.11 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "../../search",false,'搜索');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="../../index.html"><span>首页</span></a></li>
+      <li class="current"><a href="../../annotated.html"><span>类</span></a></li>
+      <li><a href="../../files.html"><span>文件</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="../../search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="搜索" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="../../search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="../../annotated.html"><span>类列表</span></a></li>
+      <li><a href="../../classes.html"><span>类索引</span></a></li>
+      <li><a href="../../inherits.html"><span>类继承关系</span></a></li>
+      <li><a href="../../functions.html"><span>类成员</span></a></li>
+    </ul>
+  </div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){initNavTree('df/dd1/classPyQt5_1_1QtCore_1_1QItemSelectionModel_1_1QItemSelectionModel.html','../../');});
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Public 成员函数</a> &#124;
+<a href="#pub-static-attribs">静态 Public 属性</a> &#124;
+<a href="../../d5/ded/classPyQt5_1_1QtCore_1_1QItemSelectionModel_1_1QItemSelectionModel-members.html">所有成员列表</a>  </div>
+  <div class="headertitle">
+<div class="title">PyQt5.QtCore.QItemSelectionModel.QItemSelectionModel类 参考</div>  </div>
+</div><!--header-->
+<div class="contents">
+<div class="dynheader">
+类 PyQt5.QtCore.QItemSelectionModel.QItemSelectionModel 继承关系图:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../d7/dbe/classPyQt5_1_1QtCore_1_1QItemSelectionModel_1_1QItemSelectionModel__inherit__graph.png" border="0" usemap="#PyQt5_8QtCore_8QItemSelectionModel_8QItemSelectionModel_inherit__map" alt="Inheritance graph"/></div>
+<map name="PyQt5_8QtCore_8QItemSelectionModel_8QItemSelectionModel_inherit__map" id="PyQt5_8QtCore_8QItemSelectionModel_8QItemSelectionModel_inherit__map">
+</map>
+<center><span class="legend">[<a target="top" href="../../graph_legend.html">图例</a>]</span></center></div>
+<div class="dynheader">
+PyQt5.QtCore.QItemSelectionModel.QItemSelectionModel 的协作图:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../de/d0a/classPyQt5_1_1QtCore_1_1QItemSelectionModel_1_1QItemSelectionModel__coll__graph.png" border="0" usemap="#PyQt5_8QtCore_8QItemSelectionModel_8QItemSelectionModel_coll__map" alt="Collaboration graph"/></div>
+<map name="PyQt5_8QtCore_8QItemSelectionModel_8QItemSelectionModel_coll__map" id="PyQt5_8QtCore_8QItemSelectionModel_8QItemSelectionModel_coll__map">
+</map>
+<center><span class="legend">[<a target="top" href="../../graph_legend.html">图例</a>]</span></center></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Public 成员函数</h2></td></tr>
+<tr class="memitem:a1acce2801bc69b038688aeaceb5949af"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/dd1/classPyQt5_1_1QtCore_1_1QItemSelectionModel_1_1QItemSelectionModel.html#a1acce2801bc69b038688aeaceb5949af">clear</a> (self)</td></tr>
+<tr class="separator:a1acce2801bc69b038688aeaceb5949af"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4f7776bcde599811a4341e49847f664b"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/dd1/classPyQt5_1_1QtCore_1_1QItemSelectionModel_1_1QItemSelectionModel.html#a4f7776bcde599811a4341e49847f664b">clearCurrentIndex</a> (self)</td></tr>
+<tr class="separator:a4f7776bcde599811a4341e49847f664b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa80a756c5ed5651da766829f8b3d7ff0"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/dd1/classPyQt5_1_1QtCore_1_1QItemSelectionModel_1_1QItemSelectionModel.html#aa80a756c5ed5651da766829f8b3d7ff0">clearSelection</a> (self)</td></tr>
+<tr class="separator:aa80a756c5ed5651da766829f8b3d7ff0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a60c48e958cd588ffbb890f20b311c0a0"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/dd1/classPyQt5_1_1QtCore_1_1QItemSelectionModel_1_1QItemSelectionModel.html#a60c48e958cd588ffbb890f20b311c0a0">columnIntersectsSelection</a> (self, p_int, QModelIndex)</td></tr>
+<tr class="separator:a60c48e958cd588ffbb890f20b311c0a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a578d47496bebd50838a54d3a800d9972"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/dd1/classPyQt5_1_1QtCore_1_1QItemSelectionModel_1_1QItemSelectionModel.html#a578d47496bebd50838a54d3a800d9972">currentChanged</a> (self, QModelIndex, QModelIndex_1)</td></tr>
+<tr class="separator:a578d47496bebd50838a54d3a800d9972"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a63ad679380de1333cf01404d2aa3efce"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/dd1/classPyQt5_1_1QtCore_1_1QItemSelectionModel_1_1QItemSelectionModel.html#a63ad679380de1333cf01404d2aa3efce">currentColumnChanged</a> (self, QModelIndex, QModelIndex_1)</td></tr>
+<tr class="separator:a63ad679380de1333cf01404d2aa3efce"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af18b5f8bb8382d6e2bd83d054c5d04c4"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/dd1/classPyQt5_1_1QtCore_1_1QItemSelectionModel_1_1QItemSelectionModel.html#af18b5f8bb8382d6e2bd83d054c5d04c4">currentIndex</a> (self)</td></tr>
+<tr class="separator:af18b5f8bb8382d6e2bd83d054c5d04c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a455c2381f9b2301e974df954cafba8a0"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/dd1/classPyQt5_1_1QtCore_1_1QItemSelectionModel_1_1QItemSelectionModel.html#a455c2381f9b2301e974df954cafba8a0">currentRowChanged</a> (self, QModelIndex, QModelIndex_1)</td></tr>
+<tr class="separator:a455c2381f9b2301e974df954cafba8a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adb91de824e382603a3aa7a7dc58d4af1"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/dd1/classPyQt5_1_1QtCore_1_1QItemSelectionModel_1_1QItemSelectionModel.html#adb91de824e382603a3aa7a7dc58d4af1">emitSelectionChanged</a> (self, QItemSelection, QItemSelection_1)</td></tr>
+<tr class="separator:adb91de824e382603a3aa7a7dc58d4af1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad0ddf76c031491568b07b8fb65c50059"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/dd1/classPyQt5_1_1QtCore_1_1QItemSelectionModel_1_1QItemSelectionModel.html#ad0ddf76c031491568b07b8fb65c50059">hasSelection</a> (self)</td></tr>
+<tr class="separator:ad0ddf76c031491568b07b8fb65c50059"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acfe202b4cf7a6128ce4f722b3fd4f35b"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/dd1/classPyQt5_1_1QtCore_1_1QItemSelectionModel_1_1QItemSelectionModel.html#acfe202b4cf7a6128ce4f722b3fd4f35b">isColumnSelected</a> (self, p_int, QModelIndex)</td></tr>
+<tr class="separator:acfe202b4cf7a6128ce4f722b3fd4f35b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1bb3031870f8a6ee528811d14f19000f"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/dd1/classPyQt5_1_1QtCore_1_1QItemSelectionModel_1_1QItemSelectionModel.html#a1bb3031870f8a6ee528811d14f19000f">isRowSelected</a> (self, p_int, QModelIndex)</td></tr>
+<tr class="separator:a1bb3031870f8a6ee528811d14f19000f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8301b69ddfbd056d1fa6ceab2bafdb24"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/dd1/classPyQt5_1_1QtCore_1_1QItemSelectionModel_1_1QItemSelectionModel.html#a8301b69ddfbd056d1fa6ceab2bafdb24">isSelected</a> (self, QModelIndex)</td></tr>
+<tr class="separator:a8301b69ddfbd056d1fa6ceab2bafdb24"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af7e092f4921a4ed7fb8754f45c80c369"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/dd1/classPyQt5_1_1QtCore_1_1QItemSelectionModel_1_1QItemSelectionModel.html#af7e092f4921a4ed7fb8754f45c80c369">model</a> (self)</td></tr>
+<tr class="separator:af7e092f4921a4ed7fb8754f45c80c369"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9c038d7dda9285decc8360f05c827547"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/dd1/classPyQt5_1_1QtCore_1_1QItemSelectionModel_1_1QItemSelectionModel.html#a9c038d7dda9285decc8360f05c827547">modelChanged</a> (self, QAbstractItemModel)</td></tr>
+<tr class="separator:a9c038d7dda9285decc8360f05c827547"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aac1445879686a3d6dbdb5ef2addcccf8"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/dd1/classPyQt5_1_1QtCore_1_1QItemSelectionModel_1_1QItemSelectionModel.html#aac1445879686a3d6dbdb5ef2addcccf8">reset</a> (self)</td></tr>
+<tr class="separator:aac1445879686a3d6dbdb5ef2addcccf8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0e6d27c1590278ad6a3bd15c4f0b8efd"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/dd1/classPyQt5_1_1QtCore_1_1QItemSelectionModel_1_1QItemSelectionModel.html#a0e6d27c1590278ad6a3bd15c4f0b8efd">rowIntersectsSelection</a> (self, p_int, QModelIndex)</td></tr>
+<tr class="separator:a0e6d27c1590278ad6a3bd15c4f0b8efd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a696836c162db5f53798c51a437ba6d8e"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/dd1/classPyQt5_1_1QtCore_1_1QItemSelectionModel_1_1QItemSelectionModel.html#a696836c162db5f53798c51a437ba6d8e">select</a> (self, __args)</td></tr>
+<tr class="separator:a696836c162db5f53798c51a437ba6d8e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a83a8915328bbbd08a6a14ff484ea4091"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/dd1/classPyQt5_1_1QtCore_1_1QItemSelectionModel_1_1QItemSelectionModel.html#a83a8915328bbbd08a6a14ff484ea4091">selectedColumns</a> (self, row=0)</td></tr>
+<tr class="separator:a83a8915328bbbd08a6a14ff484ea4091"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a75f2ef51fa334bf42bfd435fb00da272"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/dd1/classPyQt5_1_1QtCore_1_1QItemSelectionModel_1_1QItemSelectionModel.html#a75f2ef51fa334bf42bfd435fb00da272">selectedIndexes</a> (self)</td></tr>
+<tr class="separator:a75f2ef51fa334bf42bfd435fb00da272"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a628bebbb9d4ac5e77a9c29bd2f747b4d"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/dd1/classPyQt5_1_1QtCore_1_1QItemSelectionModel_1_1QItemSelectionModel.html#a628bebbb9d4ac5e77a9c29bd2f747b4d">selectedRows</a> (self, column=0)</td></tr>
+<tr class="separator:a628bebbb9d4ac5e77a9c29bd2f747b4d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a328935416629d4046b66d08eadcbfcbe"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/dd1/classPyQt5_1_1QtCore_1_1QItemSelectionModel_1_1QItemSelectionModel.html#a328935416629d4046b66d08eadcbfcbe">selection</a> (self)</td></tr>
+<tr class="separator:a328935416629d4046b66d08eadcbfcbe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aab16bc044554061ae01c55702a2c664f"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/dd1/classPyQt5_1_1QtCore_1_1QItemSelectionModel_1_1QItemSelectionModel.html#aab16bc044554061ae01c55702a2c664f">selectionChanged</a> (self, QItemSelection, QItemSelection_1)</td></tr>
+<tr class="separator:aab16bc044554061ae01c55702a2c664f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a31bd594b4e53a2ae897cc1b824f9ae27"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/dd1/classPyQt5_1_1QtCore_1_1QItemSelectionModel_1_1QItemSelectionModel.html#a31bd594b4e53a2ae897cc1b824f9ae27">setCurrentIndex</a> (self, QModelIndex, Union, QItemSelectionModel_SelectionFlags=None, QItemSelectionModel_SelectionFlag=None)</td></tr>
+<tr class="separator:a31bd594b4e53a2ae897cc1b824f9ae27"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a41c9373f40c802bc9c4cb6749dfbd925"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/dd1/classPyQt5_1_1QtCore_1_1QItemSelectionModel_1_1QItemSelectionModel.html#a41c9373f40c802bc9c4cb6749dfbd925">setModel</a> (self, QAbstractItemModel)</td></tr>
+<tr class="separator:a41c9373f40c802bc9c4cb6749dfbd925"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7d9d4530a2d9d32795cfb9eb0012f4ba"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a7d9d4530a2d9d32795cfb9eb0012f4ba"></a>
+def&#160;</td><td class="memItemRight" valign="bottom"><b>__init__</b> (self, __args)</td></tr>
+<tr class="separator:a7d9d4530a2d9d32795cfb9eb0012f4ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-attribs"></a>
+静态 Public 属性</h2></td></tr>
+<tr class="memitem:a78d2b7a8c3332a3f4fab775f18eb5089"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a78d2b7a8c3332a3f4fab775f18eb5089"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>Clear</b> = 1</td></tr>
+<tr class="separator:a78d2b7a8c3332a3f4fab775f18eb5089"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a527d9b0659f05b1df9ccd248cb63b942"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a527d9b0659f05b1df9ccd248cb63b942"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>ClearAndSelect</b> = 3</td></tr>
+<tr class="separator:a527d9b0659f05b1df9ccd248cb63b942"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a15e308d238516459dd309471d57ca207"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a15e308d238516459dd309471d57ca207"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>Columns</b> = 64</td></tr>
+<tr class="separator:a15e308d238516459dd309471d57ca207"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac4d45300fd53befc33ea7de53f37d0df"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ac4d45300fd53befc33ea7de53f37d0df"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>Current</b> = 16</td></tr>
+<tr class="separator:ac4d45300fd53befc33ea7de53f37d0df"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab87445397e16b0b30ad59e0ed8598f78"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ab87445397e16b0b30ad59e0ed8598f78"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>Deselect</b> = 4</td></tr>
+<tr class="separator:ab87445397e16b0b30ad59e0ed8598f78"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9e462002661554fcd905e4e130d0d675"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a9e462002661554fcd905e4e130d0d675"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>NoUpdate</b> = 0</td></tr>
+<tr class="separator:a9e462002661554fcd905e4e130d0d675"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a323648572ceeeb7b6a100299325c7297"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a323648572ceeeb7b6a100299325c7297"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>Rows</b> = 32</td></tr>
+<tr class="separator:a323648572ceeeb7b6a100299325c7297"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae25cbe92b5e7b67d243c015e60381d59"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ae25cbe92b5e7b67d243c015e60381d59"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>Select</b> = 2</td></tr>
+<tr class="separator:ae25cbe92b5e7b67d243c015e60381d59"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aea727aaec9394948b2f11617b4eb771c"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aea727aaec9394948b2f11617b4eb771c"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>SelectCurrent</b> = 18</td></tr>
+<tr class="separator:aea727aaec9394948b2f11617b4eb771c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a57c62cdee9d6565538022f937b627494"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a57c62cdee9d6565538022f937b627494"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>Toggle</b> = 8</td></tr>
+<tr class="separator:a57c62cdee9d6565538022f937b627494"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2c2040fd7ea4e1f453bd1232004e135d"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a2c2040fd7ea4e1f453bd1232004e135d"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>ToggleCurrent</b> = 24</td></tr>
+<tr class="separator:a2c2040fd7ea4e1f453bd1232004e135d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">详细描述</h2>
+<div class="textblock"><pre class="fragment">QItemSelectionModel(model: QAbstractItemModel = None)
+QItemSelectionModel(QAbstractItemModel, QObject)
+</pre> 
+<p>在文件 <a class="el" href="../../d2/dd3/QItemSelectionModel_8py_source.html">QItemSelectionModel.py</a> 第 <a class="el" href="../../d2/dd3/QItemSelectionModel_8py_source.html#l00010">10</a> 行定义.</p>
+</div><h2 class="groupheader">成员函数说明</h2>
+<a class="anchor" id="a1acce2801bc69b038688aeaceb5949af"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def PyQt5.QtCore.QItemSelectionModel.QItemSelectionModel.clear </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">clear(self) </pre> 
+<p>在文件 <a class="el" href="../../d2/dd3/QItemSelectionModel_8py_source.html">QItemSelectionModel.py</a> 第 <a class="el" href="../../d2/dd3/QItemSelectionModel_8py_source.html#l00015">15</a> 行定义.</p>
+
+</div>
+</div>
+<a class="anchor" id="a4f7776bcde599811a4341e49847f664b"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def PyQt5.QtCore.QItemSelectionModel.QItemSelectionModel.clearCurrentIndex </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">clearCurrentIndex(self) </pre> 
+<p>在文件 <a class="el" href="../../d2/dd3/QItemSelectionModel_8py_source.html">QItemSelectionModel.py</a> 第 <a class="el" href="../../d2/dd3/QItemSelectionModel_8py_source.html#l00019">19</a> 行定义.</p>
+
+</div>
+</div>
+<a class="anchor" id="aa80a756c5ed5651da766829f8b3d7ff0"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def PyQt5.QtCore.QItemSelectionModel.QItemSelectionModel.clearSelection </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">clearSelection(self) </pre> 
+<p>在文件 <a class="el" href="../../d2/dd3/QItemSelectionModel_8py_source.html">QItemSelectionModel.py</a> 第 <a class="el" href="../../d2/dd3/QItemSelectionModel_8py_source.html#l00023">23</a> 行定义.</p>
+
+</div>
+</div>
+<a class="anchor" id="a60c48e958cd588ffbb890f20b311c0a0"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def PyQt5.QtCore.QItemSelectionModel.QItemSelectionModel.columnIntersectsSelection </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>p_int</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>QModelIndex</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">columnIntersectsSelection(self, int, QModelIndex) -&gt; bool </pre> 
+<p>在文件 <a class="el" href="../../d2/dd3/QItemSelectionModel_8py_source.html">QItemSelectionModel.py</a> 第 <a class="el" href="../../d2/dd3/QItemSelectionModel_8py_source.html#l00027">27</a> 行定义.</p>
+
+</div>
+</div>
+<a class="anchor" id="a578d47496bebd50838a54d3a800d9972"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def PyQt5.QtCore.QItemSelectionModel.QItemSelectionModel.currentChanged </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>QModelIndex</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>QModelIndex_1</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">currentChanged(self, QModelIndex, QModelIndex) [signal] </pre> 
+<p>在文件 <a class="el" href="../../d2/dd3/QItemSelectionModel_8py_source.html">QItemSelectionModel.py</a> 第 <a class="el" href="../../d2/dd3/QItemSelectionModel_8py_source.html#l00031">31</a> 行定义.</p>
+
+</div>
+</div>
+<a class="anchor" id="a63ad679380de1333cf01404d2aa3efce"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def PyQt5.QtCore.QItemSelectionModel.QItemSelectionModel.currentColumnChanged </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>QModelIndex</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>QModelIndex_1</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">currentColumnChanged(self, QModelIndex, QModelIndex) [signal] </pre> 
+<p>在文件 <a class="el" href="../../d2/dd3/QItemSelectionModel_8py_source.html">QItemSelectionModel.py</a> 第 <a class="el" href="../../d2/dd3/QItemSelectionModel_8py_source.html#l00035">35</a> 行定义.</p>
+
+</div>
+</div>
+<a class="anchor" id="af18b5f8bb8382d6e2bd83d054c5d04c4"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def PyQt5.QtCore.QItemSelectionModel.QItemSelectionModel.currentIndex </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">currentIndex(self) -&gt; QModelIndex </pre> 
+<p>在文件 <a class="el" href="../../d2/dd3/QItemSelectionModel_8py_source.html">QItemSelectionModel.py</a> 第 <a class="el" href="../../d2/dd3/QItemSelectionModel_8py_source.html#l00039">39</a> 行定义.</p>
+
+</div>
+</div>
+<a class="anchor" id="a455c2381f9b2301e974df954cafba8a0"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def PyQt5.QtCore.QItemSelectionModel.QItemSelectionModel.currentRowChanged </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>QModelIndex</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>QModelIndex_1</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">currentRowChanged(self, QModelIndex, QModelIndex) [signal] </pre> 
+<p>在文件 <a class="el" href="../../d2/dd3/QItemSelectionModel_8py_source.html">QItemSelectionModel.py</a> 第 <a class="el" href="../../d2/dd3/QItemSelectionModel_8py_source.html#l00043">43</a> 行定义.</p>
+
+</div>
+</div>
+<a class="anchor" id="adb91de824e382603a3aa7a7dc58d4af1"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def PyQt5.QtCore.QItemSelectionModel.QItemSelectionModel.emitSelectionChanged </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>QItemSelection</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>QItemSelection_1</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">emitSelectionChanged(self, QItemSelection, QItemSelection) </pre> 
+<p>在文件 <a class="el" href="../../d2/dd3/QItemSelectionModel_8py_source.html">QItemSelectionModel.py</a> 第 <a class="el" href="../../d2/dd3/QItemSelectionModel_8py_source.html#l00047">47</a> 行定义.</p>
+
+</div>
+</div>
+<a class="anchor" id="ad0ddf76c031491568b07b8fb65c50059"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def PyQt5.QtCore.QItemSelectionModel.QItemSelectionModel.hasSelection </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">hasSelection(self) -&gt; bool </pre> 
+<p>在文件 <a class="el" href="../../d2/dd3/QItemSelectionModel_8py_source.html">QItemSelectionModel.py</a> 第 <a class="el" href="../../d2/dd3/QItemSelectionModel_8py_source.html#l00051">51</a> 行定义.</p>
+
+</div>
+</div>
+<a class="anchor" id="acfe202b4cf7a6128ce4f722b3fd4f35b"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def PyQt5.QtCore.QItemSelectionModel.QItemSelectionModel.isColumnSelected </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>p_int</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>QModelIndex</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">isColumnSelected(self, int, QModelIndex) -&gt; bool </pre> 
+<p>在文件 <a class="el" href="../../d2/dd3/QItemSelectionModel_8py_source.html">QItemSelectionModel.py</a> 第 <a class="el" href="../../d2/dd3/QItemSelectionModel_8py_source.html#l00055">55</a> 行定义.</p>
+
+</div>
+</div>
+<a class="anchor" id="a1bb3031870f8a6ee528811d14f19000f"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def PyQt5.QtCore.QItemSelectionModel.QItemSelectionModel.isRowSelected </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>p_int</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>QModelIndex</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">isRowSelected(self, int, QModelIndex) -&gt; bool </pre> 
+<p>在文件 <a class="el" href="../../d2/dd3/QItemSelectionModel_8py_source.html">QItemSelectionModel.py</a> 第 <a class="el" href="../../d2/dd3/QItemSelectionModel_8py_source.html#l00059">59</a> 行定义.</p>
+
+</div>
+</div>
+<a class="anchor" id="a8301b69ddfbd056d1fa6ceab2bafdb24"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def PyQt5.QtCore.QItemSelectionModel.QItemSelectionModel.isSelected </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>QModelIndex</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">isSelected(self, QModelIndex) -&gt; bool </pre> 
+<p>在文件 <a class="el" href="../../d2/dd3/QItemSelectionModel_8py_source.html">QItemSelectionModel.py</a> 第 <a class="el" href="../../d2/dd3/QItemSelectionModel_8py_source.html#l00063">63</a> 行定义.</p>
+
+</div>
+</div>
+<a class="anchor" id="af7e092f4921a4ed7fb8754f45c80c369"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def PyQt5.QtCore.QItemSelectionModel.QItemSelectionModel.model </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">model(self) -&gt; QAbstractItemModel </pre> 
+<p>在文件 <a class="el" href="../../d2/dd3/QItemSelectionModel_8py_source.html">QItemSelectionModel.py</a> 第 <a class="el" href="../../d2/dd3/QItemSelectionModel_8py_source.html#l00067">67</a> 行定义.</p>
+
+</div>
+</div>
+<a class="anchor" id="a9c038d7dda9285decc8360f05c827547"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def PyQt5.QtCore.QItemSelectionModel.QItemSelectionModel.modelChanged </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>QAbstractItemModel</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">modelChanged(self, QAbstractItemModel) [signal] </pre> 
+<p>在文件 <a class="el" href="../../d2/dd3/QItemSelectionModel_8py_source.html">QItemSelectionModel.py</a> 第 <a class="el" href="../../d2/dd3/QItemSelectionModel_8py_source.html#l00071">71</a> 行定义.</p>
+
+</div>
+</div>
+<a class="anchor" id="aac1445879686a3d6dbdb5ef2addcccf8"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def PyQt5.QtCore.QItemSelectionModel.QItemSelectionModel.reset </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">reset(self) </pre> 
+<p>在文件 <a class="el" href="../../d2/dd3/QItemSelectionModel_8py_source.html">QItemSelectionModel.py</a> 第 <a class="el" href="../../d2/dd3/QItemSelectionModel_8py_source.html#l00075">75</a> 行定义.</p>
+
+</div>
+</div>
+<a class="anchor" id="a0e6d27c1590278ad6a3bd15c4f0b8efd"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def PyQt5.QtCore.QItemSelectionModel.QItemSelectionModel.rowIntersectsSelection </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>p_int</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>QModelIndex</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">rowIntersectsSelection(self, int, QModelIndex) -&gt; bool </pre> 
+<p>在文件 <a class="el" href="../../d2/dd3/QItemSelectionModel_8py_source.html">QItemSelectionModel.py</a> 第 <a class="el" href="../../d2/dd3/QItemSelectionModel_8py_source.html#l00079">79</a> 行定义.</p>
+
+</div>
+</div>
+<a class="anchor" id="a696836c162db5f53798c51a437ba6d8e"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def PyQt5.QtCore.QItemSelectionModel.QItemSelectionModel.select </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>__args</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">select(self, QModelIndex, Union[QItemSelectionModel.SelectionFlags, QItemSelectionModel.SelectionFlag])
+select(self, QItemSelection, Union[QItemSelectionModel.SelectionFlags, QItemSelectionModel.SelectionFlag])
+</pre> 
+<p>在文件 <a class="el" href="../../d2/dd3/QItemSelectionModel_8py_source.html">QItemSelectionModel.py</a> 第 <a class="el" href="../../d2/dd3/QItemSelectionModel_8py_source.html#l00083">83</a> 行定义.</p>
+
+</div>
+</div>
+<a class="anchor" id="a83a8915328bbbd08a6a14ff484ea4091"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def PyQt5.QtCore.QItemSelectionModel.QItemSelectionModel.selectedColumns </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>row</em> = <code>0</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">selectedColumns(self, row: int = 0) -&gt; object </pre> 
+<p>在文件 <a class="el" href="../../d2/dd3/QItemSelectionModel_8py_source.html">QItemSelectionModel.py</a> 第 <a class="el" href="../../d2/dd3/QItemSelectionModel_8py_source.html#l00090">90</a> 行定义.</p>
+
+</div>
+</div>
+<a class="anchor" id="a75f2ef51fa334bf42bfd435fb00da272"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def PyQt5.QtCore.QItemSelectionModel.QItemSelectionModel.selectedIndexes </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">selectedIndexes(self) -&gt; object </pre> 
+<p>在文件 <a class="el" href="../../d2/dd3/QItemSelectionModel_8py_source.html">QItemSelectionModel.py</a> 第 <a class="el" href="../../d2/dd3/QItemSelectionModel_8py_source.html#l00094">94</a> 行定义.</p>
+
+</div>
+</div>
+<a class="anchor" id="a628bebbb9d4ac5e77a9c29bd2f747b4d"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def PyQt5.QtCore.QItemSelectionModel.QItemSelectionModel.selectedRows </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>column</em> = <code>0</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">selectedRows(self, column: int = 0) -&gt; object </pre> 
+<p>在文件 <a class="el" href="../../d2/dd3/QItemSelectionModel_8py_source.html">QItemSelectionModel.py</a> 第 <a class="el" href="../../d2/dd3/QItemSelectionModel_8py_source.html#l00098">98</a> 行定义.</p>
+
+</div>
+</div>
+<a class="anchor" id="a328935416629d4046b66d08eadcbfcbe"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def PyQt5.QtCore.QItemSelectionModel.QItemSelectionModel.selection </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">selection(self) -&gt; QItemSelection </pre> 
+<p>在文件 <a class="el" href="../../d2/dd3/QItemSelectionModel_8py_source.html">QItemSelectionModel.py</a> 第 <a class="el" href="../../d2/dd3/QItemSelectionModel_8py_source.html#l00102">102</a> 行定义.</p>
+
+</div>
+</div>
+<a class="anchor" id="aab16bc044554061ae01c55702a2c664f"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def PyQt5.QtCore.QItemSelectionModel.QItemSelectionModel.selectionChanged </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>QItemSelection</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>QItemSelection_1</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">selectionChanged(self, QItemSelection, QItemSelection) [signal] </pre> 
+<p>在文件 <a class="el" href="../../d2/dd3/QItemSelectionModel_8py_source.html">QItemSelectionModel.py</a> 第 <a class="el" href="../../d2/dd3/QItemSelectionModel_8py_source.html#l00106">106</a> 行定义.</p>
+
+</div>
+</div>
+<a class="anchor" id="a31bd594b4e53a2ae897cc1b824f9ae27"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def PyQt5.QtCore.QItemSelectionModel.QItemSelectionModel.setCurrentIndex </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>QModelIndex</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>Union</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>QItemSelectionModel_SelectionFlags</em> = <code>None</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>QItemSelectionModel_SelectionFlag</em> = <code>None</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">setCurrentIndex(self, QModelIndex, Union[QItemSelectionModel.SelectionFlags, QItemSelectionModel.SelectionFlag]) </pre> 
+<p>在文件 <a class="el" href="../../d2/dd3/QItemSelectionModel_8py_source.html">QItemSelectionModel.py</a> 第 <a class="el" href="../../d2/dd3/QItemSelectionModel_8py_source.html#l00110">110</a> 行定义.</p>
+
+</div>
+</div>
+<a class="anchor" id="a41c9373f40c802bc9c4cb6749dfbd925"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def PyQt5.QtCore.QItemSelectionModel.QItemSelectionModel.setModel </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>QAbstractItemModel</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">setModel(self, QAbstractItemModel) </pre> 
+<p>在文件 <a class="el" href="../../d2/dd3/QItemSelectionModel_8py_source.html">QItemSelectionModel.py</a> 第 <a class="el" href="../../d2/dd3/QItemSelectionModel_8py_source.html#l00114">114</a> 行定义.</p>
+
+</div>
+</div>
+<hr/>该类的文档由以下文件生成:<ul>
+<li>QtCore/<a class="el" href="../../d2/dd3/QItemSelectionModel_8py_source.html">QItemSelectionModel.py</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><b>PyQt5</b></li><li class="navelem"><b>QtCore</b></li><li class="navelem"><b>QItemSelectionModel</b></li><li class="navelem"><a class="el" href="../../df/dd1/classPyQt5_1_1QtCore_1_1QItemSelectionModel_1_1QItemSelectionModel.html">QItemSelectionModel</a></li>
+    <li class="footer">制作者
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
+  </ul>
+</div>
+</body>
+</html>

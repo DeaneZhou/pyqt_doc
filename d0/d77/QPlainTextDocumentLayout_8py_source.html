@@ -1,0 +1,137 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.11"/>
+<title>PyQt: QtWidgets/QPlainTextDocumentLayout.py 源文件</title>
+<link href="../../tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../jquery.js"></script>
+<script type="text/javascript" src="../../dynsections.js"></script>
+<link href="../../navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../resize.js"></script>
+<script type="text/javascript" src="../../navtreedata.js"></script>
+<script type="text/javascript" src="../../navtree.js"></script>
+<script type="text/javascript">
+  $(document).ready(initResizable);
+  $(window).load(resizeHeight);
+</script>
+<link href="../../search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../search/searchdata.js"></script>
+<script type="text/javascript" src="../../search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { init_search(); });
+</script>
+<link href="../../doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="../../48X48.png"/></td>
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">PyQt
+   &#160;<span id="projectnumber">1.0</span>
+   </div>
+   <div id="projectbrief">学习PyQt</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 制作者 Doxygen 1.8.11 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "../../search",false,'搜索');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="../../index.html"><span>首页</span></a></li>
+      <li><a href="../../annotated.html"><span>类</span></a></li>
+      <li class="current"><a href="../../files.html"><span>文件</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="../../search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="搜索" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="../../search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="../../files.html"><span>文件列表</span></a></li>
+    </ul>
+  </div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){initNavTree('d0/d77/QPlainTextDocumentLayout_8py_source.html','../../');});
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="headertitle">
+<div class="title">QPlainTextDocumentLayout.py</div>  </div>
+</div><!--header-->
+<div class="contents">
+<div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="comment"># encoding: utf-8</span></div><div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="comment"># module PyQt5.QtWidgets</span></div><div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="comment"># from /usr/local/lib/python3.5/dist-packages/PyQt5/QtWidgets.so</span></div><div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="comment"># by generator 1.144</span></div><div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="comment"># no doc</span></div><div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;</div><div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="comment"># imports</span></div><div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="keyword">import</span> <a class="code" href="../../db/da3/namespacePyQt5_1_1QtCore.html">PyQt5.QtCore</a> <span class="keyword">as</span> __PyQt5_QtCore</div><div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="keyword">import</span> <a class="code" href="../../d2/d3f/namespacePyQt5_1_1QtGui.html">PyQt5.QtGui</a> <span class="keyword">as</span> __PyQt5_QtGui</div><div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;</div><div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;</div><div class="line"><a name="l00012"></a><span class="lineno"><a class="line" href="../../d5/dd6/classPyQt5_1_1QtWidgets_1_1QPlainTextDocumentLayout_1_1QPlainTextDocumentLayout.html">   12</a></span>&#160;<span class="keyword">class </span><a class="code" href="../../d5/dd6/classPyQt5_1_1QtWidgets_1_1QPlainTextDocumentLayout_1_1QPlainTextDocumentLayout.html">QPlainTextDocumentLayout</a>(__PyQt5_QtGui.QAbstractTextDocumentLayout):</div><div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;    <span class="stringliteral">&quot;&quot;&quot; QPlainTextDocumentLayout(QTextDocument) &quot;&quot;&quot;</span></div><div class="line"><a name="l00014"></a><span class="lineno"><a class="line" href="../../d5/dd6/classPyQt5_1_1QtWidgets_1_1QPlainTextDocumentLayout_1_1QPlainTextDocumentLayout.html#a45ed6b95880d34fc1d39a07bc162883f">   14</a></span>&#160;    <span class="keyword">def </span><a class="code" href="../../d5/dd6/classPyQt5_1_1QtWidgets_1_1QPlainTextDocumentLayout_1_1QPlainTextDocumentLayout.html#a45ed6b95880d34fc1d39a07bc162883f">blockBoundingRect</a>(self, QTextBlock): <span class="comment"># real signature unknown; restored from __doc__</span></div><div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;        <span class="stringliteral">&quot;&quot;&quot; blockBoundingRect(self, QTextBlock) -&gt; QRectF &quot;&quot;&quot;</span></div><div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;        <span class="keywordflow">pass</span></div><div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;</div><div class="line"><a name="l00018"></a><span class="lineno"><a class="line" href="../../d5/dd6/classPyQt5_1_1QtWidgets_1_1QPlainTextDocumentLayout_1_1QPlainTextDocumentLayout.html#a4b1c285704469b048ff484029628be04">   18</a></span>&#160;    <span class="keyword">def </span><a class="code" href="../../d5/dd6/classPyQt5_1_1QtWidgets_1_1QPlainTextDocumentLayout_1_1QPlainTextDocumentLayout.html#a4b1c285704469b048ff484029628be04">cursorWidth</a>(self): <span class="comment"># real signature unknown; restored from __doc__</span></div><div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;        <span class="stringliteral">&quot;&quot;&quot; cursorWidth(self) -&gt; int &quot;&quot;&quot;</span></div><div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;        <span class="keywordflow">return</span> 0</div><div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;</div><div class="line"><a name="l00022"></a><span class="lineno"><a class="line" href="../../d5/dd6/classPyQt5_1_1QtWidgets_1_1QPlainTextDocumentLayout_1_1QPlainTextDocumentLayout.html#aa76d3fb5d7736e88622a8f7310adb3fd">   22</a></span>&#160;    <span class="keyword">def </span><a class="code" href="../../d5/dd6/classPyQt5_1_1QtWidgets_1_1QPlainTextDocumentLayout_1_1QPlainTextDocumentLayout.html#aa76d3fb5d7736e88622a8f7310adb3fd">documentChanged</a>(self, p_int, p_int_1, p_int_2): <span class="comment"># real signature unknown; restored from __doc__</span></div><div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;        <span class="stringliteral">&quot;&quot;&quot; documentChanged(self, int, int, int) &quot;&quot;&quot;</span></div><div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;        <span class="keywordflow">pass</span></div><div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;</div><div class="line"><a name="l00026"></a><span class="lineno"><a class="line" href="../../d5/dd6/classPyQt5_1_1QtWidgets_1_1QPlainTextDocumentLayout_1_1QPlainTextDocumentLayout.html#af459c7b7a6c63b6377eb7089414ade10">   26</a></span>&#160;    <span class="keyword">def </span><a class="code" href="../../d5/dd6/classPyQt5_1_1QtWidgets_1_1QPlainTextDocumentLayout_1_1QPlainTextDocumentLayout.html#af459c7b7a6c63b6377eb7089414ade10">documentSize</a>(self): <span class="comment"># real signature unknown; restored from __doc__</span></div><div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;        <span class="stringliteral">&quot;&quot;&quot; documentSize(self) -&gt; QSizeF &quot;&quot;&quot;</span></div><div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;        <span class="keywordflow">pass</span></div><div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;</div><div class="line"><a name="l00030"></a><span class="lineno"><a class="line" href="../../d5/dd6/classPyQt5_1_1QtWidgets_1_1QPlainTextDocumentLayout_1_1QPlainTextDocumentLayout.html#ac171725fcffe5221700ac70b25d2fe5d">   30</a></span>&#160;    <span class="keyword">def </span><a class="code" href="../../d5/dd6/classPyQt5_1_1QtWidgets_1_1QPlainTextDocumentLayout_1_1QPlainTextDocumentLayout.html#ac171725fcffe5221700ac70b25d2fe5d">draw</a>(self, QPainter, QAbstractTextDocumentLayout_PaintContext): <span class="comment"># real signature unknown; restored from __doc__</span></div><div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;        <span class="stringliteral">&quot;&quot;&quot; draw(self, QPainter, QAbstractTextDocumentLayout.PaintContext) &quot;&quot;&quot;</span></div><div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;        <span class="keywordflow">pass</span></div><div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;</div><div class="line"><a name="l00034"></a><span class="lineno"><a class="line" href="../../d5/dd6/classPyQt5_1_1QtWidgets_1_1QPlainTextDocumentLayout_1_1QPlainTextDocumentLayout.html#a4bd0074f3656dd84b6f4ce73ec3b006e">   34</a></span>&#160;    <span class="keyword">def </span><a class="code" href="../../d5/dd6/classPyQt5_1_1QtWidgets_1_1QPlainTextDocumentLayout_1_1QPlainTextDocumentLayout.html#a4bd0074f3656dd84b6f4ce73ec3b006e">ensureBlockLayout</a>(self, QTextBlock): <span class="comment"># real signature unknown; restored from __doc__</span></div><div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;        <span class="stringliteral">&quot;&quot;&quot; ensureBlockLayout(self, QTextBlock) &quot;&quot;&quot;</span></div><div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;        <span class="keywordflow">pass</span></div><div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;</div><div class="line"><a name="l00038"></a><span class="lineno"><a class="line" href="../../d5/dd6/classPyQt5_1_1QtWidgets_1_1QPlainTextDocumentLayout_1_1QPlainTextDocumentLayout.html#a038b45f5c3f03114bbd7642703392d5a">   38</a></span>&#160;    <span class="keyword">def </span><a class="code" href="../../d5/dd6/classPyQt5_1_1QtWidgets_1_1QPlainTextDocumentLayout_1_1QPlainTextDocumentLayout.html#a038b45f5c3f03114bbd7642703392d5a">frameBoundingRect</a>(self, QTextFrame): <span class="comment"># real signature unknown; restored from __doc__</span></div><div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;        <span class="stringliteral">&quot;&quot;&quot; frameBoundingRect(self, QTextFrame) -&gt; QRectF &quot;&quot;&quot;</span></div><div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;        <span class="keywordflow">pass</span></div><div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;</div><div class="line"><a name="l00042"></a><span class="lineno"><a class="line" href="../../d5/dd6/classPyQt5_1_1QtWidgets_1_1QPlainTextDocumentLayout_1_1QPlainTextDocumentLayout.html#a1f1c51e643d0f40596c475801865a84e">   42</a></span>&#160;    <span class="keyword">def </span><a class="code" href="../../d5/dd6/classPyQt5_1_1QtWidgets_1_1QPlainTextDocumentLayout_1_1QPlainTextDocumentLayout.html#a1f1c51e643d0f40596c475801865a84e">hitTest</a>(self, Union, QPointF=None, QPoint=None, *args, **kwargs): <span class="comment"># real signature unknown; NOTE: unreliably restored from __doc__ </span></div><div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;        <span class="stringliteral">&quot;&quot;&quot; hitTest(self, Union[QPointF, QPoint], Qt.HitTestAccuracy) -&gt; int &quot;&quot;&quot;</span></div><div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;        <span class="keywordflow">pass</span></div><div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;</div><div class="line"><a name="l00046"></a><span class="lineno"><a class="line" href="../../d5/dd6/classPyQt5_1_1QtWidgets_1_1QPlainTextDocumentLayout_1_1QPlainTextDocumentLayout.html#a838f90d5ca032454a6d6371b62323987">   46</a></span>&#160;    <span class="keyword">def </span><a class="code" href="../../d5/dd6/classPyQt5_1_1QtWidgets_1_1QPlainTextDocumentLayout_1_1QPlainTextDocumentLayout.html#a838f90d5ca032454a6d6371b62323987">pageCount</a>(self): <span class="comment"># real signature unknown; restored from __doc__</span></div><div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;        <span class="stringliteral">&quot;&quot;&quot; pageCount(self) -&gt; int &quot;&quot;&quot;</span></div><div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;        <span class="keywordflow">return</span> 0</div><div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;</div><div class="line"><a name="l00050"></a><span class="lineno"><a class="line" href="../../d5/dd6/classPyQt5_1_1QtWidgets_1_1QPlainTextDocumentLayout_1_1QPlainTextDocumentLayout.html#aedb4e809f2ad0bd1d99e4539071f99a4">   50</a></span>&#160;    <span class="keyword">def </span><a class="code" href="../../d5/dd6/classPyQt5_1_1QtWidgets_1_1QPlainTextDocumentLayout_1_1QPlainTextDocumentLayout.html#aedb4e809f2ad0bd1d99e4539071f99a4">requestUpdate</a>(self): <span class="comment"># real signature unknown; restored from __doc__</span></div><div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;        <span class="stringliteral">&quot;&quot;&quot; requestUpdate(self) &quot;&quot;&quot;</span></div><div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;        <span class="keywordflow">pass</span></div><div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;</div><div class="line"><a name="l00054"></a><span class="lineno"><a class="line" href="../../d5/dd6/classPyQt5_1_1QtWidgets_1_1QPlainTextDocumentLayout_1_1QPlainTextDocumentLayout.html#a69f3736bf38afe53a018c8f4bf33d9ef">   54</a></span>&#160;    <span class="keyword">def </span><a class="code" href="../../d5/dd6/classPyQt5_1_1QtWidgets_1_1QPlainTextDocumentLayout_1_1QPlainTextDocumentLayout.html#a69f3736bf38afe53a018c8f4bf33d9ef">setCursorWidth</a>(self, p_int): <span class="comment"># real signature unknown; restored from __doc__</span></div><div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;        <span class="stringliteral">&quot;&quot;&quot; setCursorWidth(self, int) &quot;&quot;&quot;</span></div><div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;        <span class="keywordflow">pass</span></div><div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;</div><div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;    <span class="keyword">def </span>__init__(self, QTextDocument): <span class="comment"># real signature unknown; restored from __doc__</span></div><div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;        <span class="keywordflow">pass</span></div><div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;</div><div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;</div><div class="ttc" id="namespacePyQt5_1_1QtCore_html"><div class="ttname"><a href="../../db/da3/namespacePyQt5_1_1QtCore.html">PyQt5.QtCore</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d82/QtCore_2____init_____8py_source.html#l00001">__init__.py:1</a></div></div>
+<div class="ttc" id="classPyQt5_1_1QtWidgets_1_1QPlainTextDocumentLayout_1_1QPlainTextDocumentLayout_html_aa76d3fb5d7736e88622a8f7310adb3fd"><div class="ttname"><a href="../../d5/dd6/classPyQt5_1_1QtWidgets_1_1QPlainTextDocumentLayout_1_1QPlainTextDocumentLayout.html#aa76d3fb5d7736e88622a8f7310adb3fd">PyQt5.QtWidgets.QPlainTextDocumentLayout.QPlainTextDocumentLayout.documentChanged</a></div><div class="ttdeci">def documentChanged(self, p_int, p_int_1, p_int_2)</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d77/QPlainTextDocumentLayout_8py_source.html#l00022">QPlainTextDocumentLayout.py:22</a></div></div>
+<div class="ttc" id="classPyQt5_1_1QtWidgets_1_1QPlainTextDocumentLayout_1_1QPlainTextDocumentLayout_html_af459c7b7a6c63b6377eb7089414ade10"><div class="ttname"><a href="../../d5/dd6/classPyQt5_1_1QtWidgets_1_1QPlainTextDocumentLayout_1_1QPlainTextDocumentLayout.html#af459c7b7a6c63b6377eb7089414ade10">PyQt5.QtWidgets.QPlainTextDocumentLayout.QPlainTextDocumentLayout.documentSize</a></div><div class="ttdeci">def documentSize(self)</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d77/QPlainTextDocumentLayout_8py_source.html#l00026">QPlainTextDocumentLayout.py:26</a></div></div>
+<div class="ttc" id="classPyQt5_1_1QtWidgets_1_1QPlainTextDocumentLayout_1_1QPlainTextDocumentLayout_html_a69f3736bf38afe53a018c8f4bf33d9ef"><div class="ttname"><a href="../../d5/dd6/classPyQt5_1_1QtWidgets_1_1QPlainTextDocumentLayout_1_1QPlainTextDocumentLayout.html#a69f3736bf38afe53a018c8f4bf33d9ef">PyQt5.QtWidgets.QPlainTextDocumentLayout.QPlainTextDocumentLayout.setCursorWidth</a></div><div class="ttdeci">def setCursorWidth(self, p_int)</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d77/QPlainTextDocumentLayout_8py_source.html#l00054">QPlainTextDocumentLayout.py:54</a></div></div>
+<div class="ttc" id="classPyQt5_1_1QtWidgets_1_1QPlainTextDocumentLayout_1_1QPlainTextDocumentLayout_html_aedb4e809f2ad0bd1d99e4539071f99a4"><div class="ttname"><a href="../../d5/dd6/classPyQt5_1_1QtWidgets_1_1QPlainTextDocumentLayout_1_1QPlainTextDocumentLayout.html#aedb4e809f2ad0bd1d99e4539071f99a4">PyQt5.QtWidgets.QPlainTextDocumentLayout.QPlainTextDocumentLayout.requestUpdate</a></div><div class="ttdeci">def requestUpdate(self)</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d77/QPlainTextDocumentLayout_8py_source.html#l00050">QPlainTextDocumentLayout.py:50</a></div></div>
+<div class="ttc" id="classPyQt5_1_1QtWidgets_1_1QPlainTextDocumentLayout_1_1QPlainTextDocumentLayout_html"><div class="ttname"><a href="../../d5/dd6/classPyQt5_1_1QtWidgets_1_1QPlainTextDocumentLayout_1_1QPlainTextDocumentLayout.html">PyQt5.QtWidgets.QPlainTextDocumentLayout.QPlainTextDocumentLayout</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d77/QPlainTextDocumentLayout_8py_source.html#l00012">QPlainTextDocumentLayout.py:12</a></div></div>
+<div class="ttc" id="classPyQt5_1_1QtWidgets_1_1QPlainTextDocumentLayout_1_1QPlainTextDocumentLayout_html_a45ed6b95880d34fc1d39a07bc162883f"><div class="ttname"><a href="../../d5/dd6/classPyQt5_1_1QtWidgets_1_1QPlainTextDocumentLayout_1_1QPlainTextDocumentLayout.html#a45ed6b95880d34fc1d39a07bc162883f">PyQt5.QtWidgets.QPlainTextDocumentLayout.QPlainTextDocumentLayout.blockBoundingRect</a></div><div class="ttdeci">def blockBoundingRect(self, QTextBlock)</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d77/QPlainTextDocumentLayout_8py_source.html#l00014">QPlainTextDocumentLayout.py:14</a></div></div>
+<div class="ttc" id="classPyQt5_1_1QtWidgets_1_1QPlainTextDocumentLayout_1_1QPlainTextDocumentLayout_html_a038b45f5c3f03114bbd7642703392d5a"><div class="ttname"><a href="../../d5/dd6/classPyQt5_1_1QtWidgets_1_1QPlainTextDocumentLayout_1_1QPlainTextDocumentLayout.html#a038b45f5c3f03114bbd7642703392d5a">PyQt5.QtWidgets.QPlainTextDocumentLayout.QPlainTextDocumentLayout.frameBoundingRect</a></div><div class="ttdeci">def frameBoundingRect(self, QTextFrame)</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d77/QPlainTextDocumentLayout_8py_source.html#l00038">QPlainTextDocumentLayout.py:38</a></div></div>
+<div class="ttc" id="classPyQt5_1_1QtWidgets_1_1QPlainTextDocumentLayout_1_1QPlainTextDocumentLayout_html_a4bd0074f3656dd84b6f4ce73ec3b006e"><div class="ttname"><a href="../../d5/dd6/classPyQt5_1_1QtWidgets_1_1QPlainTextDocumentLayout_1_1QPlainTextDocumentLayout.html#a4bd0074f3656dd84b6f4ce73ec3b006e">PyQt5.QtWidgets.QPlainTextDocumentLayout.QPlainTextDocumentLayout.ensureBlockLayout</a></div><div class="ttdeci">def ensureBlockLayout(self, QTextBlock)</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d77/QPlainTextDocumentLayout_8py_source.html#l00034">QPlainTextDocumentLayout.py:34</a></div></div>
+<div class="ttc" id="classPyQt5_1_1QtWidgets_1_1QPlainTextDocumentLayout_1_1QPlainTextDocumentLayout_html_ac171725fcffe5221700ac70b25d2fe5d"><div class="ttname"><a href="../../d5/dd6/classPyQt5_1_1QtWidgets_1_1QPlainTextDocumentLayout_1_1QPlainTextDocumentLayout.html#ac171725fcffe5221700ac70b25d2fe5d">PyQt5.QtWidgets.QPlainTextDocumentLayout.QPlainTextDocumentLayout.draw</a></div><div class="ttdeci">def draw(self, QPainter, QAbstractTextDocumentLayout_PaintContext)</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d77/QPlainTextDocumentLayout_8py_source.html#l00030">QPlainTextDocumentLayout.py:30</a></div></div>
+<div class="ttc" id="classPyQt5_1_1QtWidgets_1_1QPlainTextDocumentLayout_1_1QPlainTextDocumentLayout_html_a1f1c51e643d0f40596c475801865a84e"><div class="ttname"><a href="../../d5/dd6/classPyQt5_1_1QtWidgets_1_1QPlainTextDocumentLayout_1_1QPlainTextDocumentLayout.html#a1f1c51e643d0f40596c475801865a84e">PyQt5.QtWidgets.QPlainTextDocumentLayout.QPlainTextDocumentLayout.hitTest</a></div><div class="ttdeci">def hitTest(self, Union, QPointF=None, QPoint=None, args, kwargs)</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d77/QPlainTextDocumentLayout_8py_source.html#l00042">QPlainTextDocumentLayout.py:42</a></div></div>
+<div class="ttc" id="namespacePyQt5_1_1QtGui_html"><div class="ttname"><a href="../../d2/d3f/namespacePyQt5_1_1QtGui.html">PyQt5.QtGui</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d5a/QtGui_2____init_____8py_source.html#l00001">__init__.py:1</a></div></div>
+<div class="ttc" id="classPyQt5_1_1QtWidgets_1_1QPlainTextDocumentLayout_1_1QPlainTextDocumentLayout_html_a4b1c285704469b048ff484029628be04"><div class="ttname"><a href="../../d5/dd6/classPyQt5_1_1QtWidgets_1_1QPlainTextDocumentLayout_1_1QPlainTextDocumentLayout.html#a4b1c285704469b048ff484029628be04">PyQt5.QtWidgets.QPlainTextDocumentLayout.QPlainTextDocumentLayout.cursorWidth</a></div><div class="ttdeci">def cursorWidth(self)</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d77/QPlainTextDocumentLayout_8py_source.html#l00018">QPlainTextDocumentLayout.py:18</a></div></div>
+<div class="ttc" id="classPyQt5_1_1QtWidgets_1_1QPlainTextDocumentLayout_1_1QPlainTextDocumentLayout_html_a838f90d5ca032454a6d6371b62323987"><div class="ttname"><a href="../../d5/dd6/classPyQt5_1_1QtWidgets_1_1QPlainTextDocumentLayout_1_1QPlainTextDocumentLayout.html#a838f90d5ca032454a6d6371b62323987">PyQt5.QtWidgets.QPlainTextDocumentLayout.QPlainTextDocumentLayout.pageCount</a></div><div class="ttdeci">def pageCount(self)</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d77/QPlainTextDocumentLayout_8py_source.html#l00046">QPlainTextDocumentLayout.py:46</a></div></div>
+</div><!-- fragment --></div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="../../dir_926e862e0255c8253d08a38e2aa55493.html">QtWidgets</a></li><li class="navelem"><b>QPlainTextDocumentLayout.py</b></li>
+    <li class="footer">制作者
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
+  </ul>
+</div>
+</body>
+</html>

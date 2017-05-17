@@ -1,0 +1,5 @@
+<map id="类继承关系图" name="类继承关系图">
+<area shape="rect" id="node1" href="$df/de4/classPyQt5_1_1QtPositioning_1_1QGeoShape.html" title="PyQt5.QtPositioning.QGeo\lShape" alt="" coords="5,39,184,80"/>
+<area shape="rect" id="node2" href="$d6/df2/classPyQt5_1_1QtPositioning_1_1QGeoCircle.html" title="PyQt5.QtPositioning.QGeo\lCircle" alt="" coords="232,5,411,47"/>
+<area shape="rect" id="node3" href="$d3/de1/classPyQt5_1_1QtPositioning_1_1QGeoRectangle.html" title="PyQt5.QtPositioning.QGeo\lRectangle" alt="" coords="232,71,411,112"/>
+</map>

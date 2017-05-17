@@ -1,0 +1,25 @@
+var classPyQt5_1_1QtGui_1_1QTabletEvent_1_1QTabletEvent =
+[
+    [ "__init__", "d7/d93/classPyQt5_1_1QtGui_1_1QTabletEvent_1_1QTabletEvent.html#af72294a858f9976631874dc01c1fa79d", null ],
+    [ "button", "d7/d93/classPyQt5_1_1QtGui_1_1QTabletEvent_1_1QTabletEvent.html#a3a2f03f52dcb51353c959e406e0960ca", null ],
+    [ "buttons", "d7/d93/classPyQt5_1_1QtGui_1_1QTabletEvent_1_1QTabletEvent.html#a81c42342cb65c28e1b6e64681b9faaa9", null ],
+    [ "device", "d7/d93/classPyQt5_1_1QtGui_1_1QTabletEvent_1_1QTabletEvent.html#acfaaa2fcd2d53146140d52b7ce537406", null ],
+    [ "globalPos", "d7/d93/classPyQt5_1_1QtGui_1_1QTabletEvent_1_1QTabletEvent.html#a0198e3caadc4233b3d0e629d7e7ea294", null ],
+    [ "globalPosF", "d7/d93/classPyQt5_1_1QtGui_1_1QTabletEvent_1_1QTabletEvent.html#ad2c8574dc4c3517c7259d77ddf76ff26", null ],
+    [ "globalX", "d7/d93/classPyQt5_1_1QtGui_1_1QTabletEvent_1_1QTabletEvent.html#ac6928705c72208bd7fb8c9971eb920d4", null ],
+    [ "globalY", "d7/d93/classPyQt5_1_1QtGui_1_1QTabletEvent_1_1QTabletEvent.html#abb8abea6196df37712c2253e3f83824b", null ],
+    [ "hiResGlobalX", "d7/d93/classPyQt5_1_1QtGui_1_1QTabletEvent_1_1QTabletEvent.html#ad42ad610035cc92297f221ec20c9d697", null ],
+    [ "hiResGlobalY", "d7/d93/classPyQt5_1_1QtGui_1_1QTabletEvent_1_1QTabletEvent.html#a39dd86c43e3678de987b25e3dece71df", null ],
+    [ "pointerType", "d7/d93/classPyQt5_1_1QtGui_1_1QTabletEvent_1_1QTabletEvent.html#a55f56fa5e8159fab446a3c9cd44f1dc2", null ],
+    [ "pos", "d7/d93/classPyQt5_1_1QtGui_1_1QTabletEvent_1_1QTabletEvent.html#a6b58bdf2828a8d5906503f1f93df063b", null ],
+    [ "posF", "d7/d93/classPyQt5_1_1QtGui_1_1QTabletEvent_1_1QTabletEvent.html#af0a235949c0de6f56036f84425613bf5", null ],
+    [ "pressure", "d7/d93/classPyQt5_1_1QtGui_1_1QTabletEvent_1_1QTabletEvent.html#aed2a30134619a167a0b7f49965a80240", null ],
+    [ "rotation", "d7/d93/classPyQt5_1_1QtGui_1_1QTabletEvent_1_1QTabletEvent.html#a812aa8b989a207e8a04c275d076c4835", null ],
+    [ "tangentialPressure", "d7/d93/classPyQt5_1_1QtGui_1_1QTabletEvent_1_1QTabletEvent.html#aed68e803ac06327ef0530025a49840ad", null ],
+    [ "uniqueId", "d7/d93/classPyQt5_1_1QtGui_1_1QTabletEvent_1_1QTabletEvent.html#aed963872b79f3f5899195f3944b97512", null ],
+    [ "x", "d7/d93/classPyQt5_1_1QtGui_1_1QTabletEvent_1_1QTabletEvent.html#acf039701f2fec8cba7992c08646205c0", null ],
+    [ "xTilt", "d7/d93/classPyQt5_1_1QtGui_1_1QTabletEvent_1_1QTabletEvent.html#aa68887e7d582b826394df62f056ea763", null ],
+    [ "y", "d7/d93/classPyQt5_1_1QtGui_1_1QTabletEvent_1_1QTabletEvent.html#a83a6bfdc6773758aecfe57052e9f29c1", null ],
+    [ "yTilt", "d7/d93/classPyQt5_1_1QtGui_1_1QTabletEvent_1_1QTabletEvent.html#a35cef6e53f5410bb489ab429ddf5f9f4", null ],
+    [ "z", "d7/d93/classPyQt5_1_1QtGui_1_1QTabletEvent_1_1QTabletEvent.html#a452d703ff0d7ad19263d1af3faa903e6", null ]
+];
